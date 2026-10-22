@@ -1,0 +1,482 @@
+[
+  {
+    "source": "GulfTalent",
+    "type": "board",
+    "urls": [
+      "https://www.gulftalent.com/uae/jobs/title/strategy",
+      "https://www.gulftalent.com/saudi-arabia/jobs/title/strategy",
+      "https://gulftalent.com/saudi-arabia/jobs/title/head-of-strategy",
+      "https://www.gulftalent.com/saudi-arabia/jobs/title/strategy-director",
+      "https://www.gulftalent.com/qatar/jobs/title/strategy-manager",
+      "https://www.gulftalent.com/jobs/title/transformation",
+      "https://www.gulftalent.com/jobs/title/islamic-finance-executive",
+      "https://www.gulftalent.com/jobs/title/corporate-banking",
+      "https://www.gulftalent.com/jobs/title/head-of-corporate-banking",
+      "https://www.gulftalent.com/jobs/title/private-banking",
+      "https://www.gulftalent.com/jobs/title/financial-services",
+      "https://www.gulftalent.com/jobs/search?keywords=head%20of%20strategy"
+    ],
+    "fetch_ok": true,
+    "has_dates": true,
+    "recency_method": "'Posted dd Mon yyyy' per row (e.g. '22 Oct 2026')",
+    "notes": "Pattern: /{country}/jobs/title/{slug} (country = uae, saudi-arabia, qatar, bahrain, kuwait, oman) and /jobs/title/{slug} for all GCC; city variant /{country}/jobs/{city}/title/{slug} (e.g. /qatar/jobs/doha/title/strategy-manager). Tested OK: uae+saudi strategy, saudi head-of-strategy, qatar strategy-manager, /jobs/title/transformation, islamic-finance-executive. Slugs only work if GulfTalent has generated the page: /jobs/title/corporate-development, /jobs/title/islamic-banking and /qatar/jobs/title/strategy returned client_error, so stick to slugs seen in search results (strategy, strategy-manager, strategy-director, strategy-analyst, strategic-planning, head-of-strategy, transformation, corporate-banking, head-of-corporate-banking, private-banking, financial-services). The matching is fuzzy: the qatar strategy-manager page was mostly 'General Manager' roles, and the header count (e.g. '1400 Jobs found') overstates the real list (about 16 rows). The list is NOT sorted newest first (dates are mixed), so parse the dates. Page 2 (/uae/jobs/title/strategy/2) is linked but returned client_error; no sort parameter exists. /jobs/search?keywords=... ignores the keyword but returns ALL newest jobs sorted by date (all dated today), which is useful as a firehose to filter locally. No function/industry browse URLs were found on the pages. Listed but untested here: bahrain/kuwait/oman title pages."
+  },
+  {
+    "source": "Bayt",
+    "type": "board",
+    "urls": [
+      "https://www.bayt.com/en/uae/jobs/strategy-jobs/",
+      "https://www.bayt.com/en/saudi-arabia/jobs/strategy-manager-jobs/",
+      "https://www.bayt.com/en/international/jobs/?q=head%20of%20strategy",
+      "https://jobs.arabnews.com/en/saudi-arabia/jobs/strategy-jobs/"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a (individual Bayt-powered job pages show 'posted yyyy/mm/dd hh:mm:ss')",
+    "notes": "All bayt.com listing URLs returned client_error. The Bayt white-label site jobs.arabnews.com: a single job page (https://jobs.arabnews.com/en/saudi-arabia/jobs/relationship-manager-saudi-national-5391663/) worked and showed a posted timestamp, but its listing page failed. careers.scfhs.org.sa is another Bayt white-label (untested)."
+  },
+  {
+    "source": "NaukriGulf",
+    "type": "board",
+    "urls": [
+      "https://www.naukrigulf.com/strategy-jobs",
+      "https://www.naukrigulf.com/strategy-manager-jobs-in-saudi-arabia"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "Rendered by JavaScript: WebFetch gets only a 'JavaScript is disabled' shell. Other URL forms seen in search (untested): /strategy-planning-jobs-in-saudi-arabia, /islamic-finance-jobs-in-dubai."
+  },
+  {
+    "source": "Foundit Gulf (founditgulf.com)",
+    "type": "board",
+    "urls": [
+      "https://www.founditgulf.com/search/banking-jobs"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "None per row: only a page-level 'Last Updated' timestamp and an 'Early Applicant' tag. Job pages show 'Last Updated: dd-mm-yyyy'.",
+    "notes": "Server-rendered. The banking-jobs page includes senior roles (e.g. Korn Ferry mandates such as Director of Operational Risk, and a KSA CFO). Other links found but untested: /search/jobs, /search/jobs-in-united-arab-emirates, /search/jobs-in-abu-dhabi, /search/{company}-{id}-jobs-career. Slug pattern appears to be /search/{keyword}-jobs, so /search/strategy-jobs is likely but unverified. Without per-row dates, track recency by de-duplicating job IDs across runs."
+  },
+  {
+    "source": "Indeed (ae/sa/qa etc.)",
+    "type": "aggregator",
+    "urls": [
+      "https://ae.indeed.com/jobs?q=head+of+strategy&sort=date",
+      "https://sa.indeed.com/jobs?q=strategy+director&sort=date&fromage=7"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "Use URL filter fromage=N (days) with sort=date. Rows show no age text in the fetched markdown (only an occasional 'New' tag or 'Date Posted' inside the description).",
+    "notes": "Both pages returned real results. The pattern is {cc}.indeed.com/jobs?q=...&sort=date&fromage=1|3|7 and should work for qa., bh. (verify), kw., om. Keyword matching is broad. Static SEO pages such as https://ae.indeed.com/q-strategy-jobs.html were found in search (untested)."
+  },
+  {
+    "source": "Glassdoor",
+    "type": "aggregator",
+    "urls": [
+      "https://www.glassdoor.com/Job/united-arab-emirates-strategy-director-jobs-SRCH_IL.0,20_IN6_KO21,38.htm",
+      "https://www.glassdoor.com/Job/saudi-arabia-strategy-jobs-SRCH_IL.0,12_IN207_KO13,21.htm"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "Only a 'New' tag on some rows; no '24h/3d' labels in the fetched content",
+    "notes": "Plain SRCH paths work (30 rows each). Any query string (?fromAge=7&sortBy=date_desc) is robots_disallowed, so date filtering or sorting is impossible. Country codes: IN6 = UAE, IN207 = Saudi Arabia. In the KO{start},{end} segment, the numbers are the character offsets of the keyword inside the slug. Weak source for recency."
+  },
+  {
+    "source": "eFinancialCareers",
+    "type": "board",
+    "urls": [
+      "https://www.efinancialcareers.com/jobs/in-united-arab-emirates",
+      "https://www.efinancialcareers.com/jobs/in-saudi-arabia",
+      "https://www.efinancialcareers.com/jobs/strategy/in-united-arab-emirates"
+    ],
+    "fetch_ok": true,
+    "has_dates": true,
+    "recency_method": "Relative age per row: 'N hours ago', '24 hours ago', 'N days ago', 'N months ago'",
+    "notes": "The .com site works; efinancialcareers.ae/jobs/strategy was robots_disallowed. Pattern: /jobs/{keyword}/in-{country-slug} (tested with strategy + united-arab-emirates, 340 results) and /jobs/in-{country-slug}. Probably also works for in-qatar, in-bahrain, in-kuwait, in-oman and keywords like islamic-finance, corporate-development, head-of-strategy (untested). Shows 15 rows per page; the default order is relevance, not date. Senior roles from PER, Michael Page, Selby Jennings and banks."
+  },
+  {
+    "source": "ZeroTaxJobs",
+    "type": "aggregator",
+    "urls": [
+      "https://zerotaxjobs.com/jobs",
+      "https://zerotaxjobs.com/location/riyadh",
+      "https://zerotaxjobs.com/about"
+    ],
+    "fetch_ok": true,
+    "has_dates": true,
+    "recency_method": "Relative age: 'Under an hour ago', 'N hours ago' (sorted newest first)",
+    "notes": "/jobs (pagination /jobs/?page=2) and /location/{city} work (cities: dubai, riyadh, doha, manama, dammam, lusail, neom; also /jobs-in-abu-dhabi). /category/finance-and-accounting and an individual job page returned client_error. There is no keyword URL, so filter locally. Companies are anonymised (shown as industry descriptions only). The listings appear to mirror LinkedIn."
+  },
+  {
+    "source": "Sabbar",
+    "type": "board",
+    "urls": [
+      "https://sabbar.com/en/jobs",
+      "https://sabbar.com/en/jobs/r-strategy-manager",
+      "https://sabbar.com/en/jobs/c-riyadh-r-director-of-strategy"
+    ],
+    "fetch_ok": true,
+    "has_dates": true,
+    "recency_method": "Relative age: 'N hours ago', '1 day ago', plus a 'New' tag",
+    "notes": "Saudi only. Filter path codes: c- = city, r- = role, m- = specialization, t- = contract type, n-saudis-only; pagination ?page=N. The r- role filter is loose: r-strategy-manager returned general BD and commercial roles, and c-riyadh-r-director-of-strategy returned generic Riyadh jobs. Usable as a fresh KSA feed for local keyword filtering."
+  },
+  {
+    "source": "Tanqeeb",
+    "type": "aggregator",
+    "urls": [
+      "https://www.tanqeeb.com/en/s/jobs/strategy",
+      "https://www.tanqeeb.com/"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "Both URLs returned client_error, including the homepage."
+  },
+  {
+    "source": "Dubizzle Jobs",
+    "type": "board",
+    "urls": [
+      "https://uae.dubizzle.com/jobs/"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "n/a (landing page shows category counts only)",
+    "notes": "The landing page loads but has no listings. The category pattern is /jobs/{slug}/ (e.g. accounting-finance) but is untested. Mostly mid- and junior-level roles; low value for senior strategy."
+  },
+  {
+    "source": "DrJobPro",
+    "type": "aggregator",
+    "urls": [
+      "https://www.drjobpro.com/"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "None shown",
+    "notes": "The homepage loads, but the 'latest jobs' it shows are US roles with no dates. Pattern /{country}/jobs; the UAE has its own domain, drjobs.ae. GCC listing pages untested."
+  },
+  {
+    "source": "Akhtaboot",
+    "type": "board",
+    "urls": [
+      "https://www.akhtaboot.com/en/jobs"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "robots_disallowed"
+  },
+  {
+    "source": "Wuzzuf",
+    "type": "board",
+    "urls": [
+      "https://wuzzuf.net/search/jobs/?q=strategy&a=hpb&filters%5Bcountry%5D%5B0%5D=Saudi+Arabia"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "robots_disallowed"
+  },
+  {
+    "source": "Jooble",
+    "type": "aggregator",
+    "urls": [
+      "https://ae.jooble.org/jobs-head-of-strategy/Dubai",
+      "https://sa.jooble.org/jobs-strategy-director/Riyadh"
+    ],
+    "fetch_ok": true,
+    "has_dates": true,
+    "recency_method": "Relative age: 'N hours ago', 'N days ago', 'a month ago'",
+    "notes": "Path form /jobs-{keyword-hyphenated}/{City} works; the query form /SearchResult?ukw= is robots_disallowed. The KSA strategy-director page was strong (Qiddiya director roles). Probably also works for qa.jooble.org, kw.jooble.org, bh.jooble.org, om.jooble.org (untested). There is no date-filter URL."
+  },
+  {
+    "source": "Talent.com",
+    "type": "aggregator",
+    "urls": [
+      "https://ae.talent.com/jobs?k=head+of+strategy&l=Dubai",
+      "https://ae.talent.com/jobs?k=strategy+director&l=United+Arab+Emirates&date=1"
+    ],
+    "fetch_ok": true,
+    "has_dates": true,
+    "recency_method": "'last updated N hours/days ago'; the date=1 parameter limits results to the last 24h",
+    "notes": "Query strings are allowed. The date=1 filter works, but keyword matching becomes very loose under it. Ages are last-updated times, not original post dates. Try sa.talent.com and qa.talent.com with the same params (untested)."
+  },
+  {
+    "source": "Careerjet",
+    "type": "aggregator",
+    "urls": [
+      "https://www.careerjet.ae/search/jobs?s=head+of+strategy&l=United+Arab+Emirates&sort=date",
+      "https://www.careerjet.ae/strategy-jobs.html"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "The search URL is robots_disallowed; the static page returns a human-verification (bot check) page."
+  },
+  {
+    "source": "JobXDubai",
+    "type": "aggregator",
+    "urls": [
+      "https://jobxdubai.com/jobs/category/executive-and-management",
+      "https://jobxdubai.com/"
+    ],
+    "fetch_ok": true,
+    "has_dates": true,
+    "recency_method": "Relative: 'Today', 'Yesterday', 'N days ago' (newest first)",
+    "notes": "Mirrors LinkedIn and shows real company names (Mashreq, Emirates NBD, HSBC, Oliver Wyman). Other pages listed on the homepage, untested: /jobs, /jobs/category/finance-and-accounting, /jobs/category/sales-and-business-development, /jobs/dubai, /jobs/abu-dhabi, /jobs/saudi-arabia, /jobs/riyadh, /jobs/jeddah. There is no keyword URL. Recommended UAE/KSA senior feed."
+  },
+  {
+    "source": "Qureos",
+    "type": "board",
+    "urls": [
+      "https://app.qureos.com/jobs/search/in-saudi-arabia",
+      "https://www.qureos.com/jobs"
+    ],
+    "fetch_ok": true,
+    "has_dates": true,
+    "recency_method": "Relative: 'Posted N days ago'",
+    "notes": "The in-saudi-arabia page shows only 7 of 16 jobs, mostly SME and mid-level. Patterns: /jobs/search/in-{location}, /jobs/search/{title}-jobs-in-{city}. Low value."
+  },
+  {
+    "source": "Welovesalt (Salt)",
+    "type": "recruiter",
+    "urls": [
+      "https://welovesalt.com/mena/jobs",
+      "https://welovesalt.com/job-category/united-arab-emirates"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "None per row; higher job ref number = newer (refs are sequential, e.g. 715685). The default sort appears to be newest first, since ?sort=oldest exists.",
+    "notes": "35 UAE jobs, mostly tech, marketing and creative. Categories: /job-category/united-arab-emirates/{function}-united-arab-emirates, pagination /page/N. Low strategy relevance."
+  },
+  {
+    "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
+    "type": "recruiter",
+    "urls": [
+      "https://www.michaelpage.ae/jobs/strategy/saudi-arabia",
+      "https://www.michaelpage.ae/jobs/consultancy-strategy-and-change",
+      "https://www.michaelpage.ae/jobs/consultancy-strategy-and-change/dubai",
+      "https://www.michaelpage.ae/jobs/banking-financial-services",
+      "https://www.michaelpage.ae/jobs/banking-financial-services/banking-financial-services/corporate-finance-mergers-acquisitions",
+      "https://www.michaelpage.ae/jobs/banking-financial-services/saudi-arabia",
+      "https://www.michaelpage.ae/jobs/strategy/riyadh"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "Ref code month: jn-MMYYYY-NNNNNNN (e.g. jn-102026-7126432 = Oct 2026); the higher trailing number is newer",
+    "notes": "Patterns: /jobs/{keyword-or-specialism}/{location} (locations: saudi-arabia, riyadh, dubai, abu-dhabi, etc.). Specialisms include consultancy-strategy-and-change, banking-financial-services, finance-accounting, treasury and executive-search. Pages also include 'Other users also applied for' rows, which should be excluded. michaelpage.qa/jobs is robots_disallowed, so michaelpage.ae is the GCC-wide source (it includes Doha and Bahrain jobs)."
+  },
+  {
+    "source": "Hays ME",
+    "type": "recruiter",
+    "urls": [
+      "https://www.hays.ae/jobs/accountancy-finance/",
+      "https://www.hays.ae/job-search/strategy-jobs"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "None",
+    "notes": "/jobs/accountancy-finance/ works but shows only 2 jobs with no dates (Head of Finance KSA, Head of Internal Audit Dammam). /job-search/* is robots_disallowed. Other profession pages: /jobs/hr/, /jobs/it/, /jobs/legal/. Low value."
+  },
+  {
+    "source": "Robert Walters ME",
+    "type": "recruiter",
+    "urls": [
+      "https://www.robertwalters.ae/jobs.html"
+    ],
+    "fetch_ok": true,
+    "has_dates": true,
+    "recency_method": "'Date posted: dd Month yyyy' per row; newest first",
+    "notes": "The base page works (118 results, 12 per page, covering UAE + KSA). Any query string (?q=, location=, experience=05-Director) is robots_disallowed, so only page 1 is readable; poll it frequently. Senior banking roles appear (Head of Internal Audit, Product Leader Digital Banking)."
+  },
+  {
+    "source": "Cooper Fitch",
+    "type": "recruiter",
+    "urls": [
+      "https://www.cooperfitch.ae/jobs/",
+      "https://cooperfitch.ae/job-seekers/"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "Pages load but list no jobs; the site states 'we don't usually advertise our appointments'. Not scrapeable for mandates."
+  },
+  {
+    "source": "BAC Middle East",
+    "type": "recruiter",
+    "urls": [
+      "https://www.bacme.com/jobs"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "robots_disallowed"
+  },
+  {
+    "source": "Charterhouse ME",
+    "type": "recruiter",
+    "urls": [
+      "https://www.charterhouseme.com/jobs"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "robots_disallowed. Charterhouse roles also appear on GulfTalent."
+  },
+  {
+    "source": "Kershaw Leonard",
+    "type": "recruiter",
+    "urls": [
+      "https://www.kershawleonard.com/jobs"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "robots_disallowed. Their roles appear on GulfTalent (they post there)."
+  },
+  {
+    "source": "Hudson ME",
+    "type": "recruiter",
+    "urls": [
+      "https://hudsontalent.com/"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "hudson.com redirects to hudsontalent.com, which has no Middle East jobs page (only /careers/). The footer links executivesolutionsme.com (untested). Treat as no public ME listings."
+  },
+  {
+    "source": "Antal ME",
+    "type": "recruiter",
+    "urls": [
+      "https://www.antal.com/jobs"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "None",
+    "notes": "Global page; only 1 Dubai job (Plant Operator), no dates and no filter URLs. Low value."
+  },
+  {
+    "source": "Morgan McKinley UAE",
+    "type": "recruiter",
+    "urls": [
+      "https://www.morganmckinley.com/ae/jobs",
+      "https://www.morganmckinley.com/ae/jobs/dubai",
+      "https://www.morganmckinley.com/ae"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "/ae/jobs returned 404; the other two returned client_error."
+  },
+  {
+    "source": "Selby Jennings ME",
+    "type": "recruiter",
+    "urls": [
+      "https://www.selbyjennings.ae/en-ae/jobs"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "robots_disallowed. Their roles appear on eFinancialCareers."
+  },
+  {
+    "source": "Korn Ferry / Heidrick & Struggles / Spencer Stuart / Russell Reynolds / Egon Zehnder",
+    "type": "recruiter",
+    "urls": [],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "Not tested because the web search budget ran out. These firms generally do not publish mandates publicly. Korn Ferry GCC mandates do appear on Foundit Gulf (e.g. on /search/banking-jobs), which is the practical route."
+  },
+  {
+    "source": "Sloane Shorey",
+    "type": "recruiter",
+    "urls": [
+      "https://sloaneshorey.catsone.com/careers/"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "None (track new titles between runs)",
+    "notes": "sloaneshorey.com redirects to sloaneshoreyconsulting.com, whose careers page is on CATS. That page lists 19 jobs with no dates. Several are Middle East strategic-advisory and investigations roles (e.g. Strategic Advisory Partner, Riyadh; Partner/MD Corporate Investigations MENA)."
+  },
+  {
+    "source": "Nadia Global",
+    "type": "recruiter",
+    "urls": [
+      "https://nadia-me.com/search-jobs/",
+      "https://www.nadiaglobal.com/jobs"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "Sequential job ID (higher = newer), e.g. /job/details/35817",
+    "notes": "nadia-me.com/search-jobs works (50+ jobs, UAE + KSA + Bahrain), with no dates and no filter URLs. nadiaglobal.com/jobs returned client_error. Mostly mid-level roles."
+  },
+  {
+    "source": "Mackenzie Jones",
+    "type": "recruiter",
+    "urls": [
+      "https://www.mackenziejones.com/job-results",
+      "https://www.mackenziejones.com/jobs"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "/job-results loads via JavaScript (WebFetch saw 0 results); /jobs returned client_error."
+  },
+  {
+    "source": "Tiger Recruitment Dubai",
+    "type": "recruiter",
+    "urls": [
+      "https://tiger-recruitment.com/"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "The homepage loads, but its listings are all London roles. The Dubai office (/locations/dubai/) handles business support/PA roles. Not relevant."
+  },
+  {
+    "source": "Search Recruitment ME",
+    "type": "recruiter",
+    "urls": [
+      "https://www.searchrecruitment.ae/"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "robots_disallowed"
+  },
+  {
+    "source": "Oliver James",
+    "type": "recruiter",
+    "urls": [
+      "https://www.oliverjames.com/jobs"
+    ],
+    "fetch_ok": true,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "No ME offices or jobs on the page; the search page /en/job-search/ was not tested. Low relevance."
+  },
+  {
+    "source": "Pure Search",
+    "type": "recruiter",
+    "urls": [
+      "https://www.puresearch.com/jobs"
+    ],
+    "fetch_ok": true,
+    "has_dates": true,
+    "recency_method": "Relative: 'N days ago', 'N weeks ago'",
+    "notes": "Works, but there are no Middle East locations (only UK and US). Not relevant for GCC."
+  },
+  {
+    "source": "Huxley",
+    "type": "recruiter",
+    "urls": [
+      "https://www.huxley.com/en-ae/jobs/"
+    ],
+    "fetch_ok": false,
+    "has_dates": false,
+    "recency_method": "n/a",
+    "notes": "client_error"
+  }
+]

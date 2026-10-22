@@ -1,0 +1,3038 @@
+[
+ {
+  "name": "National Bank of Bahrain (NBB)",
+  "country": "Bahrain",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Tried nbbonline.com/careers, /en/careers, /about-us/careers: all client_error (site blocks fetcher). Strong Bahrainisation emphasis; also recruits Emiratis for UAE branch. Majority owner of BisB. Use LinkedIn."
+ },
+ {
+  "name": "BBK (Bank of Bahrain and Kuwait)",
+  "country": "Bahrain",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.bbkonline.com/careers",
+  "connector": "browser",
+  "notes": "Page is a general application form, no vacancy list. LinkedIn is the effective source."
+ },
+ {
+  "name": "KFH Bahrain (formerly Ahli United Bank Bahrain)",
+  "country": "Bahrain",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.bh.kfh.com/about/careers/",
+  "connector": "browser",
+  "notes": "AUB merged into KFH and converted to Islamic. Page returned WAF 'Request Rejected'. Press stresses national-talent hiring."
+ },
+ {
+  "name": "Bahrain Islamic Bank (BisB)",
+  "country": "Bahrain",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.bisb.com/en/careers",
+  "connector": "browser",
+  "notes": "Application form with area-of-interest dropdown; no listings. Part of NBB group."
+ },
+ {
+  "name": "Al Salam Bank",
+  "country": "Bahrain",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.alsalambank.com/en/careers/",
+  "connector": "browser",
+  "notes": "'Current Opportunities' section empty in fetch (may be JS-rendered). Email connect@alsalambank.com."
+ },
+ {
+  "name": "Khaleeji Bank",
+  "country": "Bahrain",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://khaleeji.bank/pages-sidebar-nav/careers/",
+  "connector": "browser",
+  "notes": "No listings; form at /pages-sidebar-nav/job-application-form/."
+ },
+ {
+  "name": "Ithmaar Bank",
+  "country": "Bahrain",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://ithmaarbank.com/careers",
+  "connector": "browser",
+  "notes": "Retail business largely sold to Al Salam (2022); now smaller. 'Start a conversation' CV form only."
+ },
+ {
+  "name": "Bank ABC (Arab Banking Corporation)",
+  "country": "Bahrain",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://bankabc.applytojob.com/",
+  "connector": "browser",
+  "notes": "BEST SOURCE. Fetch returned 9 live jobs (e.g. Assistant Manager Loans & Islamic Operations, Senior Credit Underwriter, Senior Executive Officer DIFC). No dates on listing page; check job pages. Linked from bank-abc.com/en/AboutABC/culture-careers. Has ABC Islamic Bank arm."
+ },
+ {
+  "name": "GIB (Gulf International Bank)",
+  "country": "Bahrain",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.gib.com/en/job-search-results/",
+  "connector": "browser",
+  "notes": "Page fetched but listings are JS-rendered ({{ totalItems }} placeholders). Main hiring is in Saudi (GIB HQ functions moved to Riyadh; meem digital bank). Linked from gib.com/en/node/128. GIB Asset Mgmt: https://www.gibam.com/about/careers (untested)."
+ },
+ {
+  "name": "Investcorp",
+  "country": "Bahrain",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.investcorp.com/careers/",
+  "connector": "browser",
+  "notes": "Careers page has no listings or apply links; roles appear on LinkedIn/GulfTalent. Bahrain is HQ; also London/NY/Riyadh/Abu Dhabi. Strong fit for strategy profile."
+ },
+ {
+  "name": "GFH Financial Group",
+  "country": "Bahrain",
+  "sector": "investment_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://gfh.com/?p=79326",
+  "connector": "browser",
+  "notes": "'See Yourself Here' page: 'we don't have any available positions at the moment'. Includes Khaleeji Bank in group."
+ },
+ {
+  "name": "Arcapita",
+  "country": "Bahrain",
+  "sector": "investment_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "arcapita.com/careers client_error. Shariah-compliant PE. Small headcount; LinkedIn."
+ },
+ {
+  "name": "Al Baraka Group",
+  "country": "Bahrain",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "albaraka.com/en/careers client_error. Group HQ Manama; Bahrain subsidiary albaraka.bh (untested). Good strategy/group-level fit."
+ },
+ {
+  "name": "ila Bank",
+  "country": "Bahrain",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Digital bank launched 2019/2020 but backed by Bank ABC (established group) - check bankabc.applytojob.com. ilabank.com/careers client_error."
+ },
+ {
+  "name": "Citi Bahrain",
+  "country": "Bahrain",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://jobs.citi.com/location/bahrain-jobs/287/290291/2",
+  "connector": "browser",
+  "notes": "Location page returned 1 job (Applications Development Intermediate Analyst, Seef); job pages lack posted date in text. Large tech/ops hub with Bahrainisation targets (1,000 Bahraini jobs). Citi Islamic Investment Bank based here."
+ },
+ {
+  "name": "HSBC Bahrain",
+  "country": "Bahrain",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://portal.careers.hsbc.com/careers?domain=hsbc.com&location=Bahrain",
+  "connector": "eightfold",
+  "notes": "Page shell loads but listings JS-rendered. Linked from hsbc.com/careers/find-a-job. HSBC Amanah Islamic window."
+ },
+ {
+  "name": "Standard Chartered Bahrain",
+  "country": "Bahrain",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Sold retail/wealth in Bahrain; CIB remains. Group job site not confirmed via search."
+ },
+ {
+  "name": "BNP Paribas Bahrain",
+  "country": "Bahrain",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Use group careers site/LinkedIn; not verified."
+ },
+ {
+  "name": "SICO (Securities & Investment Company)",
+  "country": "Bahrain",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://sicobank.com/open-positions",
+  "connector": "browser",
+  "notes": "Server-rendered; currently 'No open roles at the moment'. Main page www.sicobank.com/en/careers. Good scrape target (would show titles when open)."
+ },
+ {
+  "name": "Esterad Bank (formerly Venture Capital Bank)",
+  "country": "Bahrain",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.esterad-bank.com/careers",
+  "connector": "browser",
+  "notes": "vc-bank.com/careers redirects to esterad-bank.com; Islamic wholesale bank licensed by CBB. No listings."
+ },
+ {
+  "name": "Bahrain Development Bank (BDB)",
+  "country": "Bahrain",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.bdb-bh.com/careers",
+  "connector": "browser",
+  "notes": "Table (REF#, Vacancy, Apply) empty; page last updated Apr 2024. Government bank - Bahraini preference likely."
+ },
+ {
+  "name": "Benefit Company",
+  "country": "Bahrain",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "benefit.bh/careers client_error. National payments switch (est. 1997)."
+ },
+ {
+  "name": "Tarabut",
+  "country": "Bahrain",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": false,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Open-banking fintech founded ~2017, HQ moved toward KSA; young/VC-backed - flag."
+ },
+ {
+  "name": "Rain",
+  "country": "Bahrain",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": false,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Crypto exchange founded 2017; young - flag."
+ },
+ {
+  "name": "Tap Payments",
+  "country": "Bahrain",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": false,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Payment gateway (Kuwait-origin, Bahrain presence); VC-backed - flag."
+ },
+ {
+  "name": "Solidarity Bahrain",
+  "country": "Bahrain",
+  "sector": "insurance_takaful",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "solidaritybahrain.com/careers server error. Takaful."
+ },
+ {
+  "name": "Takaful International",
+  "country": "Bahrain",
+  "sector": "insurance_takaful",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "takafulinternational.com/careers robots_disallowed."
+ },
+ {
+  "name": "Bahrain National Holding (BNH)",
+  "country": "Bahrain",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Conventional insurer group."
+ },
+ {
+  "name": "AAOIFI",
+  "country": "Bahrain",
+  "sector": "standard_setter",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "WARNING: aaoifi.com/careers/?lang=en returned unrelated gambling/spam content (possibly hijacked path) - do not scrape. Very strong domain fit; monitor LinkedIn."
+ },
+ {
+  "name": "IIFM (International Islamic Financial Market)",
+  "country": "Bahrain",
+  "sector": "standard_setter",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "iifm.net/careers client_error. Small org."
+ },
+ {
+  "name": "Bahrain Bourse",
+  "country": "Bahrain",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://bahrainbourse.com/en/careers",
+  "connector": "browser",
+  "notes": "No listings."
+ },
+ {
+  "name": "Bahrain FinTech Bay",
+  "country": "Bahrain",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.bahrainfintechbay.com/careers",
+  "connector": "browser",
+  "notes": "3 live roles incl. Senior Manager, Innovation & Growth. Founded 2018 (~8 yrs). Server-rendered, scrapeable."
+ },
+ {
+  "name": "Mumtalakat Holding Company",
+  "country": "Bahrain",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.smartrecruiters.com/BahrainMumtalakatHoldingCompany/mumtalakat-careers",
+  "connector": "smartrecruiters",
+  "notes": "Currently 'No job postings'. SmartRecruiters public API (api.smartrecruiters.com/v1/companies/BahrainMumtalakatHoldingCompany/postings) gives dates - use from scraper. Sovereign fund: predominantly Bahraini nationals.",
+  "api_slug": "BahrainMumtalakatHoldingCompany"
+ },
+ {
+  "name": "Bahrain Economic Development Board (EDB)",
+  "country": "Bahrain",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.bahrainedb.com/about-us/career-opportunities",
+  "connector": "browser",
+  "notes": "No listings. Government agency, Bahraini-preference."
+ },
+ {
+  "name": "Central Bank of Bahrain (CBB)",
+  "country": "Bahrain",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Regulator; nationals-focused. Register source for licensees."
+ },
+ {
+  "name": "Bank Muscat",
+  "country": "Oman",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "bankmuscat.com/en/about-us/careers redirected to 404. Heavy Omanisation (recruits hundreds of Omanis/yr); expat roles rare/senior only. Meethaq Islamic window."
+ },
+ {
+  "name": "Bank Dhofar",
+  "country": "Oman",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "bankdhofar.com/careers and /en/careers client_error. Maisarah Islamic window. Heavy Omanisation."
+ },
+ {
+  "name": "National Bank of Oman (NBO)",
+  "country": "Oman",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.nbo.om/en/Pages/Careers/Career-Listing.aspx",
+  "connector": "browser",
+  "notes": "'Current Vacancies' heading but no rows rendered. UAE branch has separate pages at uae.nbo.om/en/Pages/Careers/. Muzn Islamic window. Omanisation heavy."
+ },
+ {
+  "name": "Sohar International",
+  "country": "Oman",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://webserver.soharinternational.com/careers/vacancies",
+  "connector": "browser",
+  "notes": "No named roles; 'welcomes motivated Omani talent'. Merged with HSBC Oman (2023). Sohar Islamic window."
+ },
+ {
+  "name": "HSBC Oman",
+  "country": "Oman",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://portal.careers.hsbc.com/careers?domain=hsbc.com&location=Oman",
+  "connector": "eightfold",
+  "notes": "HSBC Oman merged into Sohar International 2023; HSBC retains small branch. Postings seen as 'Oman National Role'."
+ },
+ {
+  "name": "Oman Arab Bank (OAB)",
+  "country": "Oman",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.oman-arabbank.com/careers/",
+  "connector": "browser",
+  "notes": "CV-by-email only. Recruitment drives explicitly for Omani graduates. Owns Alizz Islamic Bank."
+ },
+ {
+  "name": "Alizz Islamic Bank (incl. former OAB Al Yusr)",
+  "country": "Oman",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "OAB subsidiary; Al Yusr window merged into Alizz. Treat Al Yusr as same employer."
+ },
+ {
+  "name": "Ahli Bank Oman",
+  "country": "Oman",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://ahlibank.catsone.com/careers/",
+  "connector": "browser",
+  "notes": "Index page client_error; individual job pages fetch OK (e.g. Premium Banking RM - Barka) and require 'Omani National'. ahli islamic window."
+ },
+ {
+  "name": "Bank Nizwa",
+  "country": "Oman",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "banknizwa.om/careers/ returned empty JS shell. Omanisation focus (Sahim programme)."
+ },
+ {
+  "name": "Oman Development Bank",
+  "country": "Oman",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Government bank; Omani nationals."
+ },
+ {
+  "name": "Oman Housing Bank",
+  "country": "Oman",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://ohb.co.om/en/join-us/",
+  "connector": "browser",
+  "notes": "Values text only; government bank, Omani nationals."
+ },
+ {
+  "name": "Oman Investment Authority (OIA)",
+  "country": "Oman",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.oia.gov.om/careers",
+  "connector": "browser",
+  "notes": "Empty page (Arabic). Sovereign fund; predominantly Omani hiring, expats via search firms."
+ },
+ {
+  "name": "Oman Insurance / Dhofar Insurance",
+  "country": "Oman",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not verified."
+ },
+ {
+  "name": "Takaful Oman",
+  "country": "Oman",
+  "sector": "insurance_takaful",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not verified."
+ },
+ {
+  "name": "Al Madina Takaful",
+  "country": "Oman",
+  "sector": "insurance_takaful",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://almadinatakaful.com/career/job-openings",
+  "connector": "browser",
+  "notes": "No listings; /career/current-vacancy also empty."
+ },
+ {
+  "name": "Muscat Stock Exchange (MSX)",
+  "country": "Oman",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Government-owned; Omani nationals likely."
+ },
+ {
+  "name": "Ubhar Capital (U Capital)",
+  "country": "Oman",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not verified."
+ },
+ {
+  "name": "Vision Invest",
+  "country": "Oman",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not verified."
+ },
+ {
+  "name": "OmanNet",
+  "country": "Oman",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "National switch (CBO-linked); Omani nationals."
+ },
+ {
+  "name": "Thawani",
+  "country": "Oman",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": false,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Young fintech - flag."
+ },
+ {
+  "name": "Central Bank of Oman (CBO)",
+  "country": "Oman",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "cbo.gov.om robots_disallowed. Regulator; Omani nationals."
+ },
+ {
+  "name": "Al Rajhi Bank",
+  "country": "Saudi Arabia",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://careers.alrajhibank.com.sa/",
+  "connector": "browser",
+  "notes": "Root page lists latest jobs with dates (e.g. 21-Oct-2026). /en/job-search/ and /en/job-search-results/ are robots-disallowed or JS-loaded, so scrape the root. Job URLs look like /en/saudi-arabia/jobs/<slug>-<id>/. Fallback: https://sabbar.com/en/jobs/companies/alrajhi-bank"
+ },
+ {
+  "name": "Saudi National Bank (SNB)",
+  "country": "Saudi Arabia",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.alahli.com/en/pages/about-us/careers",
+  "connector": "browser",
+  "notes": "alahli.com is robots-disallowed. Experienced hires are posted on LinkedIn, company id f_C=76676810 (https://www.linkedin.com/company/snbalahli/jobs). LinkedIn is also robots-disallowed for WebFetch. Large Islamic banking book, but not fully Shariah-compliant."
+ },
+ {
+  "name": "Riyad Bank",
+  "country": "Saudi Arabia",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.riyadbank.com/",
+  "connector": "browser",
+  "notes": "Root page lists recent jobs with dates (e.g. Strategic Planning Manager, 07-Apr-2026). The search page https://careers.riyadbank.com/en/job-search-results/ is JS-loaded and returns nothing."
+ },
+ {
+  "name": "Saudi Awwal Bank (SAB, formerly SABB)",
+  "country": "Saudi Arabia",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.sab.com/search/?q=&sortColumn=referencedate&sortDirection=desc",
+  "connector": "successfactors",
+  "notes": "The SuccessFactors search page is server-rendered and fetched fine, but showed '0 most recent jobs' at test time; this may be genuine. Also has https://careers.sab.com/viewalljobs/. The old careers.sabb.com redirects here. HSBC-affiliated."
+ },
+ {
+  "name": "Banque Saudi Fransi (BSF)",
+  "country": "Saudi Arabia",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://fa-epje-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BSFCareers/",
+  "connector": "oracle",
+  "notes": "Linked from bsf.sa. JS-only, so WebFetch returns only metadata. Needs the Oracle REST endpoint (recruitingCEJobRequisitions) or a headless browser. Fallback: https://sabbar.com/en/jobs/companies/bsf, which worked and shows relative dates."
+ },
+ {
+  "name": "Arab National Bank (ANB)",
+  "country": "Saudi Arabia",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://anb.hyrdd.com/",
+  "connector": "browser",
+  "notes": "Domain taken from an ANB job link (anb.hyrdd.com/saudi-arabia/jobs/riyadh/banking/...), robots-disallowed. anb.com.sa has a 'Careers' footer item, but the URL could not be extracted. Fallback: https://www.gulftalent.com/companies/arab-national-bank-anb"
+ },
+ {
+  "name": "Alinma Bank",
+  "country": "Saudi Arabia",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://career.alinma.com/",
+  "connector": "browser",
+  "notes": "Linked from alinma.com. JS SPA, so WebFetch returns only metadata."
+ },
+ {
+  "name": "Bank Albilad",
+  "country": "Saudi Arabia",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.gulftalent.com/companies/bank-albilad-careers",
+  "connector": "browser",
+  "notes": "bankalbilad.com timed out. The GulfTalent page fetched but had no Albilad jobs. Historically posts on LinkedIn."
+ },
+ {
+  "name": "Bank AlJazira",
+  "country": "Saudi Arabia",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://career.aljazirabank.com.sa/",
+  "connector": "browser",
+  "notes": "Linked from aljazirabank.com.sa. JS SPA with metadata only. Fallback: https://sabbar.com/en/jobs/companies/aljazira-bank-bnk-aljzyra"
+ },
+ {
+  "name": "The Saudi Investment Bank (SAIB)",
+  "country": "Saudi Arabia",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.saib.com.sa/",
+  "connector": "browser",
+  "notes": "Root page fetched but showed no job list. /en/international/job-search/ is robots-disallowed. Uses the same URL pattern as Riyad Bank and Al Rajhi (jobs/<slug>-<id>/). Sabbar showed 0 open jobs."
+ },
+ {
+  "name": "Gulf International Bank - Saudi Arabia (GIB KSA)",
+  "country": "Saudi Arabia",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.gib.com/en/job-search-results/",
+  "connector": "alias",
+  "notes": "Bahrain-HQ group, but most of its operations are in KSA. Root careers.gib.com fetched with no listings, which are JS-loaded."
+ },
+ {
+  "name": "STC Bank (formerly STC Pay)",
+  "country": "Saudi Arabia",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://stcbank.com.sa/job-application",
+  "connector": "browser",
+  "notes": "FLAG: digital bank, licensed 2021, but grew out of STC Pay (2018) and is backed by the stc group. The page is a generic application form, not a job list. STC Pay is merged into this entry."
+ },
+ {
+  "name": "D360 Bank",
+  "country": "Saudi Arabia",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.naukrigulf.com/d360-bank-jobs-cid-224441",
+  "connector": "browser",
+  "notes": "FLAG: young digital bank (launched around 2024), but PIF-backed. Shariah-compliant digital bank. The Naukrigulf page is JS-only."
+ },
+ {
+  "name": "Vision Bank",
+  "country": "Saudi Arabia",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": false,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "FLAG: young digital bank, licensed 2022. Careers URL not found (search budget ran out). Low priority."
+ },
+ {
+  "name": "HSBC Saudi Arabia",
+  "country": "Saudi Arabia",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://portal.careers.hsbc.com/careers?location=Saudi%20Arabia&domain=hsbc.com&sort_by=timestamp",
+  "connector": "eightfold",
+  "notes": "Portal URL comes from hsbc.com/careers; I added location=Saudi Arabia and sort_by=timestamp to the base URL. Listings are JS-loaded. Eightfold has a JSON endpoint (/api/apply/v2/jobs?domain=hsbc.com&location=...&sort_by=timestamp) worth trying from a non-proxied runner. about.hsbc.com.sa/careers is robots-disallowed."
+ },
+ {
+  "name": "J.P. Morgan (Riyadh)",
+  "country": "Saudi Arabia",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions",
+  "connector": "oracle",
+  "notes": "Linked from jpmorganchase.com/careers. Oracle CX is JS-only (see BSF). Filter by location=Riyadh."
+ },
+ {
+  "name": "Citi (Riyadh regional HQ)",
+  "country": "Saudi Arabia",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://jobs.citi.com/",
+  "connector": "browser",
+  "notes": "Single job pages fetch with a posted date (e.g. /job/riyadh/banker-investment-banking/287/91650755840, posted Feb 12 2026). /search-jobs/ is robots-disallowed."
+ },
+ {
+  "name": "Standard Chartered (Riyadh)",
+  "country": "Saudi Arabia",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://jobs.standardchartered.com/search/?q=&locationsearch=Saudi%20Arabia&sortColumn=referencedate&sortDirection=desc",
+  "connector": "successfactors",
+  "notes": "Search page returned chrome and cookie banner but no rows. Possibly blocked by cookie consent, or there were no KSA jobs."
+ },
+ {
+  "name": "Deutsche Bank (Riyadh)",
+  "country": "Saudi Arabia",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.db.com/professionals/search-roles",
+  "connector": "browser",
+  "notes": "Search results are JS-loaded."
+ },
+ {
+  "name": "BNP Paribas (Riyadh)",
+  "country": "Saudi Arabia",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://group.bnpparibas/en/careers/all-job-offers",
+  "connector": "browser",
+  "notes": "Server-rendered list with title, location, type and business unit. No dates shown. 3,144 global jobs, paginated with ?page=N. The country-filter URL is not visible, so filter by location text."
+ },
+ {
+  "name": "Emirates NBD KSA",
+  "country": "Saudi Arabia",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://emiratesnbd.talentera.com/",
+  "connector": "browser",
+  "notes": "Linked from emiratesnbd.com.sa. Root lists jobs with dates (5 Riyadh jobs, e.g. 12-Oct-2026). Talentera also hosts some Saudi banks' career sites."
+ },
+ {
+  "name": "First Abu Dhabi Bank (FAB) - KSA",
+  "country": "Saudi Arabia",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://ehjd.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/fabCareers",
+  "connector": "oracle",
+  "notes": "Group-wide portal, linked from bankfab.com. Oracle CX is JS-only."
+ },
+ {
+  "name": "Morgan Stanley Saudi Arabia",
+  "country": "Saudi Arabia",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.morganstanley.com/careers/career-opportunities-search",
+  "connector": "browser",
+  "notes": "Page fetched but said 'There are currently no opportunities open', probably because results are JS-loaded."
+ },
+ {
+  "name": "SNB Capital",
+  "country": "Saudi Arabia",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "alsnbcapital.com is robots-disallowed. Careers URL not found; likely posts via SNB or LinkedIn."
+ },
+ {
+  "name": "Al Rajhi Capital",
+  "country": "Saudi Arabia",
+  "sector": "investment_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "alrajhi-capital.sa homepage had no extractable nav links. Careers URL not found."
+ },
+ {
+  "name": "Riyad Capital",
+  "country": "Saudi Arabia",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.riyadcapital.com/web/riyad-capital/work-with-us",
+  "connector": "browser",
+  "notes": "No job list. 'Apply' goes to a generic onboarding form."
+ },
+ {
+  "name": "Jadwa Investment",
+  "country": "Saudi Arabia",
+  "sector": "asset_manager",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.jadwa.com/en/careers",
+  "connector": "browser",
+  "notes": "No openings listed. Applications go through https://www.jadwa.com/en/form/employment-application or careers@jadwa.com. Jadwa markets Shariah-compliant products; islamic=true is a judgment call, so verify."
+ },
+ {
+  "name": "Alinma Investment (Alinma Capital)",
+  "country": "Saudi Arabia",
+  "sector": "investment_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://career.alinmacapital.com",
+  "connector": "browser",
+  "notes": "Linked from alinmacapital.com. JS SPA with metadata only."
+ },
+ {
+  "name": "Saudi Fransi Capital (BSF Capital)",
+  "country": "Saudi Arabia",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "sfc.sa redirects to bsfcapital.sa, which is a JS-only site. Careers URL not found. May share the BSF Oracle portal."
+ },
+ {
+  "name": "GIB Capital",
+  "country": "Saudi Arabia",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.gibcapital.com/careers/",
+  "connector": "browser",
+  "notes": "No listings, only a 'send your CV' contact."
+ },
+ {
+  "name": "Hassana Investment Company",
+  "country": "Saudi Arabia",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.hassana.com.sa/en/careers/",
+  "connector": "browser",
+  "notes": "GOSI's investment arm. No listings; apply via careers@hassana.com.sa or LinkedIn (linkedin.com/company/hassana-investment-company)."
+ },
+ {
+  "name": "Saudi Home Loans (SHL)",
+  "country": "Saudi Arabia",
+  "sector": "finance_company",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "shl.com.sa is robots-disallowed. Careers URL not found."
+ },
+ {
+  "name": "Bidaya Home Finance",
+  "country": "Saudi Arabia",
+  "sector": "finance_company",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "bidaya.com.sa is a JS site with no links. Careers URL not found."
+ },
+ {
+  "name": "Amlak International Finance",
+  "country": "Saudi Arabia",
+  "sector": "finance_company",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Careers URL not found. Note: amlak.net.sa is a news site, not this company."
+ },
+ {
+  "name": "Tamweel Aloula",
+  "country": "Saudi Arabia",
+  "sector": "finance_company",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://tamweel-aloula.sa/careers",
+  "connector": "browser",
+  "notes": "Linked from the tamweel-aloula.sa footer."
+ },
+ {
+  "name": "Nayifat Finance",
+  "country": "Saudi Arabia",
+  "sector": "finance_company",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "The nayifat.com homepage had no careers link in the fetched content."
+ },
+ {
+  "name": "Emkan Finance",
+  "country": "Saudi Arabia",
+  "sector": "finance_company",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "emkan.com.sa failed with a client error. Careers URL not found. Islamic flag and group backing are unverified."
+ },
+ {
+  "name": "Geidea",
+  "country": "Saudi Arabia",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://geidea.net/careers",
+  "connector": "browser",
+  "notes": "Fetch failed with a client error."
+ },
+ {
+  "name": "HyperPay",
+  "country": "Saudi Arabia",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "hyperpay.com/careers/ has no careers content. Careers URL not found."
+ },
+ {
+  "name": "PayTabs",
+  "country": "Saudi Arabia",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://ai.paytabs.com/en/career/",
+  "connector": "browser",
+  "notes": "Vacancies need JS. The page says openings are also posted on LinkedIn."
+ },
+ {
+  "name": "Tamara",
+  "country": "Saudi Arabia",
+  "sector": "fintech_payments",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://tamara.co/en-sa/careers",
+  "connector": "browser",
+  "notes": "Founded 2020 (about 6 years), large funding. Fetch showed 'No results found', probably because results are JS-loaded. Shariah-compliant BNPL; verify the islamic flag."
+ },
+ {
+  "name": "Tabby (KSA)",
+  "country": "Saudi Arabia",
+  "sector": "fintech_payments",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://tabby.ai/en-SA/careers",
+  "connector": "browser",
+  "notes": "Founded 2019, HQ in Riyadh. Fetch showed 'No open roles right now', probably because roles are JS-loaded. Shariah-compliant BNPL; verify the islamic flag."
+ },
+ {
+  "name": "Lean Technologies",
+  "country": "Saudi Arabia",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.leantech.me/careers",
+  "connector": "ashby",
+  "notes": "Careers page lists 9 jobs with titles and locations (several in Riyadh) but no dates. jobs.ashbyhq.com/LeanTech is JS-only; the Ashby public API (api.ashbyhq.com/posting-api/job-board/LeanTech) would give dates. Founded 2019.",
+  "api_slug": "LeanTech"
+ },
+ {
+  "name": "Moyasar",
+  "country": "Saudi Arabia",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://moyasar.com/en/careers/",
+  "connector": "workable",
+  "notes": "Careers page lists 12 jobs, no dates. apply.workable.com/moyasar-financial-company-1/ is JS-only; the Workable widget API would give dates. Founded 2016. Mostly ops and tech roles.",
+  "api_slug": "moyasar-financial-company-1"
+ },
+ {
+  "name": "Tawuniya",
+  "country": "Saudi Arabia",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.tawuniya.com/en/careers",
+  "connector": "browser",
+  "notes": "JS-required app. Cooperative insurance model."
+ },
+ {
+  "name": "Bupa Arabia",
+  "country": "Saudi Arabia",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.bupa.com.sa/en/careers",
+  "connector": "browser",
+  "notes": "Page fetched, but no listings or ATS links in the content."
+ },
+ {
+  "name": "Al Rajhi Takaful",
+  "country": "Saudi Arabia",
+  "sector": "insurance_takaful",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://careers.alrajhitakaful.com/",
+  "connector": "browser",
+  "notes": "Linked from alrajhitakaful.com. Metadata only."
+ },
+ {
+  "name": "Malath Insurance",
+  "country": "Saudi Arabia",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "malath.com.sa is robots-disallowed."
+ },
+ {
+  "name": "Walaa Cooperative Insurance",
+  "country": "Saudi Arabia",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "walaa.com is a JS site with no links."
+ },
+ {
+  "name": "Medgulf (Mediterranean & Gulf Insurance)",
+  "country": "Saudi Arabia",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "medgulf.com.sa is a JS site with no links."
+ },
+ {
+  "name": "Saudi Tadawul Group",
+  "country": "Saudi Arabia",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "tadawulgroup.sa failed with a client error, and saudiexchange.sa has no careers link. Group subsidiaries are Saudi Exchange, Muqassa, Edaa and Wamid."
+ },
+ {
+  "name": "Edaa (Securities Depository Center)",
+  "country": "Saudi Arabia",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Tadawul Group subsidiary, likely hiring through the group. Careers URL not found."
+ },
+ {
+  "name": "Saudi EXIM Bank",
+  "country": "Saudi Arabia",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "saudiexim.gov.sa is robots-disallowed. Government-owned; expat hiring is limited."
+ },
+ {
+  "name": "Saudi Central Bank (SAMA)",
+  "country": "Saudi Arabia",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.sama.gov.sa/",
+  "connector": "browser",
+  "notes": "Regulator, mostly Saudi nationals; occasional expert or advisor roles. Low priority for expats."
+ },
+ {
+  "name": "QNB (Qatar National Bank)",
+  "country": "Qatar",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://qnb.sniperhire.net/?language=en",
+  "connector": "browser",
+  "notes": "Server-rendered list with title, ref and function (QNB3908 etc.); 6 pages of results; no posted dates, so use the ref number as a recency proxy. Many roles are explicitly tagged '(Qatarization)', so filter those out; senior non-tagged roles (e.g. VP Customer Experience) are open to all. Landing page: https://www.qnb.com/sites/qnb/qnbglobal/page/en/encareers.html"
+ },
+ {
+  "name": "Qatar Islamic Bank (QIB)",
+  "country": "Qatar",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.qib.com.qa/en/about-us/careers/opportunities",
+  "connector": "browser",
+  "notes": "No job listings, only 'send your resume to careers@qib.com.qa'. Strong Qatari recruitment drives (MoL open days). Use LinkedIn or job boards."
+ },
+ {
+  "name": "Commercial Bank of Qatar (CBQ)",
+  "country": "Qatar",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://career2.successfactors.eu/career?company=thecommerc&career%5fns=job%5flisting%5fsummary&navBarLevel=JOB%5fSEARCH",
+  "connector": "browser",
+  "notes": "SuccessFactors blocked by robots for WebFetch. Landing page fetched OK: https://www.cbq.com.qa/en/about-us/careers/working-with-us (lists departments incl. Investment and Strategy). Runs Qatari career days."
+ },
+ {
+  "name": "Doha Bank",
+  "country": "Qatar",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://qatar.dohabank.com/careers/",
+  "connector": "browser",
+  "notes": "robots_disallowed on fetch. URL not confirmed through search; the confirmed sister page is the India branch at https://in.dohabank.bank.in/careers/. Check GulfTalent or LinkedIn."
+ },
+ {
+  "name": "Dukhan Bank",
+  "country": "Qatar",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://dukhanbank.com/careers",
+  "connector": "browser",
+  "notes": "No listings; the apply link is an obfuscated email. Formerly Barwa Bank/IBQ merger, so established."
+ },
+ {
+  "name": "QIIB (Qatar International Islamic Bank)",
+  "country": "Qatar",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.qiib.com.qa/en/careers",
+  "connector": "browser",
+  "notes": "Fetch returned client_error; URL guessed from domain and unverified. Press shows heavy Qatari hiring batches. Use LinkedIn."
+ },
+ {
+  "name": "Masraf Al Rayan (Al Rayan Bank)",
+  "country": "Qatar",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.alrayan.com/en/careers",
+  "connector": "browser",
+  "notes": "Lists departments (incl. Sharia Audit) but no openings; the apply link is an obfuscated email. Recruitment open days target Qataris."
+ },
+ {
+  "name": "Ahli Bank Qatar",
+  "country": "Qatar",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://ehlr.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+  "connector": "oracle",
+  "notes": "Oracle CX page is JS-only, so WebFetch got only metadata. Scrape via the Oracle recruitingCEJobRequisitions REST API (site CX_1). Landing: https://www.ahlibank.com.qa/en/careers"
+ },
+ {
+  "name": "Lesha Bank",
+  "country": "Qatar",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.leshabank.com/jobs/",
+  "connector": "browser",
+  "notes": "Fetched OK: 'There are currently no vacancies.' Formerly QFC-licensed Qatar First Bank (2009); dates expected when jobs exist (WP Job Manager)."
+ },
+ {
+  "name": "Qatar Development Bank (QDB)",
+  "country": "Qatar",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.qdb.qa/en/careers",
+  "connector": "browser",
+  "notes": "No listings; general application form only. Has a Qatarization programme page (ossform.qdb.qa/en/recruitment). Government development bank, so leans to nationals."
+ },
+ {
+  "name": "Qatar Investment Authority (QIA)",
+  "country": "Qatar",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://qia.qa/en/Careers/Pages/default.aspx",
+  "connector": "browser",
+  "notes": "No listings. Explicit focus on recruiting Qataris (Journey Program, graduate training); experienced expat hires usually go through headhunters or LinkedIn."
+ },
+ {
+  "name": "Qatar Financial Centre Authority (QFC)",
+  "country": "Qatar",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.qfc.qa/en/careers",
+  "connector": "browser",
+  "notes": "Fetch client_error; URL unverified. QFC publicly stresses Qatarisation. Use LinkedIn."
+ },
+ {
+  "name": "Qatar Financial Markets Authority (QFMA)",
+  "country": "Qatar",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "No careers URL found (search budget exhausted). Regulator with a strong nationals tendency."
+ },
+ {
+  "name": "Qatar Stock Exchange",
+  "country": "Qatar",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "No official careers URL found; Naukrigulf company page exists: https://arabic.naukrigulf.com/qatar-stock-exchange-careers-cid-1000668"
+ },
+ {
+  "name": "Qatar Insurance Company (QIC Group)",
+  "country": "Qatar",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://qic-group.com/jobs/",
+  "connector": "browser",
+  "notes": "Good scrape target: titles plus relative dates ('Posted 1 week ago'), Doha. Separate QIC Digital Hub board: https://qicjob.huntflow.io (Huntflow, mostly Georgia-based). Landing: https://qic-group.com/career-with-us/"
+ },
+ {
+  "name": "Doha Insurance Group",
+  "country": "Qatar",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Careers URL not found. Includes Doha Takaful subsidiary."
+ },
+ {
+  "name": "Al Khaleej Takaful Insurance",
+  "country": "Qatar",
+  "sector": "insurance_takaful",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Careers URL not found."
+ },
+ {
+  "name": "Qatar Islamic Insurance Group (QIIC)",
+  "country": "Qatar",
+  "sector": "insurance_takaful",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Careers URL not found."
+ },
+ {
+  "name": "GIG Gulf (Qatar)",
+  "country": "Qatar",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.giggulf.qa/en/about-us/careers",
+  "connector": "browser",
+  "notes": "Page fetched but openings not in HTML (possibly loaded dynamically). Part of Kuwait-based GIG."
+ },
+ {
+  "name": "Ooredoo Money",
+  "country": "Qatar",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Backed by Ooredoo group; careers likely via the Ooredoo group portal. URL not found."
+ },
+ {
+  "name": "QPay / NAPS (Qatar national payments)",
+  "country": "Qatar",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Careers URL not found."
+ },
+ {
+  "name": "HSBC Qatar",
+  "country": "Qatar",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Use HSBC global careers search filtered to Qatar; URL not verified this run."
+ },
+ {
+  "name": "Standard Chartered Qatar",
+  "country": "Qatar",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Use StanChart global jobs portal filtered to Doha; URL not verified this run."
+ },
+ {
+  "name": "BNP Paribas Qatar",
+  "country": "Qatar",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "URL not verified this run."
+ },
+ {
+  "name": "Mashreq Qatar",
+  "country": "Qatar",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "URL not verified this run."
+ },
+ {
+  "name": "Arab Bank Qatar",
+  "country": "Qatar",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "URL not verified this run."
+ },
+ {
+  "name": "United Bank Limited (UBL) Qatar",
+  "country": "Qatar",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "URL not verified this run."
+ },
+ {
+  "name": "ICBC Doha",
+  "country": "Qatar",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Seen posting on GulfTalent (Assistant Operation Manager, Assistant Dealer, Oct 2026)."
+ },
+ {
+  "name": "QNB Capital",
+  "country": "Qatar",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://qnb.sniperhire.net/?language=en",
+  "connector": "alias",
+  "notes": "Assumed to recruit through the QNB group portal."
+ },
+ {
+  "name": "Al Rayan Investment",
+  "country": "Qatar",
+  "sector": "asset_manager",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Masraf Al Rayan subsidiary; URL not found."
+ },
+ {
+  "name": "The Investor (Qatar)",
+  "country": "Qatar",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "URL not found."
+ },
+ {
+  "name": "Dlala Holding",
+  "country": "Qatar",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Brokerage; URL not found."
+ },
+ {
+  "name": "Amwal (Qatar)",
+  "country": "Qatar",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "URL not found."
+ },
+ {
+  "name": "Big4 Qatar (PwC, Deloitte, EY, KPMG)",
+  "country": "Qatar",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Strategy/FS advisory roles; use each firm's ME careers portal filtered to Doha. URLs not verified this run."
+ },
+ {
+  "name": "National Bank of Kuwait (NBK)",
+  "country": "Kuwait",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.nbk.com/",
+  "connector": "browser",
+  "notes": "careers.nbk.com is robots_disallowed. Landing page fetched OK: https://www.nbk.com/kuwait/careers.html (also linkedin.com/company/nbkgroup). Strong Kuwaitization push (Watheefti fairs)."
+ },
+ {
+  "name": "Kuwait Finance House (KFH)",
+  "country": "Kuwait",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://fa-esqe-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+  "connector": "oracle",
+  "notes": "JS-only Oracle CX, so WebFetch got metadata only; use the Oracle REST API (site CX_1). Landing: https://www.kfh.com/home/Personal/aboutus/Career.html (now includes Ahli United Bank). Emphasises national talent."
+ },
+ {
+  "name": "Boubyan Bank",
+  "country": "Kuwait",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://boubyan.bankboubyan.com/en/explore-boubyan/careers",
+  "connector": "browser",
+  "notes": "Only categories (Experienced, Graduates, Part-time, Internship); no listings in HTML. NBK group Islamic bank."
+ },
+ {
+  "name": "Burgan Bank",
+  "country": "Kuwait",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://burgan.com/en/careers/careers-page/",
+  "connector": "browser",
+  "notes": "No listings, generic application form only. Hiring news says ~94% of new hires are Kuwaiti."
+ },
+ {
+  "name": "Gulf Bank",
+  "country": "Kuwait",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://fa-ewqb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/JobSearch-GulfBank",
+  "connector": "oracle",
+  "notes": "JS-only Oracle CX; use the REST API (site JobSearch-GulfBank). Landing: https://www.e-gulfbank.com/en/about-us/careers. Strong Kuwaitization messaging."
+ },
+ {
+  "name": "Commercial Bank of Kuwait (CBK)",
+  "country": "Kuwait",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.cbk.com/",
+  "connector": "browser",
+  "notes": "Page fetched but listings were 'Loading...' (JS). Alternative: https://www.cbk.com/Careers/Apply-Online (email careers@cbk.com)."
+ },
+ {
+  "name": "Al Ahli Bank of Kuwait (ABK)",
+  "country": "Kuwait",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.eahli.com/",
+  "connector": "browser",
+  "notes": "Landing fetched; categories Retail Branches, Call Center, Other Functions; locations Kuwait, Egypt, UAE. Job list is on the SF job search, not in this HTML. Kuwaitization is emphasised at fairs."
+ },
+ {
+  "name": "Warba Bank",
+  "country": "Kuwait",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://hunt.kayanhr.com/CareerSite/Index/SWU1M09FWUtYOVhRZVgs",
+  "connector": "browser",
+  "notes": "Link taken from warbabank.com nav; Kayan site server_error on fetch (2 attempts)."
+ },
+ {
+  "name": "Kuwait International Bank (KIB)",
+  "country": "Kuwait",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.kib.com.kw/en/careers",
+  "connector": "browser",
+  "notes": "robots_disallowed; URL unverified. GulfTalent company page: https://www.gulftalent.com/companies/kuwait-international-bank-kib"
+ },
+ {
+  "name": "Industrial Bank of Kuwait",
+  "country": "Kuwait",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "URL not found; small, mostly national workforce."
+ },
+ {
+  "name": "HSBC Kuwait",
+  "country": "Kuwait",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "URL not verified this run."
+ },
+ {
+  "name": "Citi Kuwait",
+  "country": "Kuwait",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "jobs.citi.com seen in search (other locations); filter to Kuwait."
+ },
+ {
+  "name": "BNP Paribas Kuwait",
+  "country": "Kuwait",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "URL not verified this run."
+ },
+ {
+  "name": "QNB Kuwait",
+  "country": "Kuwait",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://qnb.sniperhire.net/?language=en",
+  "connector": "alias",
+  "notes": "QNB group portal; filter by location."
+ },
+ {
+  "name": "KIPCO",
+  "country": "Kuwait",
+  "sector": "other_finance",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.kipco.com/careers",
+  "connector": "browser",
+  "notes": "client_error; URL unverified. Holding group of Burgan, GIG, United Gulf."
+ },
+ {
+  "name": "Kuwait Financial Centre (Markaz)",
+  "country": "Kuwait",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.markaz.com/en/careers",
+  "connector": "browser",
+  "notes": "client_error; URL unverified. GulfTalent: https://gulftalent.com/symfony_web/mobile/companies/kuwait-financial-centre-careers. Runs a graduate development programme for Kuwaitis."
+ },
+ {
+  "name": "NBK Capital (NBK Wealth)",
+  "country": "Kuwait",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.nbk.com/",
+  "connector": "alias",
+  "notes": "Assumed to recruit via the NBK group portal (robots-blocked)."
+ },
+ {
+  "name": "KAMCO Invest",
+  "country": "Kuwait",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.kamcoinvest.com/en/careers",
+  "connector": "browser",
+  "notes": "client_error; URL unverified. GulfTalent: https://www.gulftalent.com/companies/kamco-careers"
+ },
+ {
+  "name": "Wafra International Investment",
+  "country": "Kuwait",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "PIFSS-linked investor; URL not found."
+ },
+ {
+  "name": "Gulf Investment Corporation (GIC)",
+  "country": "Kuwait",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "GCC-owned investment corp (gic.com.kw); careers URL not found."
+ },
+ {
+  "name": "Gulf Insurance Group (GIG)",
+  "country": "Kuwait",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.gulfinsgroup.com/en/careers/",
+  "connector": "browser",
+  "notes": "No listings; CV form at /en/careers-form/. Country pages: GIG Kuwait https://www.gig.com.kw/en/careers (form only, tested); Kuwait Takaful via gigtakaful.com.kw."
+ },
+ {
+  "name": "Warba Insurance and Reinsurance",
+  "country": "Kuwait",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "URL not found."
+ },
+ {
+  "name": "Kuwait Insurance Company (KIC)",
+  "country": "Kuwait",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "URL not found."
+ },
+ {
+  "name": "KNET (Shared Electronic Banking Services)",
+  "country": "Kuwait",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Bank-owned national switch; URL not found."
+ },
+ {
+  "name": "MyFatoorah",
+  "country": "Kuwait",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "",
+  "connector": "none",
+  "notes": "Founded around 2014 (over 5 years). Careers URL not found; likely LinkedIn."
+ },
+ {
+  "name": "Tap Payments",
+  "country": "Kuwait",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.tap.company/careers",
+  "connector": "browser",
+  "notes": "client_error; URL unverified. Founded around 2013; postings show up on LinkedIn-sourced aggregators (Bahrain/UAE roles)."
+ },
+ {
+  "name": "Boursa Kuwait",
+  "country": "Kuwait",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.boursakuwait.com.kw/en/careers",
+  "connector": "browser",
+  "notes": "client_error; URL unverified. Established 2014 as exchange operator, successor to the KSE."
+ },
+ {
+  "name": "First Abu Dhabi Bank (FAB)",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://ehjd.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/fabCareers",
+  "connector": "alias",
+  "notes": "Linked from https://www.bankfab.com/en-ae/careers. Oracle CX is a JS SPA; WebFetch returned metadata only. Scrape via Oracle recruitingCEJobRequisitions REST API (siteNumber=fabCareers) or headless browser."
+ },
+ {
+  "name": "Emirates NBD",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+  "connector": "oracle",
+  "notes": "Linked from https://www.emiratesnbd.com/en/careers ('View all vacancies'). Same Oracle pod as Emirates Islamic (CX_2). JS-only; use Oracle REST API or headless. Also covers Liv."
+ },
+ {
+  "name": "Emirates Islamic",
+  "country": "UAE",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2",
+  "connector": "oracle",
+  "notes": "Linked from https://www.emiratesislamic.ae/en/about-us/careers. Emirates NBD subsidiary; same Oracle tenant (CX_1 failed WebFetch, expect same)."
+ },
+ {
+  "name": "Abu Dhabi Commercial Bank (ADCB)",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://adcbcareers.com/search/?createNewAlert=false&q=&sortColumn=referencedate&sortDirection=desc",
+  "connector": "successfactors",
+  "notes": "BEST SOURCE. career.adcb.com redirects to adcbcareers.com. Server-rendered list, 25/page, startrow=25 pagination, dates shown (e.g. Head - Credit Trading, Oct 22 2026). Includes Al Hilal Bank (ADCB group) roles likely."
+ },
+ {
+  "name": "Mashreq",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.mashreq.com/en/uae/about-us/careers/jobs",
+  "connector": "browser",
+  "notes": "Page requires JavaScript; embedded portal https://contentdelivery.mashreqbank.com/career-portal/External/FO/components/index.html. Needs headless browser or XHR inspection. Covers Mashreq Neo."
+ },
+ {
+  "name": "Dubai Islamic Bank (DIB)",
+  "country": "UAE",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://careers.dib.ae/en/job-search-results/",
+  "connector": "browser",
+  "notes": "Search results load via JS ({{ totalItems }} placeholder). Individual job pages are server-rendered with posted date (e.g. /en/uae/jobs/banking-operations-officer-uae-national-1100010303/ posted 2026/06/30). Sort options include Posted Date. Try site-map page (/en/site-map) to enumerate jobs."
+ },
+ {
+  "name": "Abu Dhabi Islamic Bank (ADIB)",
+  "country": "UAE",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://hciq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions",
+  "connector": "oracle",
+  "notes": "Linked from https://www.adib.ae/en/pages/careers. JS-only; use Oracle REST API (siteNumber=CX)."
+ },
+ {
+  "name": "Commercial Bank of Dubai (CBD)",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.cbd.ae/home/contact-us/careers/apply",
+  "connector": "browser",
+  "notes": "'All Vacancies' page returned no listings (likely JS-loaded); careers landing https://www.cbd.ae/home/contact-us/careers has placeholder links. Low scrapeability; consider LinkedIn/GulfTalent fallback."
+ },
+ {
+  "name": "RAKBANK",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.rakbank.ae/en/company/rakbank-1507665/",
+  "connector": "browser",
+  "notes": "WebFetch blocked by robots.txt. Job URLs pattern careers.rakbank.ae/en/uae/jobs/<slug>-<id>/ (e.g. Shariah Compliance Officer 5351754). Has Islamic window (RAKBANK Amal)."
+ },
+ {
+  "name": "National Bank of Fujairah (NBF)",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.nbf.ae/viewalljobs/",
+  "connector": "browser",
+  "notes": "viewalljobs and /go/ category pages returned no listings (possibly zero openings or JS). Same RMK platform as ADCB, so /search/?q=&sortColumn=referencedate&sortDirection=desc likely works."
+ },
+ {
+  "name": "Sharjah Islamic Bank (SIB)",
+  "country": "UAE",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://iabrey.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
+  "connector": "oracle",
+  "notes": "'View all vacancies' from https://www.sib.ae/en/about-us/careers. sib.ae job-listing page (https://www.sib.ae/en/about-us/career/job-listing) also JS-loaded, no dates."
+ },
+ {
+  "name": "Ajman Bank",
+  "country": "UAE",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.ajmanbank.ae/site/careers.html",
+  "connector": "browser",
+  "notes": "Overview page only; mentions 'Apply Online' but no portal link found."
+ },
+ {
+  "name": "Al Hilal Bank",
+  "country": "UAE",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.alhilalbank.ae/en/careers",
+  "connector": "browser",
+  "notes": "No listings on page. Owned by ADCB; roles likely posted on adcbcareers.com."
+ },
+ {
+  "name": "United Arab Bank (UAB)",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.uab.ae/en/about-uab/careers/current-vacancies",
+  "connector": "browser",
+  "notes": "No roles listed; CV by email."
+ },
+ {
+  "name": "Bank of Sharjah",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.bankofsharjah.com/en/job-openings",
+  "connector": "browser",
+  "notes": "Page fetched and server-rendered but showed '0 results' at test time; re-check periodically."
+ },
+ {
+  "name": "Invest Bank",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "No careers page found via search on investbank.ae."
+ },
+ {
+  "name": "Commercial Bank International (CBI)",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.cbiuae.com/en/careers/careers/",
+  "connector": "browser",
+  "notes": "States all vacancies posted on LinkedIn: https://www.linkedin.com/company/commercial-bank-international"
+ },
+ {
+  "name": "National Bank of Umm Al Qaiwain (NBQ)",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.nbq.ae/general/careers",
+  "connector": "browser",
+  "notes": "No listings; CV by email."
+ },
+ {
+  "name": "Al Masraf (Arab Bank for Investment & Foreign Trade)",
+  "country": "UAE",
+  "sector": "bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "No careers page found on almasraf.ae via search."
+ },
+ {
+  "name": "Emirates Development Bank",
+  "country": "UAE",
+  "sector": "development_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.edb.gov.ae/en/about-us/jobs-vacancies",
+  "connector": "browser",
+  "notes": "WebFetch blocked by robots.txt. Federal development bank; strategy roles plausible."
+ },
+ {
+  "name": "Wio Bank",
+  "country": "UAE",
+  "sector": "digital_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.linkedin.com/company/wiobank/",
+  "connector": "none",
+  "notes": "Launched ~2022 (<5 yrs) but backed by ADQ, FAB, Alpha Dhabi and e& -> kept. wio.io/about-us 'Join our team' links to LinkedIn."
+ },
+ {
+  "name": "Liv (Emirates NBD)",
+  "country": "UAE",
+  "sector": "digital_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+  "connector": "alias",
+  "notes": "Digital brand of Emirates NBD; hires via ENBD portal. Duplicate source of Emirates NBD - dedupe."
+ },
+ {
+  "name": "Mashreq Neo",
+  "country": "UAE",
+  "sector": "digital_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.mashreq.com/en/uae/about-us/careers/jobs",
+  "connector": "alias",
+  "notes": "Digital arm of Mashreq; hires via Mashreq portal. Dedupe with Mashreq."
+ },
+ {
+  "name": "Zand Bank",
+  "country": "UAE",
+  "sector": "digital_bank",
+  "islamic": false,
+  "established_ok": false,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "FLAG: <5 yrs (licensed ~2022); chaired by Mohamed Alabbar (private backers, not a large bank group). No careers link on zand.ae/en/about-us."
+ },
+ {
+  "name": "Ruya Community Islamic Bank",
+  "country": "UAE",
+  "sector": "islamic_bank",
+  "islamic": true,
+  "established_ok": false,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "FLAG: new bank (<5 yrs). Could not locate official site/careers page (search budget exhausted)."
+ },
+ {
+  "name": "HSBC Bank Middle East",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://portal.careers.hsbc.com/careers?location=any&pid=563774612287498&domain=hsbc.com&sort_by=relevance&triggerGoButton=false&triggerGoButton=true",
+  "connector": "eightfold",
+  "notes": "Eightfold SPA, no listings via WebFetch. Set location param to United Arab Emirates. HSBC regional HQ for MENAT in Dubai/DIFC. UAE overview: https://www.hsbc.com/careers/where-we-hire/united-arab-emirates"
+ },
+ {
+  "name": "Standard Chartered",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://jobs.standardchartered.com/content/Search-Result-Page/?employment_type=professional_hires&utm_source=careersite",
+  "connector": "browser",
+  "notes": "Results page JS-rendered; /search/?locationsearch=Dubai also returned nothing via WebFetch. Large Dubai/DIFC hub; has Saadiq Islamic arm."
+ },
+ {
+  "name": "Citi",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://jobs.citi.com/location/dubai-united-arab-emirates-jobs/287/290557-292224/3",
+  "connector": "browser",
+  "notes": "UAE-filtered listing works (34 Dubai jobs, 2 pages) but no posted dates on list; job detail pages returned client_error. Many roles UAE-nationals-only."
+ },
+ {
+  "name": "JPMorgan Chase",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001",
+  "connector": "oracle",
+  "notes": "Base from job links found in search (CX_1001 / CX_1002, e.g. ...CX_1001/job/210709000/?keyword=Dubai&mode=location). Oracle SPA - expect JS-only; use REST API with location filter Dubai."
+ },
+ {
+  "name": "Barclays",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://search.jobs.barclays/location/united-arab-emirates-jobs/13015/290557/2",
+  "connector": "browser",
+  "notes": "Page fetched but UAE filter returned 0 results at test time (small DIFC presence). Alt URL https://search.jobs.barclays/search-jobs/Dubai,%20AE/22545/3/290557-292224/25/55x33333/50/2 . Dates shown only for some search results."
+ },
+ {
+  "name": "Deutsche Bank",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://db.wd3.myworkdayjobs.com/DBWebsite",
+  "connector": "workday",
+  "notes": "Workday SPA; use Workday CXS JSON (POST /wday/cxs/db/DBWebsite/jobs) with Dubai location facet. Dubai jobs seen (e.g. IBCM - MENA Coverage - VP, DIFC)."
+ },
+ {
+  "name": "BNP Paribas",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://group.bnpparibas/en/careers/all-job-offers/united-arab-emirates",
+  "connector": "browser",
+  "notes": "Server-rendered; UAE filter showed 0 offers at test time (also /dubai). No posted dates on list."
+ },
+ {
+  "name": "Societe Generale",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.societegenerale.com/en",
+  "connector": "browser",
+  "notes": "Dubai roles appear (e.g. V.I.E. Legal Advisor - Dubai). No UAE-filtered URL found."
+ },
+ {
+  "name": "MUFG Bank",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers",
+  "connector": "workday",
+  "notes": "EMEA careers info: https://www.mufgemea.com/careers/ . Workday - use CXS JSON with Dubai facet."
+ },
+ {
+  "name": "SMBC",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careersemea.smbcgroup.com",
+  "connector": "browser",
+  "notes": "Linked from https://www.smbcgroup.com/emea/Careers/Experienced-Professionals . WebFetch server error. RMK so /search/?locationsearch=Dubai likely."
+ },
+ {
+  "name": "Mizuho",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://cbcareers.mizuho-emea.com/",
+  "connector": "browser",
+  "notes": "Landing page fetched, no listings. Dubai (DIFC) office. EMEA careers: https://www.mizuhogroup.com/emea/careers"
+ },
+ {
+  "name": "UBS",
+  "country": "UAE",
+  "sector": "private_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults&SearchType=linkquery&LinkID=15231",
+  "connector": "browser",
+  "notes": "BrassRing TGnewUI SPA; template placeholders only. Linked from https://ubs.com/global/en/careers/job-board.html"
+ },
+ {
+  "name": "Julius Baer",
+  "country": "UAE",
+  "sector": "private_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://juliusbaer.wd3.myworkdayjobs.com/en-US/External",
+  "connector": "workday",
+  "notes": "From juliusbaer.com careers FAQ. Large Dubai/DIFC & Abu Dhabi presence. Use Workday CXS JSON."
+ },
+ {
+  "name": "Lombard Odier",
+  "country": "UAE",
+  "sector": "private_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers",
+  "connector": "workday",
+  "notes": "https://www.lombardodier.com/home/careers.html lists latest openings server-side with dates (fetch_ok there; shown 27.08.2026, no UAE roles at test). ADGM branch + Dubai."
+ },
+ {
+  "name": "Pictet",
+  "country": "UAE",
+  "sector": "private_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://career012.successfactors.eu/career?company=banquepict",
+  "connector": "browser",
+  "notes": "robots.txt disallows WebFetch. Dubai office (DIFC)."
+ },
+ {
+  "name": "Arab Bank",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://arabbank.taleo.net/careersection/ab_external/moresearch.ftl?lang=en&location=805021922&location=805021922&locationRad=805021922&portal=8105021922&radius=1&radiusType=K&searchExpanded=true",
+  "connector": "browser",
+  "notes": "UAE-filtered Taleo URL from https://www.arabbank.ae/smartmenu/smart-menu/careers . Taleo results load via JS; try Taleo jobsearch.ftl REST/RSS."
+ },
+ {
+  "name": "Gulf International Bank (GIB)",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.gib.com/en/job-search-results/",
+  "connector": "alias",
+  "notes": "Mostly KSA/Bahrain roles; job pages server-rendered with posted date; site map https://careers.gib.com/en/site-map. Strong Sharia-compliant banking roles (e.g. Group Head of Sharia Compliant Banking). Limited UAE footprint."
+ },
+ {
+  "name": "National Bank of Kuwait (NBK) UAE",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.nbk.com/uae/careers.html",
+  "connector": "browser",
+  "notes": "No listings; CV by email."
+ },
+ {
+  "name": "Bank ABC",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://europecareers.bank-abc.com/jobs",
+  "connector": "browser",
+  "notes": "Found portal is Europe-focused; group page https://www.bank-abc.com/en/AboutABC/culture-careers . Bahrain HQ; UAE branch in Abu Dhabi/Dubai."
+ },
+ {
+  "name": "QNB",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://qnb.com/sites/qnb/qnbglobal/page/en/enapplyjob.html",
+  "connector": "browser",
+  "notes": "Group careers: https://www.qnb.com/sites/qnb/qnbglobal/page/en/encareer.html"
+ },
+ {
+  "name": "Habib Bank AG Zurich (HBZ)",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://habibbank.com/ae/careers/",
+  "connector": "browser",
+  "notes": "'Open Vacancies' section empty; refers to https://www.linkedin.com/company/hbz-uae"
+ },
+ {
+  "name": "Bank of China (Dubai/Abu Dhabi)",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not researched - search budget exhausted. Mandarin usually required."
+ },
+ {
+  "name": "ICBC (Dubai DIFC/Abu Dhabi)",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not researched - search budget exhausted."
+ },
+ {
+  "name": "Credit Agricole CIB",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not researched - search budget exhausted. Dubai/Abu Dhabi presence."
+ },
+ {
+  "name": "Natixis CIB",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not researched - search budget exhausted. DIFC branch."
+ },
+ {
+  "name": "ING",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not researched - search budget exhausted. DIFC wholesale office."
+ },
+ {
+  "name": "Kuwait Finance House (KFH)",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not researched - search budget exhausted. Limited UAE presence."
+ },
+ {
+  "name": "Al Rajhi Bank",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not researched - search budget exhausted. UAE presence limited; mainly KSA hiring."
+ },
+ {
+  "name": "HBL (Habib Bank Limited)",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not researched - search budget exhausted. Has DIFC branch."
+ },
+ {
+  "name": "MCB Bank",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not researched - search budget exhausted. Small UAE ops."
+ },
+ {
+  "name": "Bank Alfalah",
+  "country": "UAE",
+  "sector": "foreign_bank_branch",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not researched - search budget exhausted. Small UAE ops."
+ },
+ {
+  "name": "Deloitte Middle East",
+  "country": "UAE",
+  "sector": "consulting",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://middleeastjobs.deloitte.com/careersME/SearchJobs/?pipelineRecordsPerPage=6&pipelineOffset=0",
+  "connector": "browser",
+  "notes": "Server-rendered Avature; ~180 ME jobs, posted dates shown (dd-Mon-yyyy). Paginate via pipelineOffset (step 6; can raise pipelineRecordsPerPage). No country param visible in URLs - filter UAE/Dubai/Abu Dhabi client-side. Detail /careersME/PipelineDetail/{slug}/{id}. Landing: https://middleeastjobs.deloitte.com/"
+ },
+ {
+  "name": "EY Middle East (incl. EY-Parthenon)",
+  "country": "UAE",
+  "sector": "consulting",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.ey.com/en_ae/search/?createNewAlert=false&q=&locationsearch=Dubai",
+  "connector": "successfactors",
+  "notes": "locationsearch=Dubai works (18 Dubai jobs incl. EY-Parthenon FS strategy roles). Swap to Abu Dhabi for second query. No dates in list view. Graduates: eyglobal.yello.co"
+ },
+ {
+  "name": "Rothschild & Co (Dubai)",
+  "country": "UAE",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.rothschildandco.com/en/careers/experienced-professionals/vacancies/",
+  "connector": "browser",
+  "notes": "Server-rendered vacancy list with Workday links; Dubai roles identifiable by 'Dubai' in job path. No posted dates. Workday JSON not fetchable."
+ },
+ {
+  "name": "Ziina",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": false,
+  "careers_url": "https://www.ziina.com/careers",
+  "connector": "ashby",
+  "notes": "Founded ~2020 (borderline <5-6 yrs; VC-backed, CBUAE-licensed) - FLAG. Careers page lists roles server-side (all Dubai); Ashby board itself is JS-only. Mostly engineering/marketing roles.",
+  "api_slug": "ziina"
+ },
+ {
+  "name": "Al Ansari Exchange / Al Ansari Financial Services",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.alansariexchange.com/",
+  "connector": "browser",
+  "notes": "Featured jobs render (mostly junior branch/compliance roles); no dates. Some roles UAE-national only."
+ },
+ {
+  "name": "Strategy& Middle East (PwC)",
+  "country": "UAE",
+  "sector": "consulting",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.strategyand.pwc.com/m1/en/careers.html",
+  "connector": "browser",
+  "notes": "Landing page shows a few featured roles; full list at /careers/available-jobs.html loads by JS (fetch returned 'No Match Found'). Recruiting email mer_strategyand_recruiting_dyn@strategyand.pwc.com"
+ },
+ {
+  "name": "Alpha Dhabi Holding",
+  "country": "UAE",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.alphadhabi.com/careers",
+  "connector": "browser",
+  "notes": "Lists very few roles (e.g., Senior Accountant). Part of IHC group."
+ },
+ {
+  "name": "Takaful Emarat",
+  "country": "UAE",
+  "sector": "insurance_takaful",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.takafulemarat.com/careers",
+  "connector": "browser",
+  "notes": "No vacancy list; general application form https://takafulemarat.com/application-form/. Low value for scraping."
+ },
+ {
+  "name": "Abu Dhabi Investment Authority (ADIA)",
+  "country": "UAE",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://jobs.adia.ae/",
+  "connector": "browser",
+  "notes": "jobs.adia.ae/llms.txt fetched OK and gave category counts (9 roles: ADIA Lab, HR, Strategy & Planning...) but no titles; apply.workable.com/adia and jobs.md failed. Try jobs.adia.ae/llms.txt as a cheap change-detector. Hires expats."
+ },
+ {
+  "name": "Abu Dhabi Investment Council (ADIC)",
+  "country": "UAE",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://apply.workable.com/abu-dhabi-investment-council/",
+  "connector": "workable",
+  "notes": "Page title only (JS). Landing https://www.adic.ae/en/careers/ fetches OK. Separate early-career track for UAE nationals; general roles not stated as nationals-only. Now part of Mubadala/L'imad structures - check. Try jobs.workable llms.txt pattern like ADIA.",
+  "api_slug": "abu-dhabi-investment-council"
+ },
+ {
+  "name": "Mubadala Investment Company",
+  "country": "UAE",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://mic-cand.takafo.ai/jobs/external?mode=eos&company=MIC&types=Full%20Time%20Employee%20%28FTE%29%2CContract%20%28LTC%29",
+  "connector": "browser",
+  "notes": "JS-only. Landing https://www.mubadala.com/en/careers/professional fetches OK and links here. Group opportunities via https://takafo.ae/. Hires expats for senior roles."
+ },
+ {
+  "name": "ADGM (incl. FSRA)",
+  "country": "UAE",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://fa-eukk-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions",
+  "connector": "oracle",
+  "notes": "JS-only. Landing https://www.adgm.com/careers fetches OK. Also https://jobs.adgm.com/jobs (ADGM job portal: 4 companies/54 jobs, listings JS). FSRA is the ADGM regulator - same portal."
+ },
+ {
+  "name": "DMCC",
+  "country": "UAE",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://emag.fa.em8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001",
+  "connector": "oracle",
+  "notes": "JS-only. Landing https://www.dmcc.ae/careers fetches OK. Early careers CX_5001."
+ },
+ {
+  "name": "KPMG Lower Gulf",
+  "country": "UAE",
+  "sector": "consulting",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://elzw.fa.em8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/",
+  "connector": "oracle",
+  "notes": "JS-only. Landing https://kpmg.com/ae/en/home/careers.html fetches OK."
+ },
+ {
+  "name": "Emirates NBD Asset Management",
+  "country": "UAE",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+  "connector": "alias",
+  "notes": "ENBD group career site (likely covers AM; unconfirmed). JS-only. Probably duplicated in banks registry."
+ },
+ {
+  "name": "Lazard (Middle East)",
+  "country": "UAE",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers",
+  "connector": "oracle",
+  "notes": "JS-only. https://www.lazard.com/careers/jobs/ fetches but no listings. Dubai/Abu Dhabi presence small."
+ },
+ {
+  "name": "Sukoon Insurance (ex-Oman Insurance)",
+  "country": "UAE",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.sukoon.com/en/careers",
+  "connector": "browser",
+  "notes": "Landing fetches OK; iRecruitment job-search URL has session tokens and exceeds WebFetch max URL length. Needs browser."
+ },
+ {
+  "name": "Salama Islamic Arab Insurance",
+  "country": "UAE",
+  "sector": "insurance_takaful",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://myhrismax1.myadrenalin.com/CANDMICROSITE/#/?CompanyID=SALAMA&GroupId=defaultOU",
+  "connector": "browser",
+  "notes": "JS-only SPA. Landing https://www.salama.ae/careers fetches OK; email recruitment@salama.ae."
+ },
+ {
+  "name": "Checkout.com (Dubai)",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.checkout.com/jobs",
+  "connector": "ashby",
+  "notes": "checkout.com/jobs server-renders but defaulted to a region filter (0 results); Ashby board JS-only. Dubai is a major hub.",
+  "api_slug": "checkout.com"
+ },
+ {
+  "name": "Visa CEMEA",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://visa.wd5.myworkdayjobs.com/Visa?cities=Dubai",
+  "connector": "workday",
+  "notes": "corporate.visa.com/en/jobs/?cities=Dubai redirects to Workday; JS-only. CEMEA HQ in Dubai."
+ },
+ {
+  "name": "Mastercard MEA",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.mastercard.com/us/en/search-results?keywords=Dubai",
+  "connector": "browser",
+  "notes": "Template placeholders only (JS). MEA HQ Dubai."
+ },
+ {
+  "name": "BCG Middle East",
+  "country": "UAE",
+  "sector": "consulting",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.bcg.com/global/en/search-results?keywords=dubai",
+  "connector": "browser",
+  "notes": "JS-rendered results."
+ },
+ {
+  "name": "McKinsey & Company Middle East",
+  "country": "UAE",
+  "sector": "consulting",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.mckinsey.com/careers/search-jobs?locations=Dubai",
+  "connector": "browser",
+  "notes": "Metadata only; JS-rendered."
+ },
+ {
+  "name": "PwC Middle East",
+  "country": "UAE",
+  "sector": "consulting",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.pwc.com/m1/en/careers/experienced-jobs.html",
+  "connector": "browser",
+  "notes": "Table headers render, rows load via JS ('Loading Results')."
+ },
+ {
+  "name": "Roland Berger Middle East",
+  "country": "UAE",
+  "sector": "consulting",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.rolandberger.com/en/Join/All-Jobs/",
+  "connector": "browser",
+  "notes": "Listings load dynamically."
+ },
+ {
+  "name": "Morgan Stanley (Dubai)",
+  "country": "UAE",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.morganstanley.com/careers/career-opportunities-search",
+  "connector": "alias",
+  "notes": "Returned '0 Results' (JS-driven)."
+ },
+ {
+  "name": "Goldman Sachs (Dubai/Abu Dhabi)",
+  "country": "UAE",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://higher.gs.com/results?LOCATION=Dubai",
+  "connector": "browser",
+  "notes": "robots_disallowed for WebFetch."
+ },
+ {
+  "name": "BlackRock (Abu Dhabi/Dubai)",
+  "country": "UAE",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.blackrock.com/job-search-results/?location=Abu%20Dhabi",
+  "connector": "browser",
+  "notes": "client_error on fetch; URL pattern unverified."
+ },
+ {
+  "name": "Bain & Company Middle East",
+  "country": "UAE",
+  "sector": "consulting",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.bain.com/careers/find-a-role/",
+  "connector": "browser",
+  "notes": "robots_disallowed. Office filter param id for Dubai unknown (tried filters=offices(274), unverified)."
+ },
+ {
+  "name": "Oliver Wyman Middle East",
+  "country": "UAE",
+  "sector": "consulting",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.oliverwyman.com/search-jobs",
+  "connector": "browser",
+  "notes": "robots_disallowed."
+ },
+ {
+  "name": "Accenture UAE",
+  "country": "UAE",
+  "sector": "consulting",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.accenture.com/ae-en/careers/jobsearch",
+  "connector": "browser",
+  "notes": "robots_disallowed."
+ },
+ {
+  "name": "Brookfield (Dubai/Abu Dhabi)",
+  "country": "UAE",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.brookfield.com/",
+  "connector": "browser",
+  "notes": "robots_disallowed."
+ },
+ {
+  "name": "Careem (incl. Careem Pay)",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://jobs.careem.com",
+  "connector": "browser",
+  "notes": "Rendered 'No currently open roles' - likely JS-filtered. Careem Pay now e&-backed."
+ },
+ {
+  "name": "Tabby",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://tabby.ai/careers",
+  "connector": "browser",
+  "notes": "Founded 2019 (~7 yrs, large VC/IPO track). Page shows 'No open roles right now' - roles load by JS. Riyadh HQ now, large Dubai office."
+ },
+ {
+  "name": "PayTabs",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://ai.paytabs.com/en/career/",
+  "connector": "alias",
+  "notes": "Vacancies need JS; also posts on LinkedIn."
+ },
+ {
+  "name": "e& (incl. e& money)",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://careers.etisalat.ae/en/index.jsp",
+  "connector": "browser",
+  "notes": "Only categories render; 'View All Jobs' goes to external board not captured. e& money roles sit under group careers."
+ },
+ {
+  "name": "Shuaa Capital",
+  "country": "UAE",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.linkedin.com/company/shuaa-capital/jobs/",
+  "connector": "none",
+  "notes": "https://www.shuaa.com/careers fetches OK but points to LinkedIn + hr@shuaa.com. Not scrapeable."
+ },
+ {
+  "name": "Arqaam Capital",
+  "country": "UAE",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.arqaamcapital.com/careers",
+  "connector": "browser",
+  "notes": "Page fetches OK but no listings; vacancies on LinkedIn, CVs to hr@arqaamcapital.com."
+ },
+ {
+  "name": "Abu Dhabi Securities Exchange (ADX)",
+  "country": "UAE",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.adx.ae/en/about-adx/contact-us/job-opportunities-at-adx",
+  "connector": "browser",
+  "notes": "Directs to LinkedIn jobs page; heavy Emiratisation."
+ },
+ {
+  "name": "Investcorp (Abu Dhabi)",
+  "country": "UAE",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.investcorp.com/careers",
+  "connector": "browser",
+  "notes": "Page fetches but no ATS link; HQ Bahrain, Abu Dhabi office. Has Shariah-compliant products."
+ },
+ {
+  "name": "Lunate",
+  "country": "UAE",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://lunate.com/careers",
+  "connector": "browser",
+  "notes": "Founded 2023 but backed by ADQ/IHC-linked principals - FLAG young-but-backed. robots_disallowed."
+ },
+ {
+  "name": "Lulu Exchange / Lulu Financial Holdings",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://luluexchange.com/careers/",
+  "connector": "browser",
+  "notes": "Fetched page appears India-focused ('no openings'). UAE careers URL not confirmed."
+ },
+ {
+  "name": "Franklin Templeton (Dubai)",
+  "country": "UAE",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.franklintempleton.com/careers",
+  "connector": "browser",
+  "notes": "Empty JS shell."
+ },
+ {
+  "name": "Network International",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://beta.network.ae/en/careers",
+  "connector": "browser",
+  "notes": "Listing area empty ('Sort By' only) - JS. Now owned by Brookfield."
+ },
+ {
+  "name": "ADQ",
+  "country": "UAE",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted https://www.adq.ae/careers (client_error). Careers URL not found - search budget exhausted. Often prioritises UAE nationals."
+ },
+ {
+  "name": "Magnati",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Spun out of FAB 2021 (Brookfield-backed) - FLAG young-but-backed. Attempted magnati.com/careers (client_error). Mostly LinkedIn."
+ },
+ {
+  "name": "Telr",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted telr.com/careers/ (client_error)."
+ },
+ {
+  "name": "DIFC Authority",
+  "country": "UAE",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted difc.ae/careers and difc.com/careers (client_error, likely bot-blocked)."
+ },
+ {
+  "name": "Dubai Financial Services Authority (DFSA)",
+  "country": "UAE",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted dfsa.ae/careers and /about-us/careers (client_error). Regulator - hires expat specialists incl. Islamic finance supervision."
+ },
+ {
+  "name": "Dubai Financial Market (DFM)",
+  "country": "UAE",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted dfm.ae/careers (client_error). Strong Emiratisation."
+ },
+ {
+  "name": "Nasdaq Dubai",
+  "country": "UAE",
+  "sector": "market_infra",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted nasdaqdubai.com/careers (client_error). Sukuk listing hub; DFM subsidiary."
+ },
+ {
+  "name": "Abu Dhabi National Insurance Co (ADNIC)",
+  "country": "UAE",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted adnic.ae/en/careers and /about-us/careers (client_error)."
+ },
+ {
+  "name": "Orient Insurance",
+  "country": "UAE",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted orientinsurance.com/careers - empty response. Al-Futtaim group; may use Al-Futtaim careers portal (unverified)."
+ },
+ {
+  "name": "GIG Gulf (ex-AXA Gulf)",
+  "country": "UAE",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted gig.ae/en/careers (client_error)."
+ },
+ {
+  "name": "Allianz (UAE)",
+  "country": "UAE",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted careers.allianz.com/en/jobsearch.html (client_error)."
+ },
+ {
+  "name": "Zurich (Middle East, DIFC)",
+  "country": "UAE",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted zurich.com/careers/search-and-apply (client_error)."
+ },
+ {
+  "name": "MetLife Gulf",
+  "country": "UAE",
+  "sector": "insurance_takaful",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted metlife.ae/about-us/careers/ (server error)."
+ },
+ {
+  "name": "Abu Dhabi National Takaful (ADNTC)",
+  "country": "UAE",
+  "sector": "insurance_takaful",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "adntc.ae/en/careers robots_disallowed."
+ },
+ {
+  "name": "Kearney Middle East",
+  "country": "UAE",
+  "sector": "consulting",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted kearney.com/careers/job-search (client_error)."
+ },
+ {
+  "name": "PIMCO (Dubai)",
+  "country": "UAE",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted pimco.com/en-us/careers (client_error)."
+ },
+ {
+  "name": "American Express Middle East",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted aexp.eightfold.ai/careers?location=Dubai (client_error). Amex ME is a JV with Saudi Investment Bank."
+ },
+ {
+  "name": "Amlak Finance",
+  "country": "UAE",
+  "sector": "finance_company",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": "https://www.amlakfinance.com/careers",
+  "connector": "browser",
+  "notes": "Page fetches, no listings/ATS; emphasises UAE nationals. Post-restructuring, minimal hiring."
+ },
+ {
+  "name": "Investment Corporation of Dubai (ICD)",
+  "country": "UAE",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted icd.gov.ae/en/careers (client_error). Often nationals-preferred."
+ },
+ {
+  "name": "Dubai Holding (Investments)",
+  "country": "UAE",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted dubaiholding.com/en/careers (client_error)."
+ },
+ {
+  "name": "Emirates Investment Authority (EIA)",
+  "country": "UAE",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted eia.gov.ae/en/careers (server error). Federal SWF - largely restricted to UAE nationals."
+ },
+ {
+  "name": "International Holding Company (IHC)",
+  "country": "UAE",
+  "sector": "sovereign_investment",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://www.ihcuae.com/careers",
+  "connector": "browser",
+  "notes": "Page fetched (values only, no listings). Parent of Alpha Dhabi, Lunate links."
+ },
+ {
+  "name": "EFG Hermes / EFG Holding (UAE)",
+  "country": "UAE",
+  "sector": "investment_bank",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": "https://efgholding.com/careers",
+  "connector": "browser",
+  "notes": "efghermes.com/careers redirects here; WAF rejected request."
+ },
+ {
+  "name": "Astra Tech (Botim / PayBy)",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Astra Tech formed 2022 but backed by G42/large group - FLAG young-but-backed. Attempted astratech.ae/careers (client_error)."
+ },
+ {
+  "name": "Dubai Islamic Bank subsidiaries (Tamweel, DIB Islamic finance arms)",
+  "country": "UAE",
+  "sector": "finance_company",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Attempted dib.ae/about-us/careers (client_error). Tamweel fully absorbed into DIB - covered by banks registry."
+ },
+ {
+  "name": "Noon Payments",
+  "country": "UAE",
+  "sector": "fintech_payments",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Part of noon group (PIF/Emaar-backed). Careers URL not located (search budget exhausted)."
+ },
+ {
+  "name": "Alpha Capital",
+  "country": "UAE",
+  "sector": "asset_manager",
+  "islamic": false,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not located."
+ },
+ {
+  "name": "Dubai Islamic Insurance & Reinsurance (Aman)",
+  "country": "UAE",
+  "sector": "insurance_takaful",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Not located; small listed takaful operator."
+ },
+ {
+  "name": "Aseel Finance",
+  "country": "UAE",
+  "sector": "finance_company",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Islamic finance company (Abu Dhabi). Not located."
+ },
+ {
+  "name": "Mawarid Finance",
+  "country": "UAE",
+  "sector": "finance_company",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Islamic finance company (Dubai). Not located."
+ },
+ {
+  "name": "Dubai Islamic Economy Development Centre (DIEDC)",
+  "country": "UAE",
+  "sector": "other_finance",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Government body promoting Islamic economy; strong fit for Islamic-finance strategy profile. Not located."
+ },
+ {
+  "name": "Ethica Institute of Islamic Finance",
+  "country": "UAE",
+  "sector": "other_finance",
+  "islamic": true,
+  "established_ok": true,
+  "careers_url": null,
+  "connector": "none",
+  "notes": "Dubai-based Islamic finance training/certification body. Not located."
+ }
+]
