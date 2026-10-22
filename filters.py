@@ -38,7 +38,11 @@ JUNIOR_OK = re.compile(r"associate (director|partner|vice president)|senior asso
 SPECIALIST = re.compile(
     r"\b(engineer|engineering|developer|software|devops|architect|nurse|physician|doctor|clinical|medical|pharmac|"
     r"legal counsel|lawyer|attorney|actuar|underwrit|it audit|cyber|security operations|network|sre|data scientist|"
-    r"machine learning|chef|f&b|housekeeping|hse|qhse|construction manager|site manager|quantity surveyor|mep)\b",
+    r"machine learning|chef|f&b|housekeeping|hse|qhse|construction manager|site manager|quantity surveyor|mep|"
+    r"trader|trading|derivatives|audit|auditor|compliance|mlro|aml|financial crime|fraud|risk management|risk manager|"
+    r"credit risk|market risk|quality assurance|tax|payroll|reward|talent acquisition|recruit\w*|marketing|"
+    r"communications|public relations|kitchen|facilit\w*|procurement|supply chain|logistics|warehouse|"
+    r"teacher|education sector|insurance claims|claims|collections|branch manager|hr|human resources)\b",
     re.I,
 )
 
@@ -48,7 +52,9 @@ NATIONALS = re.compile(
     r"saudi[sz]ation|emirati[sz]ation|qatari[sz]ation|omani[sz]ation|kuwaiti[sz]ation|bahraini[sz]ation|"
     r"locals? preferred|national development program|family book|emirati candidates|"
     r"must be (a )?(saudi|emirati|uae|qatari|omani|kuwaiti|bahraini) national|"
-    r"\((saudi|uae|qatari|omani|kuwaiti|bahraini|emirati)s?( nationals?)?( only)?\))",
+    r"\((saudi|uae|qatari|omani|kuwaiti|bahraini|emirati)s? nationals?( only)?\)|\buaen\b|"
+    r"emiratized|emiratised|saudized|saudised|qatarized|omanized|kuwaitized|bahrainized|"
+    r"(uae|saudi|qatari|omani|kuwaiti|bahraini) national (role|candidates?|position))",
     re.I,
 )
 
@@ -60,9 +66,15 @@ ARABIC_MANDATORY = re.compile(
 )
 
 
+NON_GCC = re.compile(r"\b(london|sydney|hong kong|hk\$?|tokyo|singapore|new york|paris|frankfurt|zurich|geneva|"
+                     r"mumbai|karachi|lahore|cairo|amman|istanbul|toronto|madrid|milan|£|us\$|hk\$)", re.I)
+
+
 def title_score(title: str) -> int:
     """0 = drop. Higher = more relevant. Cheap pre-filter before Claude reviews."""
     t = title or ""
+    if NON_GCC.search(t) and not GCC.search(t):
+        return 0
     if SPECIALIST.search(t):
         return 0
     if JUNIOR.search(t) and not JUNIOR_OK.search(t):
@@ -71,7 +83,7 @@ def title_score(title: str) -> int:
     if f and s:
         score = 3
     elif s and re.search(r"\b(chief|head|director|general manager)\b", t, re.I):
-        score = 2  # senior general titles (e.g. "Head of Retail", "Director")
+        score = 1  # senior general titles (e.g. "Head of Retail", "Director")
     elif f and re.search(r"\bmanager\b", t, re.I):
         score = 1  # Manager-titled, may be senior in substance
     else:

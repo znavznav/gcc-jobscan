@@ -118,16 +118,18 @@ def main():
 
     with sync_playwright() as p:
         br = p.chromium.launch(headless=True, args=["--no-sandbox"])
-        ctx = br.new_context(user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        ctx = br.new_context(ignore_https_errors=True, user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                                          "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"), locale="en-US")
-        page = ctx.new_page()
         for e in browser_emps + board_srcs:
             t0 = time.time()
+            page = ctx.new_page()  # fresh tab per source so one site's redirects can't break the next
             try:
                 jobs = browser(e, page)
                 err = None
             except Exception as ex:
                 jobs, err = [], f"{type(ex).__name__}: {str(ex)[:200]}"
+            finally:
+                page.close()
             health.append({"source": e["name"], "connector": "board" if e["sector"] == "job_board" else "browser",
                            "url": e["careers_url"], "count": len(jobs), "error": err,
                            "secs": round(time.time() - t0, 1)})
@@ -157,6 +159,7 @@ def main():
             j.update(key=k, score=sc, posted_iso=iso, posted_raw=rawd, first_seen=TODAY)
             new.append(j)
 
+        page = ctx.new_page()
         # 4) Read full postings for the best candidates and apply the hard exclusions
         new.sort(key=lambda j: (j["score"], j.get("posted_iso") or ""), reverse=True)
         for j in new[:MAX_DETAILS]:

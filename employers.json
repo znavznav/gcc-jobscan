@@ -156,7 +156,7 @@
   "islamic": false,
   "established_ok": true,
   "careers_url": "https://portal.careers.hsbc.com/careers?domain=hsbc.com&location=Bahrain",
-  "connector": "eightfold",
+  "connector": "alias",
   "notes": "Page shell loads but listings JS-rendered. Linked from hsbc.com/careers/find-a-job. HSBC Amanah Islamic window."
  },
  {
@@ -397,7 +397,7 @@
   "islamic": false,
   "established_ok": true,
   "careers_url": "https://portal.careers.hsbc.com/careers?domain=hsbc.com&location=Oman",
-  "connector": "eightfold",
+  "connector": "alias",
   "notes": "HSBC Oman merged into Sohar International 2023; HSBC retains small branch. Postings seen as 'Oman National Role'."
  },
  {
@@ -707,7 +707,7 @@
   "islamic": false,
   "established_ok": true,
   "careers_url": "https://portal.careers.hsbc.com/careers?location=Saudi%20Arabia&domain=hsbc.com&sort_by=timestamp",
-  "connector": "eightfold",
+  "connector": "alias",
   "notes": "Portal URL comes from hsbc.com/careers; I added location=Saudi Arabia and sort_by=timestamp to the base URL. Listings are JS-loaded. Eightfold has a JSON endpoint (/api/apply/v2/jobs?domain=hsbc.com&location=...&sort_by=timestamp) worth trying from a non-proxied runner. about.hsbc.com.sa/careers is robots-disallowed."
  },
  {
@@ -1963,7 +1963,7 @@
   "notes": "FLAG: new bank (<5 yrs). Could not locate official site/careers page (search budget exhausted)."
  },
  {
-  "name": "HSBC Bank Middle East",
+  "name": "HSBC (GCC)",
   "country": "UAE",
   "sector": "foreign_bank_branch",
   "islamic": false,

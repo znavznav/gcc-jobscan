@@ -181,7 +181,19 @@ DATE_TXT = re.compile(r"(\d{1,2}[ -/][A-Za-z]{3,9}[ -/]\d{2,4}|\d{4}[-/]\d{1,2}[
 
 def browser(emp, page):
     url = emp["careers_url"]
-    page.goto(url, wait_until="domcontentloaded", timeout=45000)
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=45000)
+    except Exception as e:
+        # redirects ("navigation interrupted") and slow sites: retry once, accept whatever loaded
+        if "interrupted" in str(e) or "Timeout" in str(e):
+            page.wait_for_timeout(3000)
+            try:
+                page.goto(page.url if page.url.startswith("http") else url, wait_until="commit", timeout=45000)
+            except Exception:
+                pass
+            page.wait_for_timeout(5000)
+        else:
+            raise
     try:
         page.wait_for_load_state("networkidle", timeout=15000)
     except Exception:
@@ -211,7 +223,9 @@ def browser(emp, page):
             continue
         seen.add(href)
         d = DATE_TXT.search(l["ctx"])
-        out.append({"title": t.split(" | ")[0][:140], "location": l["ctx"][:200], "url": href,
+        t = re.split(r" \| |📣|\bJob Ad\b", t)[0].strip()
+        ctx = l["ctx"] if len(l["ctx"]) < 350 else t  # a huge ctx means the whole list, not this job's card
+        out.append({"title": t[:140], "location": ctx[:200], "url": href,
                     "posted": d.group(0) if d else None})
     return out
 
