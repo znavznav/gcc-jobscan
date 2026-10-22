@@ -1,0 +1,1812 @@
+{
+ "run_date": "2026-10-22",
+ "sources": [
+  {
+   "source": "HSBC Bahrain",
+   "connector": "eightfold",
+   "count": 13,
+   "error": null,
+   "secs": 1.8
+  },
+  {
+   "source": "Mumtalakat Holding Company",
+   "connector": "smartrecruiters",
+   "count": 0,
+   "error": null,
+   "secs": 0.4
+  },
+  {
+   "source": "HSBC Oman",
+   "connector": "eightfold",
+   "count": 13,
+   "error": null,
+   "secs": 1.8
+  },
+  {
+   "source": "Saudi Awwal Bank (SAB, formerly SABB)",
+   "connector": "successfactors",
+   "count": 0,
+   "error": null,
+   "secs": 1.0
+  },
+  {
+   "source": "Banque Saudi Fransi (BSF)",
+   "connector": "oracle",
+   "count": 1,
+   "error": null,
+   "secs": 0.7
+  },
+  {
+   "source": "HSBC Saudi Arabia",
+   "connector": "eightfold",
+   "count": 13,
+   "error": null,
+   "secs": 2.0
+  },
+  {
+   "source": "J.P. Morgan (Riyadh)",
+   "connector": "oracle",
+   "count": 200,
+   "error": null,
+   "secs": 2.2
+  },
+  {
+   "source": "Standard Chartered (Riyadh)",
+   "connector": "successfactors",
+   "count": 0,
+   "error": null,
+   "secs": 0.8
+  },
+  {
+   "source": "First Abu Dhabi Bank (FAB) - KSA",
+   "connector": "oracle",
+   "count": 121,
+   "error": null,
+   "secs": 1.5
+  },
+  {
+   "source": "Lean Technologies",
+   "connector": "ashby",
+   "count": 9,
+   "error": null,
+   "secs": 0.1
+  },
+  {
+   "source": "Moyasar",
+   "connector": "workable",
+   "count": 13,
+   "error": null,
+   "secs": 0.1
+  },
+  {
+   "source": "Ahli Bank Qatar",
+   "connector": "oracle",
+   "count": 0,
+   "error": null,
+   "secs": 0.7
+  },
+  {
+   "source": "Kuwait Finance House (KFH)",
+   "connector": "oracle",
+   "count": 0,
+   "error": null,
+   "secs": 0.6
+  },
+  {
+   "source": "Gulf Bank",
+   "connector": "oracle",
+   "count": 7,
+   "error": null,
+   "secs": 0.6
+  },
+  {
+   "source": "Emirates NBD",
+   "connector": "oracle",
+   "count": 33,
+   "error": null,
+   "secs": 0.8
+  },
+  {
+   "source": "Emirates Islamic",
+   "connector": "oracle",
+   "count": 17,
+   "error": null,
+   "secs": 0.8
+  },
+  {
+   "source": "Abu Dhabi Commercial Bank (ADCB)",
+   "connector": "successfactors",
+   "count": 36,
+   "error": null,
+   "secs": 2.0
+  },
+  {
+   "source": "Abu Dhabi Islamic Bank (ADIB)",
+   "connector": "oracle",
+   "count": 96,
+   "error": null,
+   "secs": 1.4
+  },
+  {
+   "source": "Sharjah Islamic Bank (SIB)",
+   "connector": "oracle",
+   "count": 7,
+   "error": null,
+   "secs": 0.9
+  },
+  {
+   "source": "HSBC Bank Middle East",
+   "connector": "eightfold",
+   "count": 13,
+   "error": null,
+   "secs": 2.1
+  },
+  {
+   "source": "JPMorgan Chase",
+   "connector": "oracle",
+   "count": 200,
+   "error": null,
+   "secs": 2.6
+  },
+  {
+   "source": "Deutsche Bank",
+   "connector": "workday",
+   "count": 152,
+   "error": null,
+   "secs": 14.6
+  },
+  {
+   "source": "MUFG Bank",
+   "connector": "workday",
+   "count": 141,
+   "error": null,
+   "secs": 16.4
+  },
+  {
+   "source": "Julius Baer",
+   "connector": "workday",
+   "count": 90,
+   "error": null,
+   "secs": 16.7
+  },
+  {
+   "source": "Lombard Odier",
+   "connector": "workday",
+   "count": 56,
+   "error": null,
+   "secs": 11.2
+  },
+  {
+   "source": "EY Middle East (incl. EY-Parthenon)",
+   "connector": "successfactors",
+   "count": 18,
+   "error": null,
+   "secs": 1.3
+  },
+  {
+   "source": "Abu Dhabi Investment Council (ADIC)",
+   "connector": "workable",
+   "count": 2,
+   "error": null,
+   "secs": 0.1
+  },
+  {
+   "source": "ADGM (incl. FSRA)",
+   "connector": "oracle",
+   "count": 22,
+   "error": null,
+   "secs": 0.8
+  },
+  {
+   "source": "DMCC",
+   "connector": "oracle",
+   "count": 0,
+   "error": null,
+   "secs": 1.6
+  },
+  {
+   "source": "KPMG Lower Gulf",
+   "connector": "oracle",
+   "count": 77,
+   "error": null,
+   "secs": 1.5
+  },
+  {
+   "source": "Lazard (Middle East)",
+   "connector": "oracle",
+   "count": 126,
+   "error": null,
+   "secs": 1.5
+  },
+  {
+   "source": "Checkout.com (Dubai)",
+   "connector": "ashby",
+   "count": 175,
+   "error": null,
+   "secs": 0.1
+  },
+  {
+   "source": "Visa CEMEA",
+   "connector": "workday",
+   "count": 92,
+   "error": null,
+   "secs": 13.9
+  },
+  {
+   "source": "BBK (Bank of Bahrain and Kuwait)",
+   "connector": "browser",
+   "url": "https://www.bbkonline.com/careers",
+   "count": 1,
+   "error": null,
+   "secs": 8.9
+  },
+  {
+   "source": "KFH Bahrain (formerly Ahli United Bank Bahrain)",
+   "connector": "browser",
+   "url": "https://www.bh.kfh.com/about/careers/",
+   "count": 3,
+   "error": null,
+   "secs": 21.4
+  },
+  {
+   "source": "Bahrain Islamic Bank (BisB)",
+   "connector": "browser",
+   "url": "https://www.bisb.com/en/careers",
+   "count": 1,
+   "error": null,
+   "secs": 9.0
+  },
+  {
+   "source": "Al Salam Bank",
+   "connector": "browser",
+   "url": "https://www.alsalambank.com/en/careers/",
+   "count": 4,
+   "error": null,
+   "secs": 21.1
+  },
+  {
+   "source": "Khaleeji Bank",
+   "connector": "browser",
+   "url": "https://khaleeji.bank/pages-sidebar-nav/careers/",
+   "count": 1,
+   "error": null,
+   "secs": 3.4
+  },
+  {
+   "source": "Ithmaar Bank",
+   "connector": "browser",
+   "url": "https://ithmaarbank.com/careers",
+   "count": 1,
+   "error": null,
+   "secs": 12.9
+  },
+  {
+   "source": "Bank ABC (Arab Banking Corporation)",
+   "connector": "browser",
+   "url": "https://bankabc.applytojob.com/",
+   "count": 13,
+   "error": null,
+   "secs": 3.3
+  },
+  {
+   "source": "GIB (Gulf International Bank)",
+   "connector": "browser",
+   "url": "https://careers.gib.com/en/job-search-results/",
+   "count": 9,
+   "error": null,
+   "secs": 4.8
+  },
+  {
+   "source": "Investcorp",
+   "connector": "browser",
+   "url": "https://www.investcorp.com/careers/",
+   "count": 1,
+   "error": null,
+   "secs": 5.9
+  },
+  {
+   "source": "GFH Financial Group",
+   "connector": "browser",
+   "url": "https://gfh.com/?p=79326",
+   "count": 1,
+   "error": null,
+   "secs": 6.2
+  },
+  {
+   "source": "Citi Bahrain",
+   "connector": "browser",
+   "url": "https://jobs.citi.com/location/bahrain-jobs/287/290291/2",
+   "count": 24,
+   "error": null,
+   "secs": 6.2
+  },
+  {
+   "source": "SICO (Securities & Investment Company)",
+   "connector": "browser",
+   "url": "https://sicobank.com/open-positions",
+   "count": 3,
+   "error": null,
+   "secs": 4.8
+  },
+  {
+   "source": "Esterad Bank (formerly Venture Capital Bank)",
+   "connector": "browser",
+   "url": "https://www.esterad-bank.com/careers",
+   "count": 0,
+   "error": null,
+   "secs": 4.4
+  },
+  {
+   "source": "Bahrain Development Bank (BDB)",
+   "connector": "browser",
+   "url": "https://www.bdb-bh.com/careers",
+   "count": 3,
+   "error": null,
+   "secs": 4.4
+  },
+  {
+   "source": "Bahrain Bourse",
+   "connector": "browser",
+   "url": "https://bahrainbourse.com/en/careers",
+   "count": 3,
+   "error": null,
+   "secs": 8.2
+  },
+  {
+   "source": "Bahrain FinTech Bay",
+   "connector": "browser",
+   "url": "https://www.bahrainfintechbay.com/careers",
+   "count": 3,
+   "error": null,
+   "secs": 5.7
+  },
+  {
+   "source": "Bahrain Economic Development Board (EDB)",
+   "connector": "browser",
+   "url": "https://www.bahrainedb.com/about-us/career-opportunities",
+   "count": 0,
+   "error": null,
+   "secs": 5.7
+  },
+  {
+   "source": "National Bank of Oman (NBO)",
+   "connector": "browser",
+   "url": "https://www.nbo.om/en/Pages/Careers/Career-Listing.aspx",
+   "count": 2,
+   "error": null,
+   "secs": 16.9
+  },
+  {
+   "source": "Sohar International",
+   "connector": "browser",
+   "url": "https://webserver.soharinternational.com/careers/vacancies",
+   "count": 1,
+   "error": null,
+   "secs": 7.9
+  },
+  {
+   "source": "Oman Arab Bank (OAB)",
+   "connector": "browser",
+   "url": "https://www.oman-arabbank.com/careers/",
+   "count": 2,
+   "error": null,
+   "secs": 10.4
+  },
+  {
+   "source": "Ahli Bank Oman",
+   "connector": "browser",
+   "url": "https://ahlibank.catsone.com/careers/",
+   "count": 0,
+   "error": null,
+   "secs": 3.1
+  },
+  {
+   "source": "Oman Housing Bank",
+   "connector": "browser",
+   "url": "https://ohb.co.om/en/join-us/",
+   "count": 0,
+   "error": null,
+   "secs": 5.0
+  },
+  {
+   "source": "Oman Investment Authority (OIA)",
+   "connector": "browser",
+   "url": "https://www.oia.gov.om/careers",
+   "count": 1,
+   "error": null,
+   "secs": 9.8
+  },
+  {
+   "source": "Al Madina Takaful",
+   "connector": "browser",
+   "url": "https://almadinatakaful.com/career/job-openings",
+   "count": 3,
+   "error": null,
+   "secs": 7.0
+  },
+  {
+   "source": "Al Rajhi Bank",
+   "connector": "browser",
+   "url": "https://careers.alrajhibank.com.sa/",
+   "count": 17,
+   "error": null,
+   "secs": 5.1
+  },
+  {
+   "source": "Saudi National Bank (SNB)",
+   "connector": "browser",
+   "url": "https://www.alahli.com/en/pages/about-us/careers",
+   "count": 17,
+   "error": null,
+   "secs": 12.0
+  },
+  {
+   "source": "Riyad Bank",
+   "connector": "browser",
+   "url": "https://careers.riyadbank.com/",
+   "count": 19,
+   "error": null,
+   "secs": 4.4
+  },
+  {
+   "source": "Arab National Bank (ANB)",
+   "connector": "browser",
+   "url": "https://anb.hyrdd.com/",
+   "count": 0,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://anb.hyrdd.com/\", waiting until \"domcontentloaded\"\n",
+   "secs": 45.0
+  },
+  {
+   "source": "Alinma Bank",
+   "connector": "browser",
+   "url": "https://career.alinma.com/",
+   "count": 2,
+   "error": null,
+   "secs": 7.1
+  },
+  {
+   "source": "Bank Albilad",
+   "connector": "browser",
+   "url": "https://www.gulftalent.com/companies/bank-albilad-careers",
+   "count": 0,
+   "error": null,
+   "secs": 4.9
+  },
+  {
+   "source": "Bank AlJazira",
+   "connector": "browser",
+   "url": "https://career.aljazirabank.com.sa/",
+   "count": 5,
+   "error": null,
+   "secs": 7.7
+  },
+  {
+   "source": "The Saudi Investment Bank (SAIB)",
+   "connector": "browser",
+   "url": "https://careers.saib.com.sa/",
+   "count": 14,
+   "error": null,
+   "secs": 4.5
+  },
+  {
+   "source": "STC Bank (formerly STC Pay)",
+   "connector": "browser",
+   "url": "https://stcbank.com.sa/job-application",
+   "count": 3,
+   "error": null,
+   "secs": 8.2
+  },
+  {
+   "source": "D360 Bank",
+   "connector": "browser",
+   "url": "https://www.naukrigulf.com/d360-bank-jobs-cid-224441",
+   "count": 0,
+   "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.naukrigulf.com/d360-bank-jobs-cid-224441\nCall log:\nnavigating to \"https://www.naukrigulf.com/d360-bank-jobs-cid-224441\", waiting until \"domconte",
+   "secs": 0.2
+  },
+  {
+   "source": "Citi (Riyadh regional HQ)",
+   "connector": "browser",
+   "url": "https://jobs.citi.com/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://jobs.citi.com/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\nnavigating to \"https://jobs.citi.com/\", waiting until \"domcontentloa",
+   "secs": 0.0
+  },
+  {
+   "source": "Deutsche Bank (Riyadh)",
+   "connector": "browser",
+   "url": "https://careers.db.com/professionals/search-roles",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.db.com/professionals/search-roles\" is interrupted by another navigation to \"https://jobs.citi.com/\"\nCall log:\nnavigating to \"https://careers.db.com/profession",
+   "secs": 0.4
+  },
+  {
+   "source": "BNP Paribas (Riyadh)",
+   "connector": "browser",
+   "url": "https://group.bnpparibas/en/careers/all-job-offers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://group.bnpparibas/en/careers/all-job-offers\" is interrupted by another navigation to \"https://careers.db.com/professionals/search-roles/\"\nCall log:\nnavigating to \"http",
+   "secs": 0.1
+  },
+  {
+   "source": "Emirates NBD KSA",
+   "connector": "browser",
+   "url": "https://emiratesnbd.talentera.com/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://emiratesnbd.talentera.com/\" is interrupted by another navigation to \"https://group.bnpparibas/en/careers/all-job-offers\"\nCall log:\nnavigating to \"https://emiratesnbd.",
+   "secs": 0.4
+  },
+  {
+   "source": "Morgan Stanley Saudi Arabia",
+   "connector": "browser",
+   "url": "https://www.morganstanley.com/careers/career-opportunities-search",
+   "count": 0,
+   "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.morganstanley.com/careers/career-opportunities-search\nCall log:\nnavigating to \"https://www.morganstanley.com/careers/career-opportunities-search",
+   "secs": 0.1
+  },
+  {
+   "source": "Riyad Capital",
+   "connector": "browser",
+   "url": "https://www.riyadcapital.com/web/riyad-capital/work-with-us",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.riyadcapital.com/web/riyad-capital/work-with-us\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\nnavigating to \"https://www.riya",
+   "secs": 1.8
+  },
+  {
+   "source": "Jadwa Investment",
+   "connector": "browser",
+   "url": "https://www.jadwa.com/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.jadwa.com/en/careers\" is interrupted by another navigation to \"https://www.riyadcapital.com/web/riyad-capital/information/work-with-us\"\nCall log:\nnavigating to \"h",
+   "secs": 1.2
+  },
+  {
+   "source": "Alinma Investment (Alinma Capital)",
+   "connector": "browser",
+   "url": "https://career.alinmacapital.com",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://career.alinmacapital.com/\" is interrupted by another navigation to \"https://www.jadwa.com/en/careers\"\nCall log:\nnavigating to \"https://career.alinmacapital.com/\", wai",
+   "secs": 0.8
+  },
+  {
+   "source": "GIB Capital",
+   "connector": "browser",
+   "url": "https://www.gibcapital.com/careers/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.gibcapital.com/careers/\" is interrupted by another navigation to \"https://career.alinmacapital.com/\"\nCall log:\nnavigating to \"https://www.gibcapital.com/careers/\"",
+   "secs": 0.1
+  },
+  {
+   "source": "Hassana Investment Company",
+   "connector": "browser",
+   "url": "https://www.hassana.com.sa/en/careers/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.hassana.com.sa/en/careers/\" is interrupted by another navigation to \"https://www.gibcapital.com/careers/\"\nCall log:\nnavigating to \"https://www.hassana.com.sa/en/c",
+   "secs": 1.0
+  },
+  {
+   "source": "Tamweel Aloula",
+   "connector": "browser",
+   "url": "https://tamweel-aloula.sa/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://tamweel-aloula.sa/careers\" is interrupted by another navigation to \"https://www.hassana.com.sa/en/careers/\"\nCall log:\nnavigating to \"https://tamweel-aloula.sa/careers",
+   "secs": 1.1
+  },
+  {
+   "source": "Geidea",
+   "connector": "browser",
+   "url": "https://geidea.net/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://geidea.net/careers\" is interrupted by another navigation to \"https://tamweel-aloula.sa/careers\"\nCall log:\nnavigating to \"https://geidea.net/careers\", waiting until \"d",
+   "secs": 0.6
+  },
+  {
+   "source": "PayTabs",
+   "connector": "browser",
+   "url": "https://ai.paytabs.com/en/career/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://ai.paytabs.com/en/career/\" is interrupted by another navigation to \"https://geidea.net/careers\"\nCall log:\nnavigating to \"https://ai.paytabs.com/en/career/\", waiting u",
+   "secs": 0.7
+  },
+  {
+   "source": "Tamara",
+   "connector": "browser",
+   "url": "https://tamara.co/en-sa/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://tamara.co/en-sa/careers\" is interrupted by another navigation to \"https://ai.paytabs.com/en/career/\"\nCall log:\nnavigating to \"https://tamara.co/en-sa/careers\", waitin",
+   "secs": 0.1
+  },
+  {
+   "source": "Tabby (KSA)",
+   "connector": "browser",
+   "url": "https://tabby.ai/en-SA/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://tabby.ai/en-SA/careers\" is interrupted by another navigation to \"https://tamara.co/en-sa/careers\"\nCall log:\nnavigating to \"https://tabby.ai/en-SA/careers\", waiting un",
+   "secs": 0.4
+  },
+  {
+   "source": "Tawuniya",
+   "connector": "browser",
+   "url": "https://www.tawuniya.com/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.tawuniya.com/en/careers\" is interrupted by another navigation to \"https://tabby.ai/en-AE/careers\"\nCall log:\nnavigating to \"https://www.tawuniya.com/en/careers\", w",
+   "secs": 0.6
+  },
+  {
+   "source": "Bupa Arabia",
+   "connector": "browser",
+   "url": "https://www.bupa.com.sa/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.bupa.com.sa/en/careers\" is interrupted by another navigation to \"https://www.tawuniya.com/en/careers\"\nCall log:\nnavigating to \"https://www.bupa.com.sa/en/careers\"",
+   "secs": 1.0
+  },
+  {
+   "source": "Al Rajhi Takaful",
+   "connector": "browser",
+   "url": "https://careers.alrajhitakaful.com/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.alrajhitakaful.com/\" is interrupted by another navigation to \"https://www.bupa.com.sa/en/careers\"\nCall log:\nnavigating to \"https://careers.alrajhitakaful.com/",
+   "secs": 0.6
+  },
+  {
+   "source": "Saudi Central Bank (SAMA)",
+   "connector": "browser",
+   "url": "https://careers.sama.gov.sa/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.sama.gov.sa/\" is interrupted by another navigation to \"https://careers.alrajhitakaful.com/\"\nCall log:\nnavigating to \"https://careers.sama.gov.sa/\", waiting un",
+   "secs": 0.9
+  },
+  {
+   "source": "QNB (Qatar National Bank)",
+   "connector": "browser",
+   "url": "https://qnb.sniperhire.net/?language=en",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://qnb.sniperhire.net/?language=en\" is interrupted by another navigation to \"https://careers.sama.gov.sa/\"\nCall log:\nnavigating to \"https://qnb.sniperhire.net/?language=",
+   "secs": 0.2
+  },
+  {
+   "source": "Qatar Islamic Bank (QIB)",
+   "connector": "browser",
+   "url": "https://www.qib.com.qa/en/about-us/careers/opportunities",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.qib.com.qa/en/about-us/careers/opportunities\" is interrupted by another navigation to \"https://qnb.sniperhire.net/?language=en\"\nCall log:\nnavigating to \"https://w",
+   "secs": 1.3
+  },
+  {
+   "source": "Commercial Bank of Qatar (CBQ)",
+   "connector": "browser",
+   "url": "https://career2.successfactors.eu/career?company=thecommerc&career%5fns=job%5flisting%5fsummary&navBarLevel=JOB%5fSEARCH",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://career2.successfactors.eu/career?company=thecommerc&career%5fns=job%5flisting%5fsummary&navBarLevel=JOB%5fSEARCH\" is interrupted by another navigation to \"https://www",
+   "secs": 0.5
+  },
+  {
+   "source": "Doha Bank",
+   "connector": "browser",
+   "url": "https://qatar.dohabank.com/careers/",
+   "count": 0,
+   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://qatar.dohabank.com/careers/\nCall log:\nnavigating to \"https://qatar.dohabank.com/careers/\", waiting until \"domcontentloaded\"\n",
+   "secs": 0.1
+  },
+  {
+   "source": "Dukhan Bank",
+   "connector": "browser",
+   "url": "https://dukhanbank.com/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://dukhanbank.com/careers\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\nnavigating to \"https://dukhanbank.com/careers\", waiting unti",
+   "secs": 0.2
+  },
+  {
+   "source": "QIIB (Qatar International Islamic Bank)",
+   "connector": "browser",
+   "url": "https://www.qiib.com.qa/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.qiib.com.qa/en/careers\" is interrupted by another navigation to \"https://dukhanbank.com/careers\"\nCall log:\nnavigating to \"https://www.qiib.com.qa/en/careers\", wai",
+   "secs": 0.8
+  },
+  {
+   "source": "Masraf Al Rayan (Al Rayan Bank)",
+   "connector": "browser",
+   "url": "https://www.alrayan.com/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.alrayan.com/en/careers\" is interrupted by another navigation to \"https://www.qiib.com.qa/en/careers\"\nCall log:\nnavigating to \"https://www.alrayan.com/en/careers\",",
+   "secs": 0.3
+  },
+  {
+   "source": "Lesha Bank",
+   "connector": "browser",
+   "url": "https://www.leshabank.com/jobs/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.leshabank.com/jobs/\" is interrupted by another navigation to \"https://www.alrayan.com/en/careers\"\nCall log:\nnavigating to \"https://www.leshabank.com/jobs/\", waiti",
+   "secs": 0.7
+  },
+  {
+   "source": "Qatar Development Bank (QDB)",
+   "connector": "browser",
+   "url": "https://www.qdb.qa/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.qdb.qa/en/careers\" is interrupted by another navigation to \"https://www.leshabank.com/jobs/\"\nCall log:\nnavigating to \"https://www.qdb.qa/en/careers\", waiting unti",
+   "secs": 0.9
+  },
+  {
+   "source": "Qatar Investment Authority (QIA)",
+   "connector": "browser",
+   "url": "https://qia.qa/en/Careers/Pages/default.aspx",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://qia.qa/en/Careers/Pages/default.aspx\" is interrupted by another navigation to \"https://www.qdb.qa/en/about/careers\"\nCall log:\nnavigating to \"https://qia.qa/en/Careers",
+   "secs": 0.6
+  },
+  {
+   "source": "Qatar Financial Centre Authority (QFC)",
+   "connector": "browser",
+   "url": "https://www.qfc.qa/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.qfc.qa/en/careers\" is interrupted by another navigation to \"https://qia.qa/en/Careers/Pages/default.aspx\"\nCall log:\nnavigating to \"https://www.qfc.qa/en/careers\",",
+   "secs": 0.9
+  },
+  {
+   "source": "Qatar Insurance Company (QIC Group)",
+   "connector": "browser",
+   "url": "https://qic-group.com/jobs/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://qic-group.com/jobs/\" is interrupted by another navigation to \"https://www.qfc.qa/en/careers\"\nCall log:\nnavigating to \"https://qic-group.com/jobs/\", waiting until \"dom",
+   "secs": 1.2
+  },
+  {
+   "source": "GIG Gulf (Qatar)",
+   "connector": "browser",
+   "url": "https://www.giggulf.qa/en/about-us/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.giggulf.qa/en/about-us/careers\" is interrupted by another navigation to \"https://qic-group.com/jobs/\"\nCall log:\nnavigating to \"https://www.giggulf.qa/en/about-us/",
+   "secs": 0.9
+  },
+  {
+   "source": "National Bank of Kuwait (NBK)",
+   "connector": "browser",
+   "url": "https://careers.nbk.com/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.nbk.com/\" is interrupted by another navigation to \"https://www.giggulf.qa/en/about-us/careers\"\nCall log:\nnavigating to \"https://careers.nbk.com/\", waiting unt",
+   "secs": 2.9
+  },
+  {
+   "source": "Boubyan Bank",
+   "connector": "browser",
+   "url": "https://boubyan.bankboubyan.com/en/explore-boubyan/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://boubyan.bankboubyan.com/en/explore-boubyan/careers\" is interrupted by another navigation to \"https://careers.nbk.com/OA_HTML/RF.jsp?function_id=14296&resp_id=23350&re",
+   "secs": 1.2
+  },
+  {
+   "source": "Burgan Bank",
+   "connector": "browser",
+   "url": "https://burgan.com/en/careers/careers-page/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://burgan.com/en/careers/careers-page/\" is interrupted by another navigation to \"https://www.bankboubyan.com/en/explore-boubyan/careers\"\nCall log:\nnavigating to \"https:/",
+   "secs": 2.1
+  },
+  {
+   "source": "Commercial Bank of Kuwait (CBK)",
+   "connector": "browser",
+   "url": "https://careers.cbk.com/",
+   "count": 0,
+   "error": "Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://careers.cbk.com/\nCall log:\nnavigating to \"https://careers.cbk.com/\", waiting until \"domcontentloaded\"\n",
+   "secs": 0.3
+  },
+  {
+   "source": "Al Ahli Bank of Kuwait (ABK)",
+   "connector": "browser",
+   "url": "https://careers.eahli.com/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.eahli.com/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\nnavigating to \"https://careers.eahli.com/\", waiting until \"domco",
+   "secs": 0.9
+  },
+  {
+   "source": "Warba Bank",
+   "connector": "browser",
+   "url": "https://hunt.kayanhr.com/CareerSite/Index/SWU1M09FWUtYOVhRZVgs",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://hunt.kayanhr.com/CareerSite/Index/SWU1M09FWUtYOVhRZVgs\" is interrupted by another navigation to \"https://careers.eahli.com/\"\nCall log:\nnavigating to \"https://hunt.kay",
+   "secs": 0.9
+  },
+  {
+   "source": "Kuwait International Bank (KIB)",
+   "connector": "browser",
+   "url": "https://www.kib.com.kw/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.kib.com.kw/en/careers\" is interrupted by another navigation to \"https://hunt.kayanhr.com/CareerSite/Index/SWU1M09FWUtYOVhRZVgs\"\nCall log:\nnavigating to \"https://w",
+   "secs": 1.3
+  },
+  {
+   "source": "KIPCO",
+   "connector": "browser",
+   "url": "https://www.kipco.com/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.kipco.com/careers\" is interrupted by another navigation to \"https://www.kib.com.kw/en/careers\"\nCall log:\nnavigating to \"https://www.kipco.com/careers\", waiting un",
+   "secs": 1.5
+  },
+  {
+   "source": "Kuwait Financial Centre (Markaz)",
+   "connector": "browser",
+   "url": "https://www.markaz.com/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.markaz.com/en/careers\" is interrupted by another navigation to \"https://kipco.com/careers\"\nCall log:\nnavigating to \"https://www.markaz.com/en/careers\", waiting un",
+   "secs": 0.1
+  },
+  {
+   "source": "KAMCO Invest",
+   "connector": "browser",
+   "url": "https://www.kamcoinvest.com/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.kamcoinvest.com/en/careers\" is interrupted by another navigation to \"https://www.markaz.com/en/careers\"\nCall log:\nnavigating to \"https://www.kamcoinvest.com/en/ca",
+   "secs": 0.1
+  },
+  {
+   "source": "Gulf Insurance Group (GIG)",
+   "connector": "browser",
+   "url": "https://www.gulfinsgroup.com/en/careers/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.gulfinsgroup.com/en/careers/\" is interrupted by another navigation to \"https://www.kamcoinvest.com/en/careers\"\nCall log:\nnavigating to \"https://www.gulfinsgroup.c",
+   "secs": 0.5
+  },
+  {
+   "source": "Tap Payments",
+   "connector": "browser",
+   "url": "https://www.tap.company/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.tap.company/careers\" is interrupted by another navigation to \"https://www.gulfinsgroup.com/en/careers/\"\nCall log:\nnavigating to \"https://www.tap.company/careers\",",
+   "secs": 0.6
+  },
+  {
+   "source": "Boursa Kuwait",
+   "connector": "browser",
+   "url": "https://www.boursakuwait.com.kw/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.boursakuwait.com.kw/en/careers\" is interrupted by another navigation to \"https://www.tap.company/en-us/careers\"\nCall log:\nnavigating to \"https://www.boursakuwait.",
+   "secs": 0.2
+  },
+  {
+   "source": "Mashreq",
+   "connector": "browser",
+   "url": "https://www.mashreq.com/en/uae/about-us/careers/jobs",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.mashreq.com/en/uae/about-us/careers/jobs\" is interrupted by another navigation to \"https://www.boursakuwait.com.kw/en/careers\"\nCall log:\nnavigating to \"https://ww",
+   "secs": 1.1
+  },
+  {
+   "source": "Dubai Islamic Bank (DIB)",
+   "connector": "browser",
+   "url": "https://careers.dib.ae/en/job-search-results/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.dib.ae/en/job-search-results/\" is interrupted by another navigation to \"https://www.mashreq.com/en/uae/about-us/careers/jobs\"\nCall log:\nnavigating to \"https:/",
+   "secs": 1.0
+  },
+  {
+   "source": "Commercial Bank of Dubai (CBD)",
+   "connector": "browser",
+   "url": "https://www.cbd.ae/home/contact-us/careers/apply",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.cbd.ae/home/contact-us/careers/apply\" is interrupted by another navigation to \"https://careers.dib.ae/en/job-search-results/\"\nCall log:\nnavigating to \"https://www",
+   "secs": 0.1
+  },
+  {
+   "source": "RAKBANK",
+   "connector": "browser",
+   "url": "https://careers.rakbank.ae/en/company/rakbank-1507665/",
+   "count": 0,
+   "error": "Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://careers.rakbank.ae/en/company/rakbank-1507665/\nCall log:\nnavigating to \"https://careers.rakbank.ae/en/company/rakbank-1507665/\", waiting until \"",
+   "secs": 0.3
+  },
+  {
+   "source": "National Bank of Fujairah (NBF)",
+   "connector": "browser",
+   "url": "https://careers.nbf.ae/viewalljobs/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.nbf.ae/viewalljobs/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\nnavigating to \"https://careers.nbf.ae/viewalljobs/\", wa",
+   "secs": 0.9
+  },
+  {
+   "source": "Ajman Bank",
+   "connector": "browser",
+   "url": "https://www.ajmanbank.ae/site/careers.html",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.ajmanbank.ae/site/careers.html\" is interrupted by another navigation to \"https://careers.nbf.ae/viewalljobs/\"\nCall log:\nnavigating to \"https://www.ajmanbank.ae/si",
+   "secs": 0.9
+  },
+  {
+   "source": "Al Hilal Bank",
+   "connector": "browser",
+   "url": "https://www.alhilalbank.ae/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.alhilalbank.ae/en/careers\" is interrupted by another navigation to \"https://www.ajmanbank.ae/site/careers.html\"\nCall log:\nnavigating to \"https://www.alhilalbank.a",
+   "secs": 0.3
+  },
+  {
+   "source": "United Arab Bank (UAB)",
+   "connector": "browser",
+   "url": "https://www.uab.ae/en/about-uab/careers/current-vacancies",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.uab.ae/en/about-uab/careers/current-vacancies\" is interrupted by another navigation to \"https://www.alhilalbank.ae/en/careers\"\nCall log:\nnavigating to \"https://ww",
+   "secs": 1.3
+  },
+  {
+   "source": "Bank of Sharjah",
+   "connector": "browser",
+   "url": "https://www.bankofsharjah.com/en/job-openings",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.bankofsharjah.com/en/job-openings\" is interrupted by another navigation to \"https://www.uab.ae/en/about-uab/careers/current-vacancies\"\nCall log:\nnavigating to \"ht",
+   "secs": 0.1
+  },
+  {
+   "source": "Commercial Bank International (CBI)",
+   "connector": "browser",
+   "url": "https://www.cbiuae.com/en/careers/careers/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.cbiuae.com/en/careers/careers/\" is interrupted by another navigation to \"https://www.bankofsharjah.com/en/job-openings\"\nCall log:\nnavigating to \"https://www.cbiua",
+   "secs": 0.7
+  },
+  {
+   "source": "National Bank of Umm Al Qaiwain (NBQ)",
+   "connector": "browser",
+   "url": "https://www.nbq.ae/general/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.nbq.ae/general/careers\" is interrupted by another navigation to \"https://www.cbiuae.com/en/careers/careers/\"\nCall log:\nnavigating to \"https://www.nbq.ae/general/c",
+   "secs": 1.2
+  },
+  {
+   "source": "Emirates Development Bank",
+   "connector": "browser",
+   "url": "https://www.edb.gov.ae/en/about-us/jobs-vacancies",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.edb.gov.ae/en/about-us/jobs-vacancies\" is interrupted by another navigation to \"https://www.nbq.ae/general/careers\"\nCall log:\nnavigating to \"https://www.edb.gov.a",
+   "secs": 0.9
+  },
+  {
+   "source": "Standard Chartered",
+   "connector": "browser",
+   "url": "https://jobs.standardchartered.com/content/Search-Result-Page/?employment_type=professional_hires&utm_source=careersite",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://jobs.standardchartered.com/content/Search-Result-Page/?employment_type=professional_hires&utm_source=careersite\" is interrupted by another navigation to \"https://www.",
+   "secs": 0.4
+  },
+  {
+   "source": "Citi",
+   "connector": "browser",
+   "url": "https://jobs.citi.com/location/dubai-united-arab-emirates-jobs/287/290557-292224/3",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://jobs.citi.com/location/dubai-united-arab-emirates-jobs/287/290557-292224/3\" is interrupted by another navigation to \"https://jobs.standardchartered.com/content/Search",
+   "secs": 0.6
+  },
+  {
+   "source": "Barclays",
+   "connector": "browser",
+   "url": "https://search.jobs.barclays/location/united-arab-emirates-jobs/13015/290557/2",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://search.jobs.barclays/location/united-arab-emirates-jobs/13015/290557/2\" is interrupted by another navigation to \"https://jobs.citi.com/location/dubai-united-arab-emir",
+   "secs": 0.8
+  },
+  {
+   "source": "BNP Paribas",
+   "connector": "browser",
+   "url": "https://group.bnpparibas/en/careers/all-job-offers/united-arab-emirates",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://group.bnpparibas/en/careers/all-job-offers/united-arab-emirates\" is interrupted by another navigation to \"https://search.jobs.barclays/location/united-arab-emirates-j",
+   "secs": 0.0
+  },
+  {
+   "source": "Societe Generale",
+   "connector": "browser",
+   "url": "https://careers.societegenerale.com/en",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.societegenerale.com/en\" is interrupted by another navigation to \"https://group.bnpparibas/en/careers/all-job-offers/united-arab-emirates\"\nCall log:\nnavigating",
+   "secs": 0.3
+  },
+  {
+   "source": "SMBC",
+   "connector": "browser",
+   "url": "https://careersemea.smbcgroup.com",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careersemea.smbcgroup.com/\" is interrupted by another navigation to \"https://careers.societegenerale.com/en\"\nCall log:\nnavigating to \"https://careersemea.smbcgroup.co",
+   "secs": 0.6
+  },
+  {
+   "source": "Mizuho",
+   "connector": "browser",
+   "url": "https://cbcareers.mizuho-emea.com/",
+   "count": 0,
+   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://cbcareers.mizuho-emea.com/\nCall log:\nnavigating to \"https://cbcareers.mizuho-emea.com/\", waiting until \"domcontentloaded\"\n",
+   "secs": 0.2
+  },
+  {
+   "source": "UBS",
+   "connector": "browser",
+   "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults&SearchType=linkquery&LinkID=15231",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults&SearchType=linkquery&LinkID=15231\" is interrupted by another navig",
+   "secs": 0.9
+  },
+  {
+   "source": "Pictet",
+   "connector": "browser",
+   "url": "https://career012.successfactors.eu/career?company=banquepict",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://career012.successfactors.eu/career?company=banquepict\" is interrupted by another navigation to \"https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=250",
+   "secs": 0.3
+  },
+  {
+   "source": "Arab Bank",
+   "connector": "browser",
+   "url": "https://arabbank.taleo.net/careersection/ab_external/moresearch.ftl?lang=en&location=805021922&location=805021922&locationRad=805021922&portal=8105021922&radius=1&radiusType=K&searchExpanded=true",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://arabbank.taleo.net/careersection/ab_external/moresearch.ftl?lang=en&location=805021922&location=805021922&locationRad=805021922&portal=8105021922&radius=1&radiusType=",
+   "secs": 0.3
+  },
+  {
+   "source": "National Bank of Kuwait (NBK) UAE",
+   "connector": "browser",
+   "url": "https://www.nbk.com/uae/careers.html",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.nbk.com/uae/careers.html\" is interrupted by another navigation to \"https://arabbank.taleo.net/careersection/ab_external/moresearch.ftl?lang=en&location=805021922&",
+   "secs": 1.9
+  },
+  {
+   "source": "Bank ABC",
+   "connector": "browser",
+   "url": "https://europecareers.bank-abc.com/jobs",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://europecareers.bank-abc.com/jobs\" is interrupted by another navigation to \"https://www.nbk.com/uae/careers.html\"\nCall log:\nnavigating to \"https://europecareers.bank-ab",
+   "secs": 0.2
+  },
+  {
+   "source": "QNB",
+   "connector": "browser",
+   "url": "https://qnb.com/sites/qnb/qnbglobal/page/en/enapplyjob.html",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://qnb.com/sites/qnb/qnbglobal/page/en/enapplyjob.html\" is interrupted by another navigation to \"https://europecareers.bank-abc.com/jobs\"\nCall log:\nnavigating to \"https:",
+   "secs": 0.1
+  },
+  {
+   "source": "Habib Bank AG Zurich (HBZ)",
+   "connector": "browser",
+   "url": "https://habibbank.com/ae/careers/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://habibbank.com/ae/careers/\" is interrupted by another navigation to \"https://qnb.com/sites/qnb/qnbglobal/page/en/enapplyjob.html\"\nCall log:\nnavigating to \"https://habi",
+   "secs": 3.8
+  },
+  {
+   "source": "Deloitte Middle East",
+   "connector": "browser",
+   "url": "https://middleeastjobs.deloitte.com/careersME/SearchJobs/?pipelineRecordsPerPage=6&pipelineOffset=0",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://middleeastjobs.deloitte.com/careersME/SearchJobs/?pipelineRecordsPerPage=6&pipelineOffset=0\" is interrupted by another navigation to \"https://habibbank.com/ae/careers",
+   "secs": 2.1
+  },
+  {
+   "source": "Rothschild & Co (Dubai)",
+   "connector": "browser",
+   "url": "https://www.rothschildandco.com/en/careers/experienced-professionals/vacancies/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.rothschildandco.com/en/careers/experienced-professionals/vacancies/\" is interrupted by another navigation to \"https://middleeastjobs.deloitte.com/careersME/Search",
+   "secs": 0.4
+  },
+  {
+   "source": "Al Ansari Exchange / Al Ansari Financial Services",
+   "connector": "browser",
+   "url": "https://careers.alansariexchange.com/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.alansariexchange.com/\" is interrupted by another navigation to \"https://www.rothschildandco.com/en/careers/experienced-professionals/vacancies/\"\nCall log:\nnav",
+   "secs": 0.6
+  },
+  {
+   "source": "Strategy& Middle East (PwC)",
+   "connector": "browser",
+   "url": "https://www.strategyand.pwc.com/m1/en/careers.html",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.strategyand.pwc.com/m1/en/careers.html\" is interrupted by another navigation to \"https://careers.alansariexchange.com/\"\nCall log:\nnavigating to \"https://www.strat",
+   "secs": 0.3
+  },
+  {
+   "source": "Alpha Dhabi Holding",
+   "connector": "browser",
+   "url": "https://www.alphadhabi.com/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.alphadhabi.com/careers\" is interrupted by another navigation to \"https://www.strategyand.pwc.com/m1/en/careers.html\"\nCall log:\nnavigating to \"https://www.alphadha",
+   "secs": 0.1
+  },
+  {
+   "source": "Takaful Emarat",
+   "connector": "browser",
+   "url": "https://www.takafulemarat.com/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.takafulemarat.com/careers\" is interrupted by another navigation to \"https://www.alphadhabi.com/careers\"\nCall log:\nnavigating to \"https://www.takafulemarat.com/car",
+   "secs": 0.2
+  },
+  {
+   "source": "Abu Dhabi Investment Authority (ADIA)",
+   "connector": "browser",
+   "url": "https://jobs.adia.ae/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://jobs.adia.ae/\" is interrupted by another navigation to \"https://takafulemarat.com/careers/\"\nCall log:\nnavigating to \"https://jobs.adia.ae/\", waiting until \"domcontent",
+   "secs": 0.3
+  },
+  {
+   "source": "Mubadala Investment Company",
+   "connector": "browser",
+   "url": "https://mic-cand.takafo.ai/jobs/external?mode=eos&company=MIC&types=Full%20Time%20Employee%20%28FTE%29%2CContract%20%28LTC%29",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://mic-cand.takafo.ai/jobs/external?mode=eos&company=MIC&types=Full%20Time%20Employee%20%28FTE%29%2CContract%20%28LTC%29\" is interrupted by another navigation to \"https:",
+   "secs": 0.4
+  },
+  {
+   "source": "Sukoon Insurance (ex-Oman Insurance)",
+   "connector": "browser",
+   "url": "https://www.sukoon.com/en/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.sukoon.com/en/careers\" is interrupted by another navigation to \"https://mic-cand.takafo.ai/jobs/external?mode=eos&company=MIC&types=Full%20Time%20Employee%20%28FT",
+   "secs": 1.0
+  },
+  {
+   "source": "Salama Islamic Arab Insurance",
+   "connector": "browser",
+   "url": "https://myhrismax1.myadrenalin.com/CANDMICROSITE/#/?CompanyID=SALAMA&GroupId=defaultOU",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://myhrismax1.myadrenalin.com/CANDMICROSITE/#/?CompanyID=SALAMA&GroupId=defaultOU\" is interrupted by another navigation to \"https://www.sukoon.com/en/careers\"\nCall log:\n",
+   "secs": 1.1
+  },
+  {
+   "source": "Mastercard MEA",
+   "connector": "browser",
+   "url": "https://careers.mastercard.com/us/en/search-results?keywords=Dubai",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.mastercard.com/us/en/search-results?keywords=Dubai\" is interrupted by another navigation to \"https://myhrismax1.myadrenalin.com/CANDMICROSITE/#/?CompanyID=SAL",
+   "secs": 1.8
+  },
+  {
+   "source": "BCG Middle East",
+   "connector": "browser",
+   "url": "https://careers.bcg.com/global/en/search-results?keywords=dubai",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.bcg.com/global/en/search-results?keywords=dubai\" is interrupted by another navigation to \"https://careers.mastercard.com/us/en/search-results?keywords=Dubai\"\n",
+   "secs": 1.5
+  },
+  {
+   "source": "McKinsey & Company Middle East",
+   "connector": "browser",
+   "url": "https://www.mckinsey.com/careers/search-jobs?locations=Dubai",
+   "count": 0,
+   "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.mckinsey.com/careers/search-jobs?locations=Dubai\nCall log:\nnavigating to \"https://www.mckinsey.com/careers/search-jobs?locations=Dubai\", waiting",
+   "secs": 0.1
+  },
+  {
+   "source": "PwC Middle East",
+   "connector": "browser",
+   "url": "https://www.pwc.com/m1/en/careers/experienced-jobs.html",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.pwc.com/m1/en/careers/experienced-jobs.html\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\nnavigating to \"https://www.pwc.com/",
+   "secs": 8.1
+  },
+  {
+   "source": "Roland Berger Middle East",
+   "connector": "browser",
+   "url": "https://www.rolandberger.com/en/Join/All-Jobs/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.rolandberger.com/en/Join/All-Jobs/\" is interrupted by another navigation to \"https://www.pwc.com/m1/en/careers/experienced-jobs.html\"\nCall log:\nnavigating to \"htt",
+   "secs": 0.4
+  },
+  {
+   "source": "Goldman Sachs (Dubai/Abu Dhabi)",
+   "connector": "browser",
+   "url": "https://higher.gs.com/results?LOCATION=Dubai",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://higher.gs.com/results?LOCATION=Dubai\" is interrupted by another navigation to \"https://www.rolandberger.com/en/Join/All-Jobs/\"\nCall log:\nnavigating to \"https://higher",
+   "secs": 0.2
+  },
+  {
+   "source": "BlackRock (Abu Dhabi/Dubai)",
+   "connector": "browser",
+   "url": "https://careers.blackrock.com/job-search-results/?location=Abu%20Dhabi",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.blackrock.com/job-search-results/?location=Abu%20Dhabi\" is interrupted by another navigation to \"https://higher.gs.com/results?LOCATION=Dubai\"\nCall log:\nnavig",
+   "secs": 0.2
+  },
+  {
+   "source": "Bain & Company Middle East",
+   "connector": "browser",
+   "url": "https://www.bain.com/careers/find-a-role/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.bain.com/careers/find-a-role/\" is interrupted by another navigation to \"https://careers.blackrock.com/job-search-results/?location=Abu%20Dhabi\"\nCall log:\nnavigati",
+   "secs": 0.7
+  },
+  {
+   "source": "Oliver Wyman Middle East",
+   "connector": "browser",
+   "url": "https://careers.oliverwyman.com/search-jobs",
+   "count": 0,
+   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.oliverwyman.com/search-jobs\nCall log:\nnavigating to \"https://careers.oliverwyman.com/search-jobs\", waiting until \"domcontentloaded\"\n",
+   "secs": 0.1
+  },
+  {
+   "source": "Accenture UAE",
+   "connector": "browser",
+   "url": "https://www.accenture.com/ae-en/careers/jobsearch",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.accenture.com/ae-en/careers/jobsearch\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\nnavigating to \"https://www.accenture.com/",
+   "secs": 0.1
+  },
+  {
+   "source": "Brookfield (Dubai/Abu Dhabi)",
+   "connector": "browser",
+   "url": "https://careers.brookfield.com/",
+   "count": 0,
+   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.brookfield.com/\nCall log:\nnavigating to \"https://careers.brookfield.com/\", waiting until \"domcontentloaded\"\n",
+   "secs": 0.1
+  },
+  {
+   "source": "Careem (incl. Careem Pay)",
+   "connector": "browser",
+   "url": "https://jobs.careem.com",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://jobs.careem.com/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\nnavigating to \"https://jobs.careem.com/\", waiting until \"domconten",
+   "secs": 0.6
+  },
+  {
+   "source": "Tabby",
+   "connector": "browser",
+   "url": "https://tabby.ai/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://tabby.ai/careers\" is interrupted by another navigation to \"https://jobs.careem.com/\"\nCall log:\nnavigating to \"https://tabby.ai/careers\", waiting until \"domcontentload",
+   "secs": 0.4
+  },
+  {
+   "source": "e& (incl. e& money)",
+   "connector": "browser",
+   "url": "https://careers.etisalat.ae/en/index.jsp",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://careers.etisalat.ae/en/index.jsp\" is interrupted by another navigation to \"https://tabby.ai/en-AE/careers\"\nCall log:\nnavigating to \"https://careers.etisalat.ae/en/ind",
+   "secs": 0.6
+  },
+  {
+   "source": "Arqaam Capital",
+   "connector": "browser",
+   "url": "https://www.arqaamcapital.com/careers",
+   "count": 0,
+   "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.arqaamcapital.com/careers\nCall log:\nnavigating to \"https://www.arqaamcapital.com/careers\", waiting until \"domcontentloaded\"\n",
+   "secs": 0.3
+  },
+  {
+   "source": "Abu Dhabi Securities Exchange (ADX)",
+   "connector": "browser",
+   "url": "https://www.adx.ae/en/about-adx/contact-us/job-opportunities-at-adx",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.adx.ae/en/about-adx/contact-us/job-opportunities-at-adx\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\nnavigating to \"https://",
+   "secs": 0.3
+  },
+  {
+   "source": "Investcorp (Abu Dhabi)",
+   "connector": "browser",
+   "url": "https://www.investcorp.com/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.investcorp.com/careers\" is interrupted by another navigation to \"https://www.adx.ae/en/about-adx/contact-us/job-opportunities-at-adx\"\nCall log:\nnavigating to \"htt",
+   "secs": 1.1
+  },
+  {
+   "source": "Lunate",
+   "connector": "browser",
+   "url": "https://lunate.com/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://lunate.com/careers\" is interrupted by another navigation to \"https://www.investcorp.com/careers/\"\nCall log:\nnavigating to \"https://lunate.com/careers\", waiting until ",
+   "secs": 0.3
+  },
+  {
+   "source": "Lulu Exchange / Lulu Financial Holdings",
+   "connector": "browser",
+   "url": "https://luluexchange.com/careers/",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://luluexchange.com/careers/\" is interrupted by another navigation to \"https://lunate.com/en/careers\"\nCall log:\nnavigating to \"https://luluexchange.com/careers/\", waitin",
+   "secs": 1.9
+  },
+  {
+   "source": "Franklin Templeton (Dubai)",
+   "connector": "browser",
+   "url": "https://www.franklintempleton.com/careers",
+   "count": 0,
+   "error": "Error: Page.goto: Navigation to \"https://www.franklintempleton.com/careers\" is interrupted by another navigation to \"https://luluexchange.com/careers/\"\nCall log:\nnavigating to \"https://www.franklintempleton.",
+   "secs": 0.2
+  },
+  {
+   "source": "Network International",
+   "connector": "browser",
+   "url": "https://beta.network.ae/en/careers",
+   "count": 0,
+   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://beta.network.ae/en/careers\", waiting until \"domcontentloaded\"\n",
+   "secs": 45.0
+  },
+  {
+   "source": "Amlak Finance",
+   "connector": "browser",
+   "url": "https://www.amlakfinance.com/careers",
+   "count": 1,
+   "error": null,
+   "secs": 6.7
+  },
+  {
+   "source": "International Holding Company (IHC)",
+   "connector": "browser",
+   "url": "https://www.ihcuae.com/careers",
+   "count": 0,
+   "error": null,
+   "secs": 5.4
+  },
+  {
+   "source": "EFG Hermes / EFG Holding (UAE)",
+   "connector": "browser",
+   "url": "https://efgholding.com/careers",
+   "count": 0,
+   "error": null,
+   "secs": 3.5
+  },
+  {
+   "source": "GulfTalent",
+   "connector": "board",
+   "url": "https://www.gulftalent.com/uae/jobs/title/strategy",
+   "count": 0,
+   "error": null,
+   "secs": 4.1
+  },
+  {
+   "source": "GulfTalent",
+   "connector": "board",
+   "url": "https://www.gulftalent.com/saudi-arabia/jobs/title/strategy",
+   "count": 0,
+   "error": null,
+   "secs": 4.1
+  },
+  {
+   "source": "GulfTalent",
+   "connector": "board",
+   "url": "https://gulftalent.com/saudi-arabia/jobs/title/head-of-strategy",
+   "count": 0,
+   "error": null,
+   "secs": 4.1
+  },
+  {
+   "source": "GulfTalent",
+   "connector": "board",
+   "url": "https://www.gulftalent.com/saudi-arabia/jobs/title/strategy-director",
+   "count": 0,
+   "error": null,
+   "secs": 4.4
+  },
+  {
+   "source": "GulfTalent",
+   "connector": "board",
+   "url": "https://www.gulftalent.com/qatar/jobs/title/strategy-manager",
+   "count": 0,
+   "error": null,
+   "secs": 5.3
+  },
+  {
+   "source": "GulfTalent",
+   "connector": "board",
+   "url": "https://www.gulftalent.com/jobs/title/transformation",
+   "count": 0,
+   "error": null,
+   "secs": 3.8
+  },
+  {
+   "source": "GulfTalent",
+   "connector": "board",
+   "url": "https://www.gulftalent.com/jobs/title/islamic-finance-executive",
+   "count": 0,
+   "error": null,
+   "secs": 4.2
+  },
+  {
+   "source": "GulfTalent",
+   "connector": "board",
+   "url": "https://www.gulftalent.com/jobs/title/corporate-banking",
+   "count": 0,
+   "error": null,
+   "secs": 4.1
+  },
+  {
+   "source": "GulfTalent",
+   "connector": "board",
+   "url": "https://www.gulftalent.com/jobs/title/head-of-corporate-banking",
+   "count": 0,
+   "error": null,
+   "secs": 4.4
+  },
+  {
+   "source": "GulfTalent",
+   "connector": "board",
+   "url": "https://www.gulftalent.com/jobs/title/private-banking",
+   "count": 0,
+   "error": null,
+   "secs": 3.7
+  },
+  {
+   "source": "GulfTalent",
+   "connector": "board",
+   "url": "https://www.gulftalent.com/jobs/title/financial-services",
+   "count": 0,
+   "error": null,
+   "secs": 4.2
+  },
+  {
+   "source": "GulfTalent",
+   "connector": "board",
+   "url": "https://www.gulftalent.com/jobs/search?keywords=head%20of%20strategy",
+   "count": 0,
+   "error": null,
+   "secs": 4.7
+  },
+  {
+   "source": "Foundit Gulf (founditgulf.com)",
+   "connector": "board",
+   "url": "https://www.founditgulf.com/search/banking-jobs",
+   "count": 0,
+   "error": null,
+   "secs": 3.1
+  },
+  {
+   "source": "Indeed (ae/sa/qa etc.)",
+   "connector": "board",
+   "url": "https://ae.indeed.com/jobs?q=head+of+strategy&sort=date",
+   "count": 4,
+   "error": null,
+   "secs": 5.2
+  },
+  {
+   "source": "Indeed (ae/sa/qa etc.)",
+   "connector": "board",
+   "url": "https://sa.indeed.com/jobs?q=strategy+director&sort=date&fromage=7",
+   "count": 4,
+   "error": null,
+   "secs": 4.8
+  },
+  {
+   "source": "Glassdoor",
+   "connector": "board",
+   "url": "https://www.glassdoor.com/Job/united-arab-emirates-strategy-director-jobs-SRCH_IL.0,20_IN6_KO21,38.htm",
+   "count": 0,
+   "error": null,
+   "secs": 3.0
+  },
+  {
+   "source": "Glassdoor",
+   "connector": "board",
+   "url": "https://www.glassdoor.com/Job/saudi-arabia-strategy-jobs-SRCH_IL.0,12_IN207_KO13,21.htm",
+   "count": 0,
+   "error": null,
+   "secs": 2.9
+  },
+  {
+   "source": "eFinancialCareers",
+   "connector": "board",
+   "url": "https://www.efinancialcareers.com/jobs/in-united-arab-emirates",
+   "count": 45,
+   "error": null,
+   "secs": 6.4
+  },
+  {
+   "source": "eFinancialCareers",
+   "connector": "board",
+   "url": "https://www.efinancialcareers.com/jobs/in-saudi-arabia",
+   "count": 43,
+   "error": null,
+   "secs": 4.0
+  },
+  {
+   "source": "eFinancialCareers",
+   "connector": "board",
+   "url": "https://www.efinancialcareers.com/jobs/strategy/in-united-arab-emirates",
+   "count": 43,
+   "error": null,
+   "secs": 4.2
+  },
+  {
+   "source": "ZeroTaxJobs",
+   "connector": "board",
+   "url": "https://zerotaxjobs.com/jobs",
+   "count": 0,
+   "error": null,
+   "secs": 4.6
+  },
+  {
+   "source": "ZeroTaxJobs",
+   "connector": "board",
+   "url": "https://zerotaxjobs.com/location/riyadh",
+   "count": 0,
+   "error": null,
+   "secs": 4.9
+  },
+  {
+   "source": "ZeroTaxJobs",
+   "connector": "board",
+   "url": "https://zerotaxjobs.com/about",
+   "count": 0,
+   "error": null,
+   "secs": 4.2
+  },
+  {
+   "source": "Sabbar",
+   "connector": "board",
+   "url": "https://sabbar.com/en/jobs",
+   "count": 78,
+   "error": null,
+   "secs": 17.8
+  },
+  {
+   "source": "Sabbar",
+   "connector": "board",
+   "url": "https://sabbar.com/en/jobs/r-strategy-manager",
+   "count": 62,
+   "error": null,
+   "secs": 17.6
+  },
+  {
+   "source": "Sabbar",
+   "connector": "board",
+   "url": "https://sabbar.com/en/jobs/c-riyadh-r-director-of-strategy",
+   "count": 105,
+   "error": null,
+   "secs": 17.6
+  },
+  {
+   "source": "Dubizzle Jobs",
+   "connector": "board",
+   "url": "https://uae.dubizzle.com/jobs/",
+   "count": 0,
+   "error": null,
+   "secs": 3.8
+  },
+  {
+   "source": "DrJobPro",
+   "connector": "board",
+   "url": "https://www.drjobpro.com/",
+   "count": 232,
+   "error": null,
+   "secs": 22.1
+  },
+  {
+   "source": "Jooble",
+   "connector": "board",
+   "url": "https://ae.jooble.org/jobs-head-of-strategy/Dubai",
+   "count": 0,
+   "error": null,
+   "secs": 4.3
+  },
+  {
+   "source": "Jooble",
+   "connector": "board",
+   "url": "https://sa.jooble.org/jobs-strategy-director/Riyadh",
+   "count": 0,
+   "error": null,
+   "secs": 4.1
+  },
+  {
+   "source": "Talent.com",
+   "connector": "board",
+   "url": "https://ae.talent.com/jobs?k=head+of+strategy&l=Dubai",
+   "count": 6,
+   "error": null,
+   "secs": 4.8
+  },
+  {
+   "source": "Talent.com",
+   "connector": "board",
+   "url": "https://ae.talent.com/jobs?k=strategy+director&l=United+Arab+Emirates&date=1",
+   "count": 5,
+   "error": null,
+   "secs": 4.5
+  },
+  {
+   "source": "JobXDubai",
+   "connector": "board",
+   "url": "https://jobxdubai.com/jobs/category/executive-and-management",
+   "count": 0,
+   "error": null,
+   "secs": 4.8
+  },
+  {
+   "source": "JobXDubai",
+   "connector": "board",
+   "url": "https://jobxdubai.com/",
+   "count": 74,
+   "error": null,
+   "secs": 3.9
+  },
+  {
+   "source": "Qureos",
+   "connector": "board",
+   "url": "https://app.qureos.com/jobs/search/in-saudi-arabia",
+   "count": 31,
+   "error": null,
+   "secs": 6.1
+  },
+  {
+   "source": "Qureos",
+   "connector": "board",
+   "url": "https://www.qureos.com/jobs",
+   "count": 0,
+   "error": null,
+   "secs": 4.2
+  },
+  {
+   "source": "Welovesalt (Salt)",
+   "connector": "board",
+   "url": "https://welovesalt.com/mena/jobs",
+   "count": 32,
+   "error": null,
+   "secs": 5.6
+  },
+  {
+   "source": "Welovesalt (Salt)",
+   "connector": "board",
+   "url": "https://welovesalt.com/job-category/united-arab-emirates",
+   "count": 31,
+   "error": null,
+   "secs": 4.3
+  },
+  {
+   "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
+   "connector": "board",
+   "url": "https://www.michaelpage.ae/jobs/strategy/saudi-arabia",
+   "count": 54,
+   "error": null,
+   "secs": 4.6
+  },
+  {
+   "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
+   "connector": "board",
+   "url": "https://www.michaelpage.ae/jobs/consultancy-strategy-and-change",
+   "count": 49,
+   "error": null,
+   "secs": 3.9
+  },
+  {
+   "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
+   "connector": "board",
+   "url": "https://www.michaelpage.ae/jobs/consultancy-strategy-and-change/dubai",
+   "count": 45,
+   "error": null,
+   "secs": 5.2
+  },
+  {
+   "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
+   "connector": "board",
+   "url": "https://www.michaelpage.ae/jobs/banking-financial-services",
+   "count": 75,
+   "error": null,
+   "secs": 3.8
+  },
+  {
+   "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
+   "connector": "board",
+   "url": "https://www.michaelpage.ae/jobs/banking-financial-services/banking-financial-services/corporate-finance-mergers-acquisitions",
+   "count": 50,
+   "error": null,
+   "secs": 3.8
+  },
+  {
+   "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
+   "connector": "board",
+   "url": "https://www.michaelpage.ae/jobs/banking-financial-services/saudi-arabia",
+   "count": 50,
+   "error": null,
+   "secs": 3.5
+  },
+  {
+   "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
+   "connector": "board",
+   "url": "https://www.michaelpage.ae/jobs/strategy/riyadh",
+   "count": 54,
+   "error": null,
+   "secs": 3.5
+  },
+  {
+   "source": "Hays ME",
+   "connector": "board",
+   "url": "https://www.hays.ae/jobs/accountancy-finance/",
+   "count": 26,
+   "error": null,
+   "secs": 18.9
+  },
+  {
+   "source": "Hays ME",
+   "connector": "board",
+   "url": "https://www.hays.ae/job-search/strategy-jobs",
+   "count": 27,
+   "error": null,
+   "secs": 20.9
+  },
+  {
+   "source": "Robert Walters ME",
+   "connector": "board",
+   "url": "https://www.robertwalters.ae/jobs.html",
+   "count": 0,
+   "error": null,
+   "secs": 6.1
+  },
+  {
+   "source": "Cooper Fitch",
+   "connector": "board",
+   "url": "https://www.cooperfitch.ae/jobs/",
+   "count": 1,
+   "error": null,
+   "secs": 20.1
+  },
+  {
+   "source": "Cooper Fitch",
+   "connector": "board",
+   "url": "https://cooperfitch.ae/job-seekers/",
+   "count": 1,
+   "error": null,
+   "secs": 3.3
+  },
+  {
+   "source": "Hudson ME",
+   "connector": "board",
+   "url": "https://hudsontalent.com/",
+   "count": 1,
+   "error": null,
+   "secs": 5.6
+  },
+  {
+   "source": "Antal ME",
+   "connector": "board",
+   "url": "https://www.antal.com/jobs",
+   "count": 7,
+   "error": null,
+   "secs": 5.3
+  },
+  {
+   "source": "Sloane Shorey",
+   "connector": "board",
+   "url": "https://sloaneshorey.catsone.com/careers/",
+   "count": 20,
+   "error": null,
+   "secs": 3.4
+  },
+  {
+   "source": "Nadia Global",
+   "connector": "board",
+   "url": "https://nadia-me.com/search-jobs/",
+   "count": 10,
+   "error": null,
+   "secs": 7.5
+  },
+  {
+   "source": "Nadia Global",
+   "connector": "board",
+   "url": "https://www.nadiaglobal.com/jobs",
+   "count": 0,
+   "error": null,
+   "secs": 3.9
+  },
+  {
+   "source": "Tiger Recruitment Dubai",
+   "connector": "board",
+   "url": "https://tiger-recruitment.com/",
+   "count": 39,
+   "error": null,
+   "secs": 4.2
+  },
+  {
+   "source": "Oliver James",
+   "connector": "board",
+   "url": "https://www.oliverjames.com/jobs",
+   "count": 7,
+   "error": null,
+   "secs": 5.6
+  },
+  {
+   "source": "Pure Search",
+   "connector": "board",
+   "url": "https://www.puresearch.com/jobs",
+   "count": 5,
+   "error": null,
+   "secs": 8.3
+  }
+ ]
+}
