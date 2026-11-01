@@ -1,0 +1,44 @@
+{
+ "run_date": "2026-11-01",
+ "generated_at": "2026-11-01T02:48:32.191620+00:00",
+ "raw_jobs_seen": 4315,
+ "new_candidates": 1,
+ "excluded": [
+  {
+   "title": "Ant International-Strategic Partnership Manager - Financial Institutions-UAE",
+   "employer": "eFinancialCareers",
+   "url": "https://www.efinancialcareers.com/jobs-United_Arab_Emirates-Abu_Dhabi-Ant_International-Strategic_Partnership_Manager_-_Financial_Institutions-UAE.id24955657",
+   "why": "Emiratized"
+  },
+  {
+   "title": "Manager, Customer Insights & Performance ( Dubai - Emiratised Role)",
+   "employer": "eFinancialCareers",
+   "url": "https://www.efinancialcareers.com/jobs-United_Arab_Emirates-Dubai-Manager_Customer_Insights__Performance__Dubai_-_Emiratised_Role.id24955407",
+   "why": "Emiratised"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Director, Issuing Solutions - KSA",
+   "location": "Director, Issuing Solutions - KSA\nApply now\n Save",
+   "url": "https://www.efinancialcareers.com/jobs-Saudi_Arabia-Riyadh-Director_Issuing_Solutions_-_KSA.id24955634",
+   "posted": null,
+   "employer": "eFinancialCareers",
+   "country": "",
+   "sector": "job_board",
+   "islamic": false,
+   "global_employer": true,
+   "key": "317ec9f0f1b1c09f",
+   "score": 1,
+   "posted_iso": null,
+   "posted_raw": null,
+   "first_seen": "2026-11-01",
+   "nationals_only": false,
+   "nationals_match": null,
+   "arabic_mandatory": false,
+   "arabic_match": null,
+   "detail_ok": true,
+   "excerpt": "Jobs News Community Companies Sign in / Register For Recruiters Director, Issuing Solutions - KSA Visa Riyadh, Saudi Arabia Apply now Save Posted 22 hours ago Permanent Competitive Director, Issuing Solutions - KSA About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the opportunity to create impact at scale - tackling meaningful challenges, growing your skills and seeing your contributions impact lives around the world. Join Visa and do work that matters - to you, to your community, and to the world. Progress starts with you. Job Description We are seeking a highly motivated and experienced Director, Issuing VAS Specialist Seller, KBO, to join the broader Value-Added Services Sales organization. Based in Riyadh, the role is responsible for driving the sale and commercialization of non-risk Issuing Value-Added Services across Saudi Arabia, Bahrain and Oman. The portfolio focus includes Loyalty, Digital, Network and Processing solutions, together with other non-risk Issuing VAS solutions introduced over time. This includes capabilities that help clients design and operate loyalty programs, create differentiated digital cardholder experiences, modernize issuer connectivity and processing, and improve portfolio commerciali"
+  }
+ ]
+}
