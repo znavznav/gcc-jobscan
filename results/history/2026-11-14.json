@@ -1,0 +1,44 @@
+{
+ "run_date": "2026-11-14",
+ "generated_at": "2026-11-14T02:50:05.729535+00:00",
+ "raw_jobs_seen": 4086,
+ "new_candidates": 1,
+ "excluded": [
+  {
+   "title": "Manager UnSecured Lending Products",
+   "employer": "HSBC (GCC)",
+   "url": "https://portal.careers.hsbc.com/careers/job/563774612631028",
+   "why": "UAE National"
+  },
+  {
+   "title": "Financial Institution Business Partnership Manager (FIBD)",
+   "employer": "Sabbar",
+   "url": "https://sabbar.com/en/jobs/c-riyadh-r-financial-institution-business-partnership-manager-fibd/id-36d1440e-b769-41f6-bd66-9d805161652a",
+   "why": "For Saudis Only"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "PMO Manager",
+   "location": "PMO Manager\n📣 Job Ad\nNew\n\nM.Y. Naghi Motors\n\nFull-time\n\n2-5 years\n\nMakkah\n\n3 days ago",
+   "url": "https://sabbar.com/en/jobs/c-makkah-r-pmo-manager/id-d97f4059-bfe0-47dc-8c87-f5fe32d2e333",
+   "posted": "3 days ago",
+   "employer": "Sabbar",
+   "country": "",
+   "sector": "job_board",
+   "islamic": false,
+   "global_employer": true,
+   "key": "3ea34d89d714ba0d",
+   "score": 2,
+   "posted_iso": "2026-11-11",
+   "posted_raw": "3 days ago",
+   "first_seen": "2026-11-14",
+   "nationals_only": false,
+   "nationals_match": null,
+   "arabic_mandatory": false,
+   "arabic_match": null,
+   "detail_ok": true,
+   "excerpt": "Employers Find Jobs Blog العربية Register Employers Login > All Jobs > Makkah > PMO Manager > PMO Manager at M.Y. Naghi Motors PMO Manager 📣 Job Ad in M.y. Naghi Motors2 days ago Apply Contract Type Full-time Workplace type On-site Location Makkah Job Description About the Role * Naghi Motors is seeking a PMO Manager to lead strategic, transformation, and operational initiatives within the Automotive PMO Office. This full-time position is based in Jeddah, Makkah, and requires an individual focused on driving change, addressing business challenges, and delivering measurable value. The role involves leading cross-functional projects within the automotive business, combining project management discipline with strong business acumen. Role Responsibilities The PMO Manager will be responsible for understanding business challenges, structuring initiatives, aligning stakeholders, and translating requirements into executable plans. This includes working closely with business owners to assess current operations, identify improvement opportunities, and support solution development through to implementation. Define business problems, objectives, requirements, and expected outcomes with business owners. Assess current processes and operating models to identify gaps, improvement opportunities, and transformation needs. Support the development of business cases, solution options, requirements, and recommendations. Translate business requirements into structured initiatives, deliverables, wo"
+  }
+ ]
+}

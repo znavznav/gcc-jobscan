@@ -1,5 +1,5 @@
 {
- "run_date": "2026-11-13",
+ "run_date": "2026-11-14",
  "sources": [
   {
    "source": "Mumtalakat Holding Company",
@@ -13,14 +13,14 @@
    "connector": "successfactors",
    "count": 0,
    "error": null,
-   "secs": 1.2
+   "secs": 1.3
   },
   {
    "source": "Banque Saudi Fransi (BSF)",
    "connector": "oracle",
    "count": 0,
    "error": null,
-   "secs": 0.6
+   "secs": 0.8
   },
   {
    "source": "J.P. Morgan (Riyadh)",
@@ -33,29 +33,29 @@
    "source": "Standard Chartered (Riyadh)",
    "connector": "successfactors",
    "count": 0,
-   "error": null,
-   "secs": 0.9
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://jobs.standardchartered.com/search/?q=&sortColumn=referencedate&sortDirection=desc&startrow=0&locationsearch=Saudi%20Arabia",
+   "secs": 0.5
   },
   {
    "source": "First Abu Dhabi Bank (FAB) - KSA",
    "connector": "oracle",
-   "count": 85,
+   "count": 84,
    "error": null,
-   "secs": 1.1
+   "secs": 2.0
   },
   {
    "source": "Lean Technologies",
    "connector": "ashby",
    "count": 8,
    "error": null,
-   "secs": 0.0
+   "secs": 0.1
   },
   {
    "source": "Moyasar",
    "connector": "workable",
    "count": 13,
    "error": null,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "source": "Ahli Bank Qatar",
@@ -69,7 +69,7 @@
    "connector": "oracle",
    "count": 0,
    "error": null,
-   "secs": 0.5
+   "secs": 1.3
   },
   {
    "source": "Gulf Bank",
@@ -81,9 +81,9 @@
   {
    "source": "Emirates NBD",
    "connector": "oracle",
-   "count": 37,
+   "count": 40,
    "error": null,
-   "secs": 0.8
+   "secs": 1.3
   },
   {
    "source": "Emirates Islamic",
@@ -104,21 +104,21 @@
    "connector": "oracle",
    "count": 146,
    "error": null,
-   "secs": 1.5
+   "secs": 2.1
   },
   {
    "source": "Sharjah Islamic Bank (SIB)",
    "connector": "oracle",
-   "count": 13,
+   "count": 14,
    "error": null,
-   "secs": 1.0
+   "secs": 1.2
   },
   {
    "source": "HSBC (GCC)",
    "connector": "eightfold",
    "count": 16,
    "error": null,
-   "secs": 1.6
+   "secs": 3.1
   },
   {
    "source": "JPMorgan Chase",
@@ -130,14 +130,14 @@
   {
    "source": "Deutsche Bank",
    "connector": "workday",
-   "count": 157,
+   "count": 158,
    "error": null,
-   "secs": 14.9
+   "secs": 14.4
   },
   {
    "source": "MUFG Bank",
    "connector": "workday",
-   "count": 131,
+   "count": 130,
    "error": null,
    "secs": 16.2
   },
@@ -146,21 +146,21 @@
    "connector": "workday",
    "count": 97,
    "error": null,
-   "secs": 16.2
+   "secs": 16.1
   },
   {
    "source": "Lombard Odier",
    "connector": "workday",
-   "count": 55,
+   "count": 58,
    "error": null,
-   "secs": 11.6
+   "secs": 11.8
   },
   {
    "source": "EY Middle East (incl. EY-Parthenon)",
    "connector": "successfactors",
-   "count": 13,
-   "error": null,
-   "secs": 1.4
+   "count": 0,
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://careers.ey.com/search/?q=&sortColumn=referencedate&sortDirection=desc&startrow=0&locationsearch=Dubai",
+   "secs": 1.1
   },
   {
    "source": "Abu Dhabi Investment Council (ADIC)",
@@ -181,35 +181,35 @@
    "connector": "oracle",
    "count": 0,
    "error": null,
-   "secs": 1.1
+   "secs": 0.8
   },
   {
    "source": "KPMG Lower Gulf",
    "connector": "oracle",
    "count": 76,
    "error": null,
-   "secs": 2.0
+   "secs": 1.5
   },
   {
    "source": "Lazard (Middle East)",
    "connector": "oracle",
-   "count": 119,
+   "count": 118,
    "error": null,
-   "secs": 1.4
+   "secs": 1.6
   },
   {
    "source": "Checkout.com (Dubai)",
    "connector": "ashby",
-   "count": 170,
+   "count": 172,
    "error": null,
-   "secs": 0.1
+   "secs": 0.3
   },
   {
    "source": "Visa CEMEA",
    "connector": "workday",
-   "count": 86,
+   "count": 0,
    "error": null,
-   "secs": 13.1
+   "secs": 1.8
   },
   {
    "source": "BBK (Bank of Bahrain and Kuwait)",
@@ -217,7 +217,7 @@
    "url": "https://www.bbkonline.com/careers",
    "count": 1,
    "error": null,
-   "secs": 71.7
+   "secs": 71.8
   },
   {
    "source": "KFH Bahrain (formerly Ahli United Bank Bahrain)",
@@ -225,7 +225,7 @@
    "url": "https://www.bh.kfh.com/about/careers/",
    "count": 3,
    "error": null,
-   "secs": 17.7
+   "secs": 20.5
   },
   {
    "source": "Bahrain Islamic Bank (BisB)",
@@ -233,7 +233,7 @@
    "url": "https://www.bisb.com/en/careers",
    "count": 1,
    "error": null,
-   "secs": 9.1
+   "secs": 8.5
   },
   {
    "source": "Al Salam Bank",
@@ -241,7 +241,7 @@
    "url": "https://www.alsalambank.com/en/careers/",
    "count": 4,
    "error": null,
-   "secs": 19.7
+   "secs": 19.4
   },
   {
    "source": "Khaleeji Bank",
@@ -249,7 +249,7 @@
    "url": "https://khaleeji.bank/pages-sidebar-nav/careers/",
    "count": 1,
    "error": null,
-   "secs": 3.3
+   "secs": 4.2
   },
   {
    "source": "Ithmaar Bank",
@@ -257,7 +257,7 @@
    "url": "https://ithmaarbank.com/careers",
    "count": 1,
    "error": null,
-   "secs": 23.4
+   "secs": 17.9
   },
   {
    "source": "Bank ABC (Arab Banking Corporation)",
@@ -265,7 +265,7 @@
    "url": "https://bankabc.applytojob.com/",
    "count": 12,
    "error": null,
-   "secs": 3.5
+   "secs": 4.0
   },
   {
    "source": "GIB (Gulf International Bank)",
@@ -273,7 +273,7 @@
    "url": "https://careers.gib.com/en/job-search-results/",
    "count": 8,
    "error": null,
-   "secs": 5.4
+   "secs": 4.8
   },
   {
    "source": "Investcorp",
@@ -281,7 +281,7 @@
    "url": "https://www.investcorp.com/careers/",
    "count": 1,
    "error": null,
-   "secs": 6.0
+   "secs": 6.1
   },
   {
    "source": "GFH Financial Group",
@@ -289,7 +289,7 @@
    "url": "https://gfh.com/?p=79326",
    "count": 1,
    "error": null,
-   "secs": 7.0
+   "secs": 7.2
   },
   {
    "source": "Citi Bahrain",
@@ -297,7 +297,7 @@
    "url": "https://jobs.citi.com/location/bahrain-jobs/287/290291/2",
    "count": 26,
    "error": null,
-   "secs": 6.1
+   "secs": 7.1
   },
   {
    "source": "SICO (Securities & Investment Company)",
@@ -305,7 +305,7 @@
    "url": "https://sicobank.com/open-positions",
    "count": 3,
    "error": null,
-   "secs": 4.7
+   "secs": 4.0
   },
   {
    "source": "Esterad Bank (formerly Venture Capital Bank)",
@@ -313,7 +313,7 @@
    "url": "https://www.esterad-bank.com/careers",
    "count": 0,
    "error": null,
-   "secs": 4.2
+   "secs": 5.6
   },
   {
    "source": "Bahrain Development Bank (BDB)",
@@ -321,7 +321,7 @@
    "url": "https://www.bdb-bh.com/careers",
    "count": 3,
    "error": null,
-   "secs": 4.9
+   "secs": 5.6
   },
   {
    "source": "Bahrain Bourse",
@@ -329,7 +329,7 @@
    "url": "https://bahrainbourse.com/en/careers",
    "count": 3,
    "error": null,
-   "secs": 6.5
+   "secs": 8.2
   },
   {
    "source": "Bahrain FinTech Bay",
@@ -337,7 +337,7 @@
    "url": "https://www.bahrainfintechbay.com/careers",
    "count": 3,
    "error": null,
-   "secs": 17.7
+   "secs": 18.0
   },
   {
    "source": "Bahrain Economic Development Board (EDB)",
@@ -345,7 +345,7 @@
    "url": "https://www.bahrainedb.com/about-us/career-opportunities",
    "count": 5,
    "error": null,
-   "secs": 7.8
+   "secs": 14.1
   },
   {
    "source": "National Bank of Oman (NBO)",
@@ -353,7 +353,7 @@
    "url": "https://www.nbo.om/en/Pages/Careers/Career-Listing.aspx",
    "count": 2,
    "error": null,
-   "secs": 15.8
+   "secs": 25.9
   },
   {
    "source": "Sohar International",
@@ -361,7 +361,7 @@
    "url": "https://webserver.soharinternational.com/careers/vacancies",
    "count": 1,
    "error": null,
-   "secs": 7.6
+   "secs": 9.2
   },
   {
    "source": "Oman Arab Bank (OAB)",
@@ -369,7 +369,7 @@
    "url": "https://www.oman-arabbank.com/careers/",
    "count": 2,
    "error": null,
-   "secs": 10.4
+   "secs": 10.3
   },
   {
    "source": "Ahli Bank Oman",
@@ -385,7 +385,7 @@
    "url": "https://ohb.co.om/en/join-us/",
    "count": 0,
    "error": null,
-   "secs": 4.1
+   "secs": 5.8
   },
   {
    "source": "Oman Investment Authority (OIA)",
@@ -393,7 +393,7 @@
    "url": "https://www.oia.gov.om/careers",
    "count": 1,
    "error": null,
-   "secs": 9.2
+   "secs": 14.5
   },
   {
    "source": "Al Madina Takaful",
@@ -401,7 +401,7 @@
    "url": "https://almadinatakaful.com/career/job-openings",
    "count": 3,
    "error": null,
-   "secs": 6.9
+   "secs": 6.6
   },
   {
    "source": "Al Rajhi Bank",
@@ -417,7 +417,7 @@
    "url": "https://www.alahli.com/en/pages/about-us/careers",
    "count": 17,
    "error": null,
-   "secs": 12.2
+   "secs": 11.9
   },
   {
    "source": "Riyad Bank",
@@ -425,7 +425,7 @@
    "url": "https://careers.riyadbank.com/",
    "count": 19,
    "error": null,
-   "secs": 4.5
+   "secs": 4.6
   },
   {
    "source": "Arab National Bank (ANB)",
@@ -433,7 +433,7 @@
    "url": "https://anb.hyrdd.com/",
    "count": 0,
    "error": "Error: Page.eval_on_selector_all: Execution context was destroyed, most likely because of a navigation",
-   "secs": 134.5
+   "secs": 136.1
   },
   {
    "source": "Alinma Bank",
@@ -449,7 +449,7 @@
    "url": "https://www.gulftalent.com/companies/bank-albilad-careers",
    "count": 0,
    "error": null,
-   "secs": 4.5
+   "secs": 4.3
   },
   {
    "source": "Bank AlJazira",
@@ -457,7 +457,7 @@
    "url": "https://career.aljazirabank.com.sa/",
    "count": 5,
    "error": null,
-   "secs": 8.0
+   "secs": 8.9
   },
   {
    "source": "The Saudi Investment Bank (SAIB)",
@@ -465,7 +465,7 @@
    "url": "https://careers.saib.com.sa/",
    "count": 14,
    "error": null,
-   "secs": 4.8
+   "secs": 4.7
   },
   {
    "source": "STC Bank (formerly STC Pay)",
@@ -473,7 +473,7 @@
    "url": "https://stcbank.com.sa/job-application",
    "count": 3,
    "error": null,
-   "secs": 8.5
+   "secs": 9.0
   },
   {
    "source": "D360 Bank",
@@ -481,7 +481,7 @@
    "url": "https://www.naukrigulf.com/d360-bank-jobs-cid-224441",
    "count": 0,
    "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.naukrigulf.com/d360-bank-jobs-cid-224441\nCall log:\nnavigating to \"https://www.naukrigulf.com/d360-bank-jobs-cid-224441\", waiting until \"domconte",
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "source": "Citi (Riyadh regional HQ)",
@@ -489,7 +489,7 @@
    "url": "https://jobs.citi.com/",
    "count": 24,
    "error": null,
-   "secs": 3.8
+   "secs": 3.9
   },
   {
    "source": "Deutsche Bank (Riyadh)",
@@ -497,7 +497,7 @@
    "url": "https://careers.db.com/professionals/search-roles",
    "count": 9,
    "error": null,
-   "secs": 5.9
+   "secs": 6.4
   },
   {
    "source": "BNP Paribas (Riyadh)",
@@ -513,7 +513,7 @@
    "url": "https://emiratesnbd.talentera.com/",
    "count": 7,
    "error": null,
-   "secs": 3.9
+   "secs": 4.3
   },
   {
    "source": "Morgan Stanley Saudi Arabia",
@@ -529,7 +529,7 @@
    "url": "https://www.riyadcapital.com/web/riyad-capital/work-with-us",
    "count": 0,
    "error": null,
-   "secs": 13.6
+   "secs": 14.8
   },
   {
    "source": "Jadwa Investment",
@@ -537,7 +537,7 @@
    "url": "https://www.jadwa.com/en/careers",
    "count": 3,
    "error": null,
-   "secs": 8.7
+   "secs": 9.2
   },
   {
    "source": "Alinma Investment (Alinma Capital)",
@@ -545,7 +545,7 @@
    "url": "https://career.alinmacapital.com",
    "count": 4,
    "error": null,
-   "secs": 8.2
+   "secs": 8.5
   },
   {
    "source": "GIB Capital",
@@ -561,7 +561,7 @@
    "url": "https://www.hassana.com.sa/en/careers/",
    "count": 5,
    "error": null,
-   "secs": 6.2
+   "secs": 16.0
   },
   {
    "source": "Tamweel Aloula",
@@ -569,7 +569,7 @@
    "url": "https://tamweel-aloula.sa/careers",
    "count": 4,
    "error": null,
-   "secs": 19.0
+   "secs": 19.5
   },
   {
    "source": "Geidea",
@@ -577,7 +577,7 @@
    "url": "https://geidea.net/careers",
    "count": 0,
    "error": null,
-   "secs": 5.4
+   "secs": 5.8
   },
   {
    "source": "PayTabs",
@@ -585,23 +585,23 @@
    "url": "https://ai.paytabs.com/en/career/",
    "count": 4,
    "error": null,
-   "secs": 7.9
+   "secs": 11.8
   },
   {
    "source": "Tamara",
    "connector": "browser",
    "url": "https://tamara.co/en-sa/careers",
-   "count": 36,
+   "count": 34,
    "error": null,
-   "secs": 4.4
+   "secs": 4.5
   },
   {
    "source": "Tabby (KSA)",
    "connector": "browser",
    "url": "https://tabby.ai/en-SA/careers",
-   "count": 32,
+   "count": 30,
    "error": null,
-   "secs": 5.0
+   "secs": 4.9
   },
   {
    "source": "Tawuniya",
@@ -609,15 +609,15 @@
    "url": "https://www.tawuniya.com/en/careers",
    "count": 0,
    "error": null,
-   "secs": 18.1
+   "secs": 18.2
   },
   {
    "source": "Bupa Arabia",
    "connector": "browser",
    "url": "https://www.bupa.com.sa/en/careers",
-   "count": 7,
+   "count": 0,
    "error": null,
-   "secs": 15.7
+   "secs": 9.4
   },
   {
    "source": "Al Rajhi Takaful",
@@ -633,7 +633,7 @@
    "url": "https://careers.sama.gov.sa/",
    "count": 8,
    "error": null,
-   "secs": 6.2
+   "secs": 7.2
   },
   {
    "source": "QNB (Qatar National Bank)",
@@ -641,7 +641,7 @@
    "url": "https://qnb.sniperhire.net/?language=en",
    "count": 0,
    "error": null,
-   "secs": 4.0
+   "secs": 4.2
   },
   {
    "source": "Qatar Islamic Bank (QIB)",
@@ -649,15 +649,15 @@
    "url": "https://www.qib.com.qa/en/about-us/careers/opportunities",
    "count": 6,
    "error": null,
-   "secs": 7.3
+   "secs": 8.0
   },
   {
    "source": "Commercial Bank of Qatar (CBQ)",
    "connector": "browser",
    "url": "https://career2.successfactors.eu/career?company=thecommerc&career%5fns=job%5flisting%5fsummary&navBarLevel=JOB%5fSEARCH",
-   "count": 9,
+   "count": 0,
    "error": null,
-   "secs": 6.2
+   "secs": 3.9
   },
   {
    "source": "Doha Bank",
@@ -673,7 +673,7 @@
    "url": "https://dukhanbank.com/careers",
    "count": 11,
    "error": null,
-   "secs": 17.9
+   "secs": 20.0
   },
   {
    "source": "QIIB (Qatar International Islamic Bank)",
@@ -681,7 +681,7 @@
    "url": "https://www.qiib.com.qa/en/careers",
    "count": 0,
    "error": null,
-   "secs": 3.8
+   "secs": 4.1
   },
   {
    "source": "Masraf Al Rayan (Al Rayan Bank)",
@@ -689,7 +689,7 @@
    "url": "https://www.alrayan.com/en/careers",
    "count": 6,
    "error": null,
-   "secs": 4.3
+   "secs": 5.7
   },
   {
    "source": "Lesha Bank",
@@ -697,7 +697,7 @@
    "url": "https://www.leshabank.com/jobs/",
    "count": 0,
    "error": null,
-   "secs": 3.4
+   "secs": 3.5
   },
   {
    "source": "Qatar Development Bank (QDB)",
@@ -705,7 +705,7 @@
    "url": "https://www.qdb.qa/en/careers",
    "count": 1,
    "error": null,
-   "secs": 6.3
+   "secs": 6.6
   },
   {
    "source": "Qatar Investment Authority (QIA)",
@@ -713,7 +713,7 @@
    "url": "https://qia.qa/en/Careers/Pages/default.aspx",
    "count": 4,
    "error": null,
-   "secs": 7.2
+   "secs": 5.9
   },
   {
    "source": "Qatar Financial Centre Authority (QFC)",
@@ -721,7 +721,7 @@
    "url": "https://www.qfc.qa/en/careers",
    "count": 1,
    "error": null,
-   "secs": 5.5
+   "secs": 5.7
   },
   {
    "source": "Qatar Insurance Company (QIC Group)",
@@ -729,7 +729,7 @@
    "url": "https://qic-group.com/jobs/",
    "count": 4,
    "error": null,
-   "secs": 5.1
+   "secs": 5.3
   },
   {
    "source": "GIG Gulf (Qatar)",
@@ -737,15 +737,15 @@
    "url": "https://www.giggulf.qa/en/about-us/careers",
    "count": 55,
    "error": null,
-   "secs": 11.4
+   "secs": 10.8
   },
   {
    "source": "National Bank of Kuwait (NBK)",
    "connector": "browser",
    "url": "https://careers.nbk.com/",
-   "count": 0,
+   "count": 2,
    "error": null,
-   "secs": 4.7
+   "secs": 23.0
   },
   {
    "source": "Boubyan Bank",
@@ -753,7 +753,7 @@
    "url": "https://boubyan.bankboubyan.com/en/explore-boubyan/careers",
    "count": 0,
    "error": null,
-   "secs": 8.9
+   "secs": 9.7
   },
   {
    "source": "Burgan Bank",
@@ -761,7 +761,7 @@
    "url": "https://burgan.com/en/careers/careers-page/",
    "count": 4,
    "error": null,
-   "secs": 28.9
+   "secs": 29.4
   },
   {
    "source": "Commercial Bank of Kuwait (CBK)",
@@ -775,9 +775,9 @@
    "source": "Al Ahli Bank of Kuwait (ABK)",
    "connector": "browser",
    "url": "https://careers.eahli.com/",
-   "count": 9,
+   "count": 0,
    "error": null,
-   "secs": 5.8
+   "secs": 4.1
   },
   {
    "source": "Warba Bank",
@@ -785,7 +785,7 @@
    "url": "https://hunt.kayanhr.com/CareerSite/Index/SWU1M09FWUtYOVhRZVgs",
    "count": 3,
    "error": null,
-   "secs": 9.5
+   "secs": 10.1
   },
   {
    "source": "Kuwait International Bank (KIB)",
@@ -793,7 +793,7 @@
    "url": "https://www.kib.com.kw/en/careers",
    "count": 0,
    "error": null,
-   "secs": 4.1
+   "secs": 4.3
   },
   {
    "source": "KIPCO",
@@ -801,7 +801,7 @@
    "url": "https://www.kipco.com/careers",
    "count": 0,
    "error": null,
-   "secs": 5.8
+   "secs": 8.8
   },
   {
    "source": "Kuwait Financial Centre (Markaz)",
@@ -809,7 +809,7 @@
    "url": "https://www.markaz.com/en/careers",
    "count": 0,
    "error": null,
-   "secs": 4.8
+   "secs": 4.4
   },
   {
    "source": "KAMCO Invest",
@@ -825,7 +825,7 @@
    "url": "https://www.gulfinsgroup.com/en/careers/",
    "count": 11,
    "error": null,
-   "secs": 10.7
+   "secs": 10.4
   },
   {
    "source": "Tap Payments",
@@ -833,7 +833,7 @@
    "url": "https://www.tap.company/careers",
    "count": 0,
    "error": null,
-   "secs": 6.5
+   "secs": 7.1
   },
   {
    "source": "Boursa Kuwait",
@@ -841,7 +841,7 @@
    "url": "https://www.boursakuwait.com.kw/en/careers",
    "count": 0,
    "error": null,
-   "secs": 3.3
+   "secs": 3.5
   },
   {
    "source": "Mashreq",
@@ -849,7 +849,7 @@
    "url": "https://www.mashreq.com/en/uae/about-us/careers/jobs",
    "count": 8,
    "error": null,
-   "secs": 7.3
+   "secs": 7.0
   },
   {
    "source": "Dubai Islamic Bank (DIB)",
@@ -857,7 +857,7 @@
    "url": "https://careers.dib.ae/en/job-search-results/",
    "count": 20,
    "error": null,
-   "secs": 5.3
+   "secs": 4.7
   },
   {
    "source": "Commercial Bank of Dubai (CBD)",
@@ -865,7 +865,7 @@
    "url": "https://www.cbd.ae/home/contact-us/careers/apply",
    "count": 0,
    "error": null,
-   "secs": 3.4
+   "secs": 3.3
   },
   {
    "source": "RAKBANK",
@@ -873,7 +873,7 @@
    "url": "https://careers.rakbank.ae/en/company/rakbank-1507665/",
    "count": 0,
    "error": null,
-   "secs": 3.5
+   "secs": 3.6
   },
   {
    "source": "National Bank of Fujairah (NBF)",
@@ -881,7 +881,7 @@
    "url": "https://careers.nbf.ae/viewalljobs/",
    "count": 11,
    "error": null,
-   "secs": 5.4
+   "secs": 5.8
   },
   {
    "source": "Ajman Bank",
@@ -889,7 +889,7 @@
    "url": "https://www.ajmanbank.ae/site/careers.html",
    "count": 2,
    "error": null,
-   "secs": 7.5
+   "secs": 7.2
   },
   {
    "source": "Al Hilal Bank",
@@ -897,7 +897,7 @@
    "url": "https://www.alhilalbank.ae/en/careers",
    "count": 0,
    "error": null,
-   "secs": 3.3
+   "secs": 3.4
   },
   {
    "source": "United Arab Bank (UAB)",
@@ -905,7 +905,7 @@
    "url": "https://www.uab.ae/en/about-uab/careers/current-vacancies",
    "count": 3,
    "error": null,
-   "secs": 25.8
+   "secs": 22.3
   },
   {
    "source": "Bank of Sharjah",
@@ -921,7 +921,7 @@
    "url": "https://www.cbiuae.com/en/careers/careers/",
    "count": 5,
    "error": null,
-   "secs": 5.9
+   "secs": 6.1
   },
   {
    "source": "National Bank of Umm Al Qaiwain (NBQ)",
@@ -929,7 +929,7 @@
    "url": "https://www.nbq.ae/general/careers",
    "count": 2,
    "error": null,
-   "secs": 16.3
+   "secs": 17.2
   },
   {
    "source": "Emirates Development Bank",
@@ -937,15 +937,15 @@
    "url": "https://www.edb.gov.ae/en/about-us/jobs-vacancies",
    "count": 3,
    "error": null,
-   "secs": 7.4
+   "secs": 20.4
   },
   {
    "source": "Standard Chartered",
    "connector": "browser",
    "url": "https://jobs.standardchartered.com/content/Search-Result-Page/?employment_type=professional_hires&utm_source=careersite",
-   "count": 7,
+   "count": 0,
    "error": null,
-   "secs": 4.9
+   "secs": 3.4
   },
   {
    "source": "Citi",
@@ -953,15 +953,15 @@
    "url": "https://jobs.citi.com/location/dubai-united-arab-emirates-jobs/287/290557-292224/3",
    "count": 39,
    "error": null,
-   "secs": 4.0
+   "secs": 4.4
   },
   {
    "source": "Barclays",
    "connector": "browser",
    "url": "https://search.jobs.barclays/location/united-arab-emirates-jobs/13015/290557/2",
-   "count": 37,
+   "count": 35,
    "error": null,
-   "secs": 6.4
+   "secs": 6.9
   },
   {
    "source": "BNP Paribas",
@@ -969,7 +969,7 @@
    "url": "https://group.bnpparibas/en/careers/all-job-offers/united-arab-emirates",
    "count": 0,
    "error": null,
-   "secs": 3.3
+   "secs": 3.2
   },
   {
    "source": "Societe Generale",
@@ -977,15 +977,15 @@
    "url": "https://careers.societegenerale.com/en",
    "count": 40,
    "error": null,
-   "secs": 7.3
+   "secs": 5.7
   },
   {
    "source": "SMBC",
    "connector": "browser",
    "url": "https://careersemea.smbcgroup.com",
-   "count": 9,
+   "count": 0,
    "error": null,
-   "secs": 4.8
+   "secs": 3.8
   },
   {
    "source": "Mizuho",
@@ -993,23 +993,23 @@
    "url": "https://cbcareers.mizuho-emea.com/",
    "count": 0,
    "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://cbcareers.mizuho-emea.com/\nCall log:\nnavigating to \"https://cbcareers.mizuho-emea.com/\", waiting until \"domcontentloaded\"\n",
-   "secs": 0.7
+   "secs": 0.3
   },
   {
    "source": "UBS",
    "connector": "browser",
    "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults&SearchType=linkquery&LinkID=15231",
-   "count": 57,
+   "count": 3,
    "error": null,
-   "secs": 6.8
+   "secs": 5.9
   },
   {
    "source": "Pictet",
    "connector": "browser",
    "url": "https://career012.successfactors.eu/career?company=banquepict",
-   "count": 1,
+   "count": 0,
    "error": null,
-   "secs": 5.2
+   "secs": 3.8
   },
   {
    "source": "Arab Bank",
@@ -1025,7 +1025,7 @@
    "url": "https://www.nbk.com/uae/careers.html",
    "count": 4,
    "error": null,
-   "secs": 8.3
+   "secs": 9.0
   },
   {
    "source": "Bank ABC",
@@ -1033,7 +1033,7 @@
    "url": "https://europecareers.bank-abc.com/jobs",
    "count": 14,
    "error": null,
-   "secs": 3.8
+   "secs": 3.9
   },
   {
    "source": "QNB",
@@ -1041,7 +1041,7 @@
    "url": "https://qnb.com/sites/qnb/qnbglobal/page/en/enapplyjob.html",
    "count": 0,
    "error": null,
-   "secs": 3.2
+   "secs": 3.3
   },
   {
    "source": "Habib Bank AG Zurich (HBZ)",
@@ -1049,7 +1049,7 @@
    "url": "https://habibbank.com/ae/careers/",
    "count": 4,
    "error": null,
-   "secs": 12.0
+   "secs": 11.6
   },
   {
    "source": "Deloitte Middle East",
@@ -1057,7 +1057,7 @@
    "url": "https://middleeastjobs.deloitte.com/careersME/SearchJobs/?pipelineRecordsPerPage=6&pipelineOffset=0",
    "count": 23,
    "error": null,
-   "secs": 5.5
+   "secs": 5.9
   },
   {
    "source": "Rothschild & Co (Dubai)",
@@ -1065,7 +1065,7 @@
    "url": "https://www.rothschildandco.com/en/careers/experienced-professionals/vacancies/",
    "count": 155,
    "error": null,
-   "secs": 4.5
+   "secs": 4.7
   },
   {
    "source": "Al Ansari Exchange / Al Ansari Financial Services",
@@ -1073,7 +1073,7 @@
    "url": "https://careers.alansariexchange.com/",
    "count": 13,
    "error": null,
-   "secs": 5.9
+   "secs": 5.4
   },
   {
    "source": "Strategy& Middle East (PwC)",
@@ -1081,7 +1081,7 @@
    "url": "https://www.strategyand.pwc.com/m1/en/careers.html",
    "count": 13,
    "error": null,
-   "secs": 5.9
+   "secs": 5.7
   },
   {
    "source": "Alpha Dhabi Holding",
@@ -1089,7 +1089,7 @@
    "url": "https://www.alphadhabi.com/careers",
    "count": 3,
    "error": null,
-   "secs": 8.3
+   "secs": 9.2
   },
   {
    "source": "Takaful Emarat",
@@ -1105,7 +1105,7 @@
    "url": "https://jobs.adia.ae/",
    "count": 2,
    "error": null,
-   "secs": 4.0
+   "secs": 3.9
   },
   {
    "source": "Mubadala Investment Company",
@@ -1113,7 +1113,7 @@
    "url": "https://mic-cand.takafo.ai/jobs/external?mode=eos&company=MIC&types=Full%20Time%20Employee%20%28FTE%29%2CContract%20%28LTC%29",
    "count": 0,
    "error": null,
-   "secs": 6.4
+   "secs": 6.7
   },
   {
    "source": "Sukoon Insurance (ex-Oman Insurance)",
@@ -1121,7 +1121,7 @@
    "url": "https://www.sukoon.com/en/careers",
    "count": 0,
    "error": null,
-   "secs": 7.0
+   "secs": 6.7
   },
   {
    "source": "Salama Islamic Arab Insurance",
@@ -1129,7 +1129,7 @@
    "url": "https://myhrismax1.myadrenalin.com/CANDMICROSITE/#/?CompanyID=SALAMA&GroupId=defaultOU",
    "count": 0,
    "error": null,
-   "secs": 10.5
+   "secs": 9.1
   },
   {
    "source": "Mastercard MEA",
@@ -1137,7 +1137,7 @@
    "url": "https://careers.mastercard.com/us/en/search-results?keywords=Dubai",
    "count": 44,
    "error": null,
-   "secs": 6.2
+   "secs": 6.7
   },
   {
    "source": "BCG Middle East",
@@ -1161,7 +1161,7 @@
    "url": "https://www.pwc.com/m1/en/careers/experienced-jobs.html",
    "count": 20,
    "error": null,
-   "secs": 20.2
+   "secs": 12.1
   },
   {
    "source": "Roland Berger Middle East",
@@ -1169,7 +1169,7 @@
    "url": "https://www.rolandberger.com/en/Join/All-Jobs/",
    "count": 177,
    "error": null,
-   "secs": 4.8
+   "secs": 5.0
   },
   {
    "source": "Goldman Sachs (Dubai/Abu Dhabi)",
@@ -1177,7 +1177,7 @@
    "url": "https://higher.gs.com/results?LOCATION=Dubai",
    "count": 4,
    "error": null,
-   "secs": 4.6
+   "secs": 4.9
   },
   {
    "source": "BlackRock (Abu Dhabi/Dubai)",
@@ -1185,7 +1185,7 @@
    "url": "https://careers.blackrock.com/job-search-results/?location=Abu%20Dhabi",
    "count": 15,
    "error": null,
-   "secs": 3.8
+   "secs": 4.2
   },
   {
    "source": "Bain & Company Middle East",
@@ -1193,7 +1193,7 @@
    "url": "https://www.bain.com/careers/find-a-role/",
    "count": 41,
    "error": null,
-   "secs": 20.1
+   "secs": 20.0
   },
   {
    "source": "Oliver Wyman Middle East",
@@ -1209,7 +1209,7 @@
    "url": "https://www.accenture.com/ae-en/careers/jobsearch",
    "count": 60,
    "error": null,
-   "secs": 4.9
+   "secs": 5.7
   },
   {
    "source": "Brookfield (Dubai/Abu Dhabi)",
@@ -1217,7 +1217,7 @@
    "url": "https://careers.brookfield.com/",
    "count": 0,
    "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://careers.brookfield.com/\nCall log:\nnavigating to \"https://careers.brookfield.com/\", waiting until \"domcontentloaded\"\n",
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "source": "Careem (incl. Careem Pay)",
@@ -1225,15 +1225,15 @@
    "url": "https://jobs.careem.com",
    "count": 10,
    "error": null,
-   "secs": 4.9
+   "secs": 4.1
   },
   {
    "source": "Tabby",
    "connector": "browser",
    "url": "https://tabby.ai/careers",
-   "count": 32,
+   "count": 30,
    "error": null,
-   "secs": 4.7
+   "secs": 4.9
   },
   {
    "source": "e& (incl. e& money)",
@@ -1241,7 +1241,7 @@
    "url": "https://careers.etisalat.ae/en/index.jsp",
    "count": 6,
    "error": null,
-   "secs": 5.3
+   "secs": 6.0
   },
   {
    "source": "Arqaam Capital",
@@ -1249,7 +1249,7 @@
    "url": "https://www.arqaamcapital.com/careers",
    "count": 0,
    "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.arqaamcapital.com/careers\nCall log:\nnavigating to \"https://www.arqaamcapital.com/careers\", waiting until \"domcontentloaded\"\n",
-   "secs": 0.4
+   "secs": 0.5
   },
   {
    "source": "Abu Dhabi Securities Exchange (ADX)",
@@ -1273,7 +1273,7 @@
    "url": "https://lunate.com/careers",
    "count": 1,
    "error": null,
-   "secs": 4.4
+   "secs": 4.7
   },
   {
    "source": "Lulu Exchange / Lulu Financial Holdings",
@@ -1281,7 +1281,7 @@
    "url": "https://luluexchange.com/careers/",
    "count": 1,
    "error": null,
-   "secs": 23.4
+   "secs": 23.5
   },
   {
    "source": "Franklin Templeton (Dubai)",
@@ -1289,7 +1289,7 @@
    "url": "https://www.franklintempleton.com/careers",
    "count": 1,
    "error": null,
-   "secs": 4.6
+   "secs": 4.2
   },
   {
    "source": "Network International",
@@ -1297,7 +1297,7 @@
    "url": "https://beta.network.ae/en/careers",
    "count": 0,
    "error": "Error: Page.eval_on_selector_all: Execution context was destroyed, most likely because of a navigation",
-   "secs": 499.0
+   "secs": 501.0
   },
   {
    "source": "Amlak Finance",
@@ -1305,7 +1305,7 @@
    "url": "https://www.amlakfinance.com/careers",
    "count": 1,
    "error": null,
-   "secs": 20.5
+   "secs": 8.2
   },
   {
    "source": "International Holding Company (IHC)",
@@ -1313,7 +1313,7 @@
    "url": "https://www.ihcuae.com/careers",
    "count": 0,
    "error": null,
-   "secs": 5.3
+   "secs": 5.8
   },
   {
    "source": "EFG Hermes / EFG Holding (UAE)",
@@ -1329,7 +1329,7 @@
    "url": "https://www.gulftalent.com/uae/jobs/title/strategy",
    "count": 0,
    "error": null,
-   "secs": 4.2
+   "secs": 4.6
   },
   {
    "source": "GulfTalent",
@@ -1345,7 +1345,7 @@
    "url": "https://gulftalent.com/saudi-arabia/jobs/title/head-of-strategy",
    "count": 0,
    "error": null,
-   "secs": 5.1
+   "secs": 4.2
   },
   {
    "source": "GulfTalent",
@@ -1353,7 +1353,7 @@
    "url": "https://www.gulftalent.com/saudi-arabia/jobs/title/strategy-director",
    "count": 0,
    "error": null,
-   "secs": 4.3
+   "secs": 4.4
   },
   {
    "source": "GulfTalent",
@@ -1361,7 +1361,7 @@
    "url": "https://www.gulftalent.com/qatar/jobs/title/strategy-manager",
    "count": 0,
    "error": null,
-   "secs": 4.3
+   "secs": 3.9
   },
   {
    "source": "GulfTalent",
@@ -1369,7 +1369,7 @@
    "url": "https://www.gulftalent.com/jobs/title/transformation",
    "count": 0,
    "error": null,
-   "secs": 4.0
+   "secs": 4.2
   },
   {
    "source": "GulfTalent",
@@ -1377,7 +1377,7 @@
    "url": "https://www.gulftalent.com/jobs/title/islamic-finance-executive",
    "count": 0,
    "error": null,
-   "secs": 4.2
+   "secs": 4.1
   },
   {
    "source": "GulfTalent",
@@ -1385,7 +1385,7 @@
    "url": "https://www.gulftalent.com/jobs/title/corporate-banking",
    "count": 0,
    "error": null,
-   "secs": 4.0
+   "secs": 5.0
   },
   {
    "source": "GulfTalent",
@@ -1393,7 +1393,7 @@
    "url": "https://www.gulftalent.com/jobs/title/head-of-corporate-banking",
    "count": 0,
    "error": null,
-   "secs": 5.3
+   "secs": 4.3
   },
   {
    "source": "GulfTalent",
@@ -1401,7 +1401,7 @@
    "url": "https://www.gulftalent.com/jobs/title/private-banking",
    "count": 0,
    "error": null,
-   "secs": 4.9
+   "secs": 4.0
   },
   {
    "source": "GulfTalent",
@@ -1409,7 +1409,7 @@
    "url": "https://www.gulftalent.com/jobs/title/financial-services",
    "count": 0,
    "error": null,
-   "secs": 5.5
+   "secs": 4.2
   },
   {
    "source": "GulfTalent",
@@ -1417,7 +1417,7 @@
    "url": "https://www.gulftalent.com/jobs/search?keywords=head%20of%20strategy",
    "count": 0,
    "error": null,
-   "secs": 4.0
+   "secs": 3.9
   },
   {
    "source": "Foundit Gulf (founditgulf.com)",
@@ -1433,7 +1433,7 @@
    "url": "https://ae.indeed.com/jobs?q=head+of+strategy&sort=date",
    "count": 4,
    "error": null,
-   "secs": 4.1
+   "secs": 4.6
   },
   {
    "source": "Indeed (ae/sa/qa etc.)",
@@ -1441,7 +1441,7 @@
    "url": "https://sa.indeed.com/jobs?q=strategy+director&sort=date&fromage=7",
    "count": 4,
    "error": null,
-   "secs": 4.1
+   "secs": 4.0
   },
   {
    "source": "Glassdoor",
@@ -1465,7 +1465,7 @@
    "url": "https://www.efinancialcareers.com/jobs/in-united-arab-emirates",
    "count": 51,
    "error": null,
-   "secs": 5.1
+   "secs": 5.9
   },
   {
    "source": "eFinancialCareers",
@@ -1473,7 +1473,7 @@
    "url": "https://www.efinancialcareers.com/jobs/in-saudi-arabia",
    "count": 48,
    "error": null,
-   "secs": 4.0
+   "secs": 3.8
   },
   {
    "source": "eFinancialCareers",
@@ -1481,7 +1481,7 @@
    "url": "https://www.efinancialcareers.com/jobs/strategy/in-united-arab-emirates",
    "count": 48,
    "error": null,
-   "secs": 4.0
+   "secs": 3.9
   },
   {
    "source": "ZeroTaxJobs",
@@ -1489,7 +1489,7 @@
    "url": "https://zerotaxjobs.com/jobs",
    "count": 0,
    "error": null,
-   "secs": 4.6
+   "secs": 5.3
   },
   {
    "source": "ZeroTaxJobs",
@@ -1497,7 +1497,7 @@
    "url": "https://zerotaxjobs.com/location/riyadh",
    "count": 0,
    "error": null,
-   "secs": 9.1
+   "secs": 4.1
   },
   {
    "source": "ZeroTaxJobs",
@@ -1505,15 +1505,15 @@
    "url": "https://zerotaxjobs.com/about",
    "count": 0,
    "error": null,
-   "secs": 4.9
+   "secs": 4.5
   },
   {
    "source": "Sabbar",
    "connector": "board",
    "url": "https://sabbar.com/en/jobs",
-   "count": 76,
+   "count": 77,
    "error": null,
-   "secs": 17.6
+   "secs": 17.8
   },
   {
    "source": "Sabbar",
@@ -1529,7 +1529,7 @@
    "url": "https://sabbar.com/en/jobs/c-riyadh-r-director-of-strategy",
    "count": 106,
    "error": null,
-   "secs": 17.7
+   "secs": 17.9
   },
   {
    "source": "Dubizzle Jobs",
@@ -1545,7 +1545,7 @@
    "url": "https://www.drjobpro.com/",
    "count": 128,
    "error": null,
-   "secs": 3.7
+   "secs": 3.9
   },
   {
    "source": "Jooble",
@@ -1553,7 +1553,7 @@
    "url": "https://ae.jooble.org/jobs-head-of-strategy/Dubai",
    "count": 0,
    "error": null,
-   "secs": 4.4
+   "secs": 4.2
   },
   {
    "source": "Jooble",
@@ -1561,7 +1561,7 @@
    "url": "https://sa.jooble.org/jobs-strategy-director/Riyadh",
    "count": 0,
    "error": null,
-   "secs": 4.5
+   "secs": 4.2
   },
   {
    "source": "Talent.com",
@@ -1569,7 +1569,7 @@
    "url": "https://ae.talent.com/jobs?k=head+of+strategy&l=Dubai",
    "count": 2,
    "error": null,
-   "secs": 4.6
+   "secs": 5.0
   },
   {
    "source": "Talent.com",
@@ -1577,7 +1577,7 @@
    "url": "https://ae.talent.com/jobs?k=strategy+director&l=United+Arab+Emirates&date=1",
    "count": 2,
    "error": null,
-   "secs": 4.3
+   "secs": 4.1
   },
   {
    "source": "JobXDubai",
@@ -1585,15 +1585,15 @@
    "url": "https://jobxdubai.com/jobs/category/executive-and-management",
    "count": 0,
    "error": null,
-   "secs": 17.6
+   "secs": 5.9
   },
   {
    "source": "JobXDubai",
    "connector": "board",
    "url": "https://jobxdubai.com/",
-   "count": 87,
+   "count": 107,
    "error": null,
-   "secs": 18.1
+   "secs": 4.3
   },
   {
    "source": "Qureos",
@@ -1601,7 +1601,7 @@
    "url": "https://app.qureos.com/jobs/search/in-saudi-arabia",
    "count": 0,
    "error": null,
-   "secs": 4.3
+   "secs": 4.1
   },
   {
    "source": "Qureos",
@@ -1609,7 +1609,7 @@
    "url": "https://www.qureos.com/jobs",
    "count": 0,
    "error": null,
-   "secs": 5.0
+   "secs": 5.4
   },
   {
    "source": "Welovesalt (Salt)",
@@ -1617,7 +1617,7 @@
    "url": "https://welovesalt.com/mena/jobs",
    "count": 32,
    "error": null,
-   "secs": 4.7
+   "secs": 5.9
   },
   {
    "source": "Welovesalt (Salt)",
@@ -1625,7 +1625,7 @@
    "url": "https://welovesalt.com/job-category/united-arab-emirates",
    "count": 31,
    "error": null,
-   "secs": 3.9
+   "secs": 4.9
   },
   {
    "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
@@ -1633,7 +1633,7 @@
    "url": "https://www.michaelpage.ae/jobs/strategy/saudi-arabia",
    "count": 54,
    "error": null,
-   "secs": 4.7
+   "secs": 5.4
   },
   {
    "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
@@ -1641,7 +1641,7 @@
    "url": "https://www.michaelpage.ae/jobs/consultancy-strategy-and-change",
    "count": 51,
    "error": null,
-   "secs": 4.0
+   "secs": 3.7
   },
   {
    "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
@@ -1649,7 +1649,7 @@
    "url": "https://www.michaelpage.ae/jobs/consultancy-strategy-and-change/dubai",
    "count": 47,
    "error": null,
-   "secs": 5.3
+   "secs": 3.8
   },
   {
    "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
@@ -1657,7 +1657,7 @@
    "url": "https://www.michaelpage.ae/jobs/banking-financial-services",
    "count": 76,
    "error": null,
-   "secs": 4.0
+   "secs": 3.9
   },
   {
    "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
@@ -1673,7 +1673,7 @@
    "url": "https://www.michaelpage.ae/jobs/banking-financial-services/saudi-arabia",
    "count": 51,
    "error": null,
-   "secs": 4.0
+   "secs": 3.9
   },
   {
    "source": "Michael Page UAE (covers KSA/Qatar/Bahrain listings)",
@@ -1681,7 +1681,7 @@
    "url": "https://www.michaelpage.ae/jobs/strategy/riyadh",
    "count": 54,
    "error": null,
-   "secs": 3.9
+   "secs": 3.8
   },
   {
    "source": "Hays ME",
@@ -1689,7 +1689,7 @@
    "url": "https://www.hays.ae/jobs/accountancy-finance/",
    "count": 25,
    "error": null,
-   "secs": 19.4
+   "secs": 19.7
   },
   {
    "source": "Hays ME",
@@ -1697,7 +1697,7 @@
    "url": "https://www.hays.ae/job-search/strategy-jobs",
    "count": 22,
    "error": null,
-   "secs": 21.3
+   "secs": 21.4
   },
   {
    "source": "Robert Walters ME",
@@ -1713,7 +1713,7 @@
    "url": "https://www.cooperfitch.ae/jobs/",
    "count": 1,
    "error": null,
-   "secs": 5.8
+   "secs": 6.1
   },
   {
    "source": "Cooper Fitch",
@@ -1721,7 +1721,7 @@
    "url": "https://cooperfitch.ae/job-seekers/",
    "count": 1,
    "error": null,
-   "secs": 3.5
+   "secs": 3.4
   },
   {
    "source": "Hudson ME",
@@ -1729,7 +1729,7 @@
    "url": "https://hudsontalent.com/",
    "count": 1,
    "error": null,
-   "secs": 5.2
+   "secs": 5.1
   },
   {
    "source": "Antal ME",
@@ -1737,7 +1737,7 @@
    "url": "https://www.antal.com/jobs",
    "count": 7,
    "error": null,
-   "secs": 4.9
+   "secs": 5.5
   },
   {
    "source": "Sloane Shorey",
@@ -1753,7 +1753,7 @@
    "url": "https://nadia-me.com/search-jobs/",
    "count": 10,
    "error": null,
-   "secs": 6.5
+   "secs": 6.7
   },
   {
    "source": "Nadia Global",
@@ -1761,7 +1761,7 @@
    "url": "https://www.nadiaglobal.com/jobs",
    "count": 0,
    "error": null,
-   "secs": 4.0
+   "secs": 3.8
   },
   {
    "source": "Tiger Recruitment Dubai",
@@ -1769,7 +1769,7 @@
    "url": "https://tiger-recruitment.com/",
    "count": 39,
    "error": null,
-   "secs": 4.1
+   "secs": 4.4
   },
   {
    "source": "Oliver James",
@@ -1777,7 +1777,7 @@
    "url": "https://www.oliverjames.com/jobs",
    "count": 7,
    "error": null,
-   "secs": 5.0
+   "secs": 4.6
   },
   {
    "source": "Pure Search",
@@ -1785,7 +1785,7 @@
    "url": "https://www.puresearch.com/jobs",
    "count": 4,
    "error": null,
-   "secs": 7.8
+   "secs": 8.0
   }
  ]
 }
