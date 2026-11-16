@@ -1,31 +1,38 @@
 {
- "run_date": "2026-11-15",
- "generated_at": "2026-11-15T02:54:28.594835+00:00",
- "raw_jobs_seen": 4260,
+ "run_date": "2026-11-16",
+ "generated_at": "2026-11-16T03:06:40.613107+00:00",
+ "raw_jobs_seen": 4247,
  "new_candidates": 1,
- "excluded": [],
+ "excluded": [
+  {
+   "title": "Controls Execution Manager (UAE Nationals only) - DUBAI",
+   "employer": "Citi",
+   "url": "https://jobs.citi.com/job/dubai/controls-execution-manager-uae-nationals-only-dubai/287/102161039152",
+   "why": "(UAE Nationals only)"
+  }
+ ],
  "candidates": [
   {
-   "title": "Sr. Product Manager, Consumer Platforms, CEMEA",
-   "location": "AE - Dubai, United Arab Emirates",
-   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/AE---Dubai-United-Arab-Emirates/Sr-Product-Manager--Consumer-Platforms--CEMEA_REF090481W",
-   "posted": "Posted Yesterday",
-   "employer": "Visa CEMEA",
-   "country": "UAE",
-   "sector": "fintech_payments",
+   "title": "head barista New Saja Full-time 2-5 years Al Dhubbat, Riyadh about 15 hours ago",
+   "location": "head barista\nNew\n\nSaja\n\nFull-time\n\n2-5 years\n\nAl Dhubbat, Riyadh\n\nabout 15 hours ago",
+   "url": "https://sabbar.com/en/jobs/c-riyadh-r-head-barista/id-2bf0fbbd-24c8-4496-85ed-1a2608068e79",
+   "posted": "15 hours ago",
+   "employer": "Sabbar",
+   "country": "",
+   "sector": "job_board",
    "islamic": false,
    "global_employer": true,
-   "key": "89c8602f36f0ed02",
+   "key": "154b553f748d5142",
    "score": 1,
-   "posted_iso": "2026-11-14",
-   "posted_raw": "Posted Yesterday",
-   "first_seen": "2026-11-15",
+   "posted_iso": "2026-11-16",
+   "posted_raw": "15 hours ago",
+   "first_seen": "2026-11-16",
    "nationals_only": false,
    "nationals_match": null,
    "arabic_mandatory": false,
    "arabic_match": null,
    "detail_ok": true,
-   "excerpt": "Skip to main content Welcome to our new career portal! Create your new profile today to ensure your information is current and you're ready to explore opportunities that match your skills and ambitions. Get started now—your next career move awaits! Visa’s career pages are provided by Workday. Workday will only use non-essential cookies at Visa’s instruction and with your permission. To view more information on Workday's cookie practices, click here. To review additional information about Visa's privacy practices, visit the Visa Candidate Privacy Notice. (Translated Notice) Read Full Privacy Message Decline Accept Cookies Sign In Careers at Visa Search for Jobs Join our Talent Community Sr. Product Manager, Consumer Platforms, CEMEA page is loaded Sr. Product Manager, Consumer Platforms, CEMEA Apply locations AE - Dubai, United Arab Emirates time type Full time posted on Posted Yesterday job requisition id REF090481W About Us Visa is a world leader in payments technology, facilitating transactions between consumers, merchants, financial institutions and government entities across more than 200 countries and territories, dedicated to uplifting everyone, everywhere by being the best way to pay and be paid. At Visa, you'll have the opportunity to create impact at scale — tackling meaningful challenges, growing your skills and seeing your contributions impact lives around the world. Join Visa and do work that matters – to you, to your community, and to the world. Progress starts w"
+   "excerpt": "Employers Find Jobs Blog العربية Register Employers Login > All Jobs > Riyadh > head barista at Saja Head Barista in Saja1 day ago Job Details Application Job Description Very good barista with heads on experience Requirements Requires 2-5 Years experience Intermediate in English About Saja See All Company Jobs F&B Full-time On-site Al Dhubbat, Riyadh Easy Apply Similar Jobs هيد باريستا New كوفي قايز بالجموم 5,000 - 6,000 / Month Full-time 2-5 years Makkah Province, Al Jumum 4 days ago محضر قهوة (باريستا) Sera Full-time 2-5 years Eastern Province, Al Qatif 21 days ago باريستا محترف Sera Full-time 2-5 years Eastern Province, Al Qatif 17 days ago You may also like Related head barista Opportunities Sales Representative Jobs in Riyadh Hotel Receptionist Jobs in Riyadh Executive secretary Jobs in Riyadh Seller Jobs in Riyadh Project Manager Jobs in Riyadh Other Job Fields in Riyadh Sales Representative Jobs in Riyadh Hotel Receptionist Jobs in Riyadh Executive secretary Jobs in Riyadh Seller Jobs in Riyadh Project Manager Jobs in Riyadh Barista Jobs in Riyadh Gift Wrapper Jobs in Riyadh Sales Administrative Officer Jobs in Riyadh Pastry Chef de Partie Jobs in Riyadh Delivery Driver Jobs in Riyadh Explore Jobs Across Saudi Arabia Audiology and Speech Pathologist Jobs in Al Khobar Mechanical Engineer Jobs in Abha Product sorting worker Jobs in Buqayq HR Assistant Jobs in Riyadh Survey Technician Jobs in Al Baha Shelf Stocker Jobs in Riyadh Facilities Management Specialist Jobs in A"
   }
  ]
 }
