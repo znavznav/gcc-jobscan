@@ -1,0 +1,45 @@
+{
+ "run_date": "2026-11-25",
+ "generated_at": "2026-11-25T10:36:20.951478+00:00",
+ "raw_jobs_seen": 3617,
+ "new_candidates": 1,
+ "excluded": [
+  {
+   "title": "Business and Transformation Manager (UAE National)",
+   "employer": "HSBC (GCC)",
+   "url": "https://portal.careers.hsbc.com/careers/job/563774612670324",
+   "why": "(UAE National)"
+  },
+  {
+   "title": "Consulting - MC - Enterprise Solutions (Oracle Finance) - Manager (Riyadh)",
+   "employer": "PwC Middle East",
+   "url": "https://www.pwc.com/m1/en/careers/experienced-jobs/description.html?wdjobreqid=14003&jobtitle=Consulting+-+MC+-+Enterprise+Solutions+%28Oracle+Finance%29+-+Manager+%28Riyadh%29&sfreqid=14003&wdjd=simple",
+   "why": "Omani nationals"
+  }
+ ],
+ "candidates": [
+  {
+   "title": "Associate Director - Product Development",
+   "location": "United Arab Emirates, AE",
+   "url": "https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/66256",
+   "posted": "2026-11-25",
+   "detail_api": "https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails?expand=all&onlyData=true&finder=ById;Id=%2266256%22,siteNumber=CX_1",
+   "employer": "Emirates NBD",
+   "country": "UAE",
+   "sector": "bank",
+   "islamic": false,
+   "global_employer": false,
+   "key": "a5853bfe217fa2ce",
+   "score": 3,
+   "posted_iso": "2026-11-25",
+   "posted_raw": "2026-11-25",
+   "first_seen": "2026-11-25",
+   "nationals_only": false,
+   "nationals_match": null,
+   "arabic_mandatory": false,
+   "arabic_match": null,
+   "detail_ok": true,
+   "excerpt": "<p><span style=\"font-family: &quot;Plus Jakarta Sans&quot;;\"><span style=\"font-size: 11pt;\"><strong>Custody Product Manager</strong></span></span></p><p><span style=\"font-family: &quot;Plus Jakarta Sans&quot;;\"><span style=\"font-size: 11pt;\"><strong>The opportunity &amp; role purpose</strong></span></span></p><p><span style=\"font-family: &quot;Plus Jakarta Sans&quot;;\"><span style=\"font-size: 11pt;\">Emirates NBD Capital Custody is building a larger, more connected custody franchise combining high-touch local service, regional and international market access, the wider Emirates NBD ecosystem and institutional-grade control. We are seeking a commercially minded Product Manager to turn this ambition into a prioritized, scalable and profitable product roadmap.</span></span></p><p><span style=\"font-family: &quot;Plus Jakarta Sans&quot;;\"><span style=\"font-size: 11pt;\"><strong>Role purpose</strong></span></span></p><p><span style=\"font-family: &quot;Plus Jakarta Sans&quot;;\"><span style=\"font-size: 11pt;\">Own the end-to-end Custody product agenda across strategy, proposition, commercial performance, governance and delivery. The role will optimize existing services, expand the product set and support new business across priority client segments.</span></span></p><p><span style=\"font-family: &quot;Plus Jakarta Sans&quot;;\"><span style=\"font-size: 11pt;\"><strong>Key accountabilities</strong></span></span></p><p><span style=\"font-family: &quot;Plus Jakarta Sans&quot;;\"><span style=\"fon"
+  }
+ ]
+}
