@@ -1,80 +1,8 @@
 {
- "run_date": "2026-11-27",
- "generated_at": "2026-11-27T10:18:25.570688+00:00",
- "raw_jobs_seen": 3685,
- "new_candidates": 2,
- "excluded": [
-  {
-   "title": "Manager, Credit Governance & Control",
-   "employer": "Abu Dhabi Islamic Bank (ADIB)",
-   "url": "https://hciq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/4946",
-   "why": "UAE Nationals"
-  },
-  {
-   "title": "Leadership Program Manager",
-   "employer": "Abu Dhabi Islamic Bank (ADIB)",
-   "url": "https://hciq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/4974",
-   "why": "Emiratization"
-  },
-  {
-   "title": "Manager - Performance Management",
-   "employer": "Abu Dhabi Islamic Bank (ADIB)",
-   "url": "https://hciq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/4975",
-   "why": "Emiratization"
-  },
-  {
-   "title": "Manager Partnerships - Emirati Segment (UAE Nationals)",
-   "employer": "Emirates NBD",
-   "url": "https://fa-evlo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/66308",
-   "why": "(UAE Nationals)"
-  }
- ],
- "candidates": [
-  {
-   "title": "AVP, Portfolio Analytics",
-   "location": "Abu Dhabi, United Arab Emirates, AE",
-   "url": "https://ehjd.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/fabCareers/job/3380",
-   "posted": "2026-11-27",
-   "detail_api": "https://ehjd.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails?expand=all&onlyData=true&finder=ById;Id=%223380%22,siteNumber=fabCareers",
-   "employer": "First Abu Dhabi Bank (FAB) - KSA",
-   "country": "Saudi Arabia",
-   "sector": "foreign_bank_branch",
-   "islamic": false,
-   "global_employer": true,
-   "key": "9b59361289e0ba90",
-   "score": 3,
-   "posted_iso": "2026-11-27",
-   "posted_raw": "2026-11-27",
-   "first_seen": "2026-11-27",
-   "nationals_only": false,
-   "nationals_match": null,
-   "arabic_mandatory": false,
-   "arabic_match": null,
-   "detail_ok": true,
-   "excerpt": "<p><strong>JOB SUMMARY / INTRODUCTION</strong></p><p>Build the quantitative research, portfolio analytics and investment-technology capability that enables the CIO Office to assess each investment in the context of the total portfolio. The role works across investment teams, Risk, Operations, Data and Technology to convert investment questions into reproducible analysis, reliable tools and decision-ready evidence covering portfolio construction, risk, liquidity, allocation and implementation. It combines quantitative investment thinking with practical engineering and operates under the direction of the CIO and senior portfolio-construction colleagues.</p><p><strong>KEY RESPONSIBILITIES</strong></p><ul style=\"list-style-type: disc;\"><li>Develop portfolio analytics covering allocation, risk contribution, drawdown, liquidity, concentration, factor exposure, scenario analysis, stress testing and decision attribution across public and private assets, cash and overlays.</li><li>Run reproducible quantitative studies for market, macro, cross-asset, manager and portfolio signals; identify bias, data leakage, overfitting and unstable parameters, and clearly communicate model limitations and uncertainty.</li><li>Support reference portfolios, strategic and tactical risk budgets, funded allocation, sensitivity analysis and constrained optimisation using appropriate methods such as covariance shrinkage, denoising, hierarchical risk parity, graph-based construction and Monte Carlo analysis."
-  },
-  {
-   "title": "Investment Advisor – Wealth & Priority Coverage Advisory",
-   "location": "United Arab Emirates, AE",
-   "url": "https://hciq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/4971",
-   "posted": "2026-11-27",
-   "detail_api": "https://hciq.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails?expand=all&onlyData=true&finder=ById;Id=%224971%22,siteNumber=CX",
-   "employer": "Abu Dhabi Islamic Bank (ADIB)",
-   "country": "UAE",
-   "sector": "islamic_bank",
-   "islamic": true,
-   "global_employer": false,
-   "key": "ec84c2485ad9f1cd",
-   "score": 3,
-   "posted_iso": "2026-11-27",
-   "posted_raw": "2026-11-27",
-   "first_seen": "2026-11-27",
-   "nationals_only": false,
-   "nationals_match": null,
-   "arabic_mandatory": false,
-   "arabic_match": null,
-   "detail_ok": true,
-   "excerpt": "<p><strong>Role&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </strong>Investment Advisor – Wealth &amp; Priority Coverage Advisory<br><strong>Location :</strong> Dubai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><strong>Role Purpose:</strong><br><br> This role involves collaborating with RMs across <strong>Priority</strong> coverage teams, ensuring the suitability of investment products, conducting regular portfolio reviews, and providing rebalancing recommendations based on the client’s risk appetite and time horizon. Drive sales quality and client satisfaction while maintaining adherence to regulatory requirements.&nbsp;</p> <p>Act as the Subject Matter Expert to support investment solutions and build portfolios that align with the bank's strategy, provide timely market insights, and position ADIB as a thought leader in the investment space.<br> &nbsp;&nbsp;&nbsp;&nbsp;<br><strong>Key Accountabilities of the role&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</strong><br><br> &nbsp;</p> <p><strong>Client Portfolio Management &amp; Reviews:</strong></p> <ul> <li>Oversee and review client investment portfolios, ensuring that periodic reviews are conducted and documented to align with clients' risk profiles and objectives.</li> <li>Provide guidance on wealth products, asset allocation, and investment strategies to support front line teams across Priority coverage, ensuring alignment with "
-  }
- ]
+ "run_date": "2026-11-28",
+ "generated_at": "2026-11-28T09:33:09.473614+00:00",
+ "raw_jobs_seen": 3659,
+ "new_candidates": 0,
+ "excluded": [],
+ "candidates": []
 }
